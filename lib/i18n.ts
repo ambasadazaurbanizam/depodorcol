@@ -1,0 +1,203 @@
+export type Locale = 'en' | 'sr' | 'ru';
+export type PublicLocale = 'en' | 'sr';
+
+const en = {
+  languageName: 'English',
+  nav: { collection: 'Collection', home: 'Future home', contribute: 'Contribute' },
+  hero: {
+    museum: 'Belgrade Museum of Public Transport',
+    titleLineOne: 'Belgrade moves.',
+    titleLineTwo: 'We collect its memory.',
+    deck: 'A museum of Belgrade’s public transport, urban mobility and everyday city life.',
+    status: 'The museum is now open online. We are building the first digital collection and working toward opening our permanent home in the historic Dorćol Depot.',
+    explore: 'Explore the museum',
+    share: 'Share your story',
+    figureLabel: 'Future home study',
+    figureNote: 'Project visual — not a current visitor entrance',
+    figureAlt: 'Concept study showing a possible future museum building at Dorćol Depot',
+  },
+  collect: {
+    index: '01 / What we collect',
+    title: 'A city seen through its transport',
+    intro: 'Public transport carries more than passengers. It carries the graphic language, working knowledge, daily rituals and personal memories of Belgrade.',
+    categories: [
+      ['Trams', 'Vehicles, infrastructure and life along the tracks'],
+      ['Trolleybuses', 'Electric mobility and the streets it shaped'],
+      ['Buses', 'Routes connecting neighbourhoods and generations'],
+      ['Tickets & graphic design', 'Fares, typography, signs and visual systems'],
+      ['Maps & routes', 'Networks, vanished lines and changing geographies'],
+      ['People & memories', 'Passengers, workers, families and everyday stories'],
+    ],
+  },
+  stories: {
+    index: '02 / First collection',
+    title: 'Selected stories',
+    intro: 'The first digital collection is being researched, attributed and cleared for publication. These are the opening lines of enquiry.',
+    progress: 'Collection in progress',
+    rights: 'Image pending rights clearance',
+    cards: [
+      ['Historic trams of Belgrade', 'Vehicles remembered not only as machines, but as part of the changing city.', 'Vehicles / research'],
+      ['Dorćol Depot', 'The place, its working transport function and its possible future as the museum’s permanent home.', 'Place / future home'],
+      ['Tickets and typography', 'Small printed objects that reveal how Belgrade explained movement, price and identity.', 'Graphic culture / archive'],
+      ['People who moved the city', 'Memories of passengers and former and current public transport workers.', 'Oral history / community'],
+    ],
+  },
+  home: {
+    index: '03 / Our future home',
+    title: 'Historic Dorćol Depot',
+    body: 'We are working toward opening the museum’s permanent physical home in the historic Dorćol public transport depot.',
+    addressLabel: 'Future location',
+    address: 'Kneginje Ljubice 29, Belgrade',
+    closed: 'The physical museum is not currently open to visitors.',
+    visit: 'Visit the museum online',
+    visualLabel: 'Future concept plan',
+    visualNote: 'Project visual — not current visitor facilities',
+    visualAlt: 'Concept plan showing a possible museum area within the Dorćol Depot site',
+  },
+  why: {
+    index: '04 / Why Dorćol',
+    title: 'Transport history belongs where the city kept moving.',
+    paragraphs: [
+      'Dorćol Depot is part of Belgrade’s living transport landscape. It is infrastructure, workplace and a setting in which the city’s mobility story can be read at full scale.',
+      'That continuity makes it a natural future home for a museum about vehicles, labour, design and everyday urban life. The museum’s physical form will be developed carefully and in dialogue with the transport and museum community.',
+    ],
+  },
+  contribute: {
+    index: '05 / Share your story',
+    title: 'Do you have a piece of Belgrade transport history?',
+    intro: 'A family photograph, a saved ticket or a memory of a daily route can become part of the city’s shared record.',
+    looking: 'We are looking for',
+    items: ['Old photographs', 'Tickets, maps & documents', 'Home videos', 'Passenger stories', 'GSP employee memories', 'Family archives', 'Lost routes & infrastructure'],
+    formTitle: 'Tell us what you have',
+    name: 'Name',
+    email: 'Email',
+    type: 'What would you like to share?',
+    typeOptions: ['Photograph or video', 'Ticket, map or document', 'Personal memory', 'Worker or family archive', 'Information about a route or place', 'Something else'],
+    message: 'Message',
+    messageHint: 'Tell us what the material is, when or where it may be from, and who owns the original.',
+    prepare: 'Prepare contribution note',
+    privacy: 'This first release does not upload files or publish anything automatically.',
+    ready: 'Your note is ready and copied when browser permissions allow. Send it to us on Instagram; the museum team can then arrange a safe transfer.',
+    instagram: 'Continue on Instagram',
+  },
+  stay: {
+    index: '06 / Stay informed',
+    title: 'Follow the museum as the collection grows.',
+    body: 'New objects, calls for stories and the museum’s next digital chapters will be announced through Ambasada za urbanizam.',
+    cta: 'Follow on Instagram',
+  },
+  footer: {
+    initiative: 'An initiative of Ambasada za urbanizam',
+    dialogue: 'Developed in dialogue with Belgrade’s transport and museum community.',
+    contact: 'Contact',
+    instagram: 'Instagram',
+    privacy: 'Privacy',
+    privacyText: 'Privacy: no files are uploaded and no form submission is stored on this first release. Contact begins through Instagram.',
+    credits: 'Concept visuals: Ambasada za urbanizam project materials.',
+  },
+};
+
+export type Messages = typeof en;
+
+const sr: Messages = {
+  languageName: 'Srpski',
+  nav: { collection: 'Zbirka', home: 'Budući dom', contribute: 'Doprinesite' },
+  hero: {
+    museum: 'Muzej javnog prevoza Beograda',
+    titleLineOne: 'Beograd se kreće.',
+    titleLineTwo: 'Mi čuvamo njegovo sećanje.',
+    deck: 'Muzej javnog prevoza Beograda, urbane mobilnosti i svakodnevnog života grada.',
+    status: 'Muzej je sada otvoren onlajn. Gradimo prvu digitalnu zbirku i radimo na otvaranju stalnog doma muzeja u istorijskom Depou Dorćol.',
+    explore: 'Istražite muzej',
+    share: 'Podelite svoju priču',
+    figureLabel: 'Studija budućeg doma',
+    figureNote: 'Projektni prikaz — ovo nije sadašnji ulaz za posetioce',
+    figureAlt: 'Idejna studija mogućeg budućeg muzeja u Depou Dorćol',
+  },
+  collect: {
+    index: '01 / Šta sakupljamo',
+    title: 'Grad viđen kroz njegov prevoz',
+    intro: 'Javni prevoz ne nosi samo putnike. On nosi grafički jezik, radno znanje, svakodnevne rituale i lična sećanja Beograda.',
+    categories: [
+      ['Tramvaji', 'Vozila, infrastruktura i život uz šine'],
+      ['Trolejbusi', 'Električna mobilnost i ulice koje je oblikovala'],
+      ['Autobusi', 'Linije koje povezuju naselja i generacije'],
+      ['Karte i grafički dizajn', 'Tarife, tipografija, oznake i vizuelni sistemi'],
+      ['Mape i trase', 'Mreže, nestale linije i promenljiva geografija'],
+      ['Ljudi i sećanja', 'Putnici, radnici, porodice i svakodnevne priče'],
+    ],
+  },
+  stories: {
+    index: '02 / Prva zbirka',
+    title: 'Odabrane priče',
+    intro: 'Prva digitalna zbirka se istražuje, opisuje i priprema za objavljivanje uz proveru prava. Ovo su početne teme.',
+    progress: 'Zbirka u nastajanju',
+    rights: 'Slika čeka proveru prava',
+    cards: [
+      ['Istorijski tramvaji Beograda', 'Vozila zapamćena ne samo kao mašine, već kao deo grada koji se menja.', 'Vozila / istraživanje'],
+      ['Depo Dorćol', 'Mesto, njegova radna saobraćajna funkcija i moguća budućnost kao stalni dom muzeja.', 'Mesto / budući dom'],
+      ['Karte i tipografija', 'Mali štampani predmeti koji otkrivaju kako je Beograd objašnjavao kretanje, cenu i identitet.', 'Grafička kultura / arhiv'],
+      ['Ljudi koji su pokretali grad', 'Sećanja putnika i sadašnjih i bivših radnika javnog prevoza.', 'Usmena istorija / zajednica'],
+    ],
+  },
+  home: {
+    index: '03 / Naš budući dom',
+    title: 'Istorijski Depo Dorćol',
+    body: 'Radimo na tome da stalni fizički dom muzeja bude otvoren u istorijskom depou javnog prevoza na Dorćolu.',
+    addressLabel: 'Buduća lokacija',
+    address: 'Kneginje Ljubice 29, Beograd',
+    closed: 'Fizički muzej trenutno nije otvoren za posetioce.',
+    visit: 'Posetite muzej onlajn',
+    visualLabel: 'Koncept budućeg uređenja',
+    visualNote: 'Projektni prikaz — nije prikaz sadašnjih sadržaja za posetioce',
+    visualAlt: 'Koncept plana mogućeg muzejskog prostora u okviru Depoa Dorćol',
+  },
+  why: {
+    index: '04 / Zašto Dorćol',
+    title: 'Istorija prevoza pripada mestu koje je grad održavalo u pokretu.',
+    paragraphs: [
+      'Depo Dorćol je deo živog saobraćajnog pejzaža Beograda. To je infrastruktura, radno mesto i prostor u kome se priča o mobilnosti grada može čitati u punoj razmeri.',
+      'Taj kontinuitet ga čini prirodnim budućim domom muzeja o vozilima, radu, dizajnu i svakodnevnom urbanom životu. Fizički oblik muzeja razvijaće se pažljivo i u dijalogu sa saobraćajnom i muzejskom zajednicom.',
+    ],
+  },
+  contribute: {
+    index: '05 / Podelite svoju priču',
+    title: 'Da li imate deo istorije beogradskog prevoza?',
+    intro: 'Porodična fotografija, sačuvana karta ili sećanje na svakodnevnu liniju mogu postati deo zajedničkog zapisa grada.',
+    looking: 'Tražimo',
+    items: ['Stare fotografije', 'Karte, mape i dokumente', 'Kućne video-snimke', 'Priče putnika', 'Sećanja radnika GSP-a', 'Porodične arhive', 'Nestale linije i infrastrukturu'],
+    formTitle: 'Recite nam šta imate',
+    name: 'Ime',
+    email: 'Email',
+    type: 'Šta biste želeli da podelite?',
+    typeOptions: ['Fotografiju ili video', 'Kartu, mapu ili dokument', 'Lično sećanje', 'Radničku ili porodičnu arhivu', 'Podatak o liniji ili mestu', 'Nešto drugo'],
+    message: 'Poruka',
+    messageHint: 'Opišite materijal, kada ili gde je možda nastao i ko poseduje original.',
+    prepare: 'Pripremite belešku',
+    privacy: 'Ova prva verzija ne otprema fajlove i ništa ne objavljuje automatski.',
+    ready: 'Vaša beleška je spremna i kopirana kada dozvole pregledača to omogućavaju. Pošaljite je na Instagramu, a tim muzeja će dogovoriti bezbedan prenos.',
+    instagram: 'Nastavite na Instagramu',
+  },
+  stay: {
+    index: '06 / Pratite nas',
+    title: 'Pratite muzej dok zbirka raste.',
+    body: 'Novi predmeti, pozivi za priče i naredna digitalna poglavlja muzeja biće objavljeni preko Ambasade za urbanizam.',
+    cta: 'Pratite na Instagramu',
+  },
+  footer: {
+    initiative: 'Inicijativa Ambasade za urbanizam',
+    dialogue: 'Razvijeno u dijalogu sa beogradskom saobraćajnom i muzejskom zajednicom.',
+    contact: 'Kontakt',
+    instagram: 'Instagram',
+    privacy: 'Privatnost',
+    privacyText: 'Privatnost: u ovoj prvoj verziji fajlovi se ne otpremaju i podaci iz forme se ne čuvaju. Kontakt počinje preko Instagrama.',
+    credits: 'Konceptualni vizuali: projektni materijali Ambasade za urbanizam.',
+  },
+};
+
+export const messages: Record<PublicLocale, Messages> = { en, sr };
+export const localeFallbacks: Record<Locale, PublicLocale> = { en: 'en', sr: 'sr', ru: 'en' };
+
+export function getMessages(locale: Locale): Messages {
+  return messages[localeFallbacks[locale]];
+}
