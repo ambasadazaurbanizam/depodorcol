@@ -4,6 +4,7 @@ import { FormEvent, useEffect, useState } from 'react';
 import { getMessages, type PublicLocale } from '@/lib/i18n';
 
 const INSTAGRAM_URL = 'https://www.instagram.com/ambasadazaurbanizam/';
+const MEDIA_VERSION = '2026-09-01-1';
 
 function Arrow({ diagonal = false }: { diagonal?: boolean }) {
   return <span aria-hidden="true">{diagonal ? '↗' : '→'}</span>;
@@ -42,7 +43,7 @@ export function MuseumLanding() {
 
       <header className="site-header">
         <a className="wordmark" href="#top" aria-label={`${t.hero.museum} — home`}>
-          <span className="wordmark-mark" aria-hidden="true">M</span>
+          <img className="wordmark-logo" src="/media/logo.png" alt="Muzej javnog prevoza Beograda" />
           <span>Muzej javnog prevoza Beograda</span>
         </a>
 
@@ -84,7 +85,7 @@ export function MuseumLanding() {
           </div>
 
           <figure className="hero-figure">
-            <img src="/media/depot-hero.png" alt={t.hero.figureAlt} fetchPriority="high" />
+            <img src={`/media/depot-hero.png?v=${MEDIA_VERSION}`} alt={t.hero.figureAlt} fetchPriority="high" />
             <figcaption>
               <span>{t.hero.figureLabel}</span>
               <span>{t.hero.figureNote}</span>
@@ -138,7 +139,7 @@ export function MuseumLanding() {
 
         <section className="depot-section" id="depot" aria-labelledby="depot-title">
           <div className="depot-visual">
-            <img src="/media/depot-02.png" alt={t.home.visualAlt} loading="lazy" />
+            <img src={`/media/depot-02.png?v=${MEDIA_VERSION}`} alt={t.home.visualAlt} loading="lazy" />
             <p><span>{t.home.visualLabel}</span><span>{t.home.visualNote}</span></p>
           </div>
           <div className="depot-copy">

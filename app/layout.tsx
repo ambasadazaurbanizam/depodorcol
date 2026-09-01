@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     'Dorćol Depot',
     'public transport history Belgrade',
   ],
-  icons: { icon: '/favicon.svg' },
+  icons: { icon: '/media/logo.png' },
   openGraph: {
     title,
     description,

@@ -1,0 +1,40 @@
+services:
+  app:
+    container_name: depodorcol-app
+    image: depodorcol:latest
+    build:
+      context: .
+      dockerfile: Dockerfile
+    restart: unless-stopped
+    expose:
+      - "3000"
+    environment:
+      WRANGLER_WRITE_LOGS: "false"
+      WRANGLER_LOG_PATH: /tmp/wrangler/logs
+      MINIFLARE_REGISTRY_PATH: /tmp/wrangler/registry
+    networks:
+      - depodorcol_net
+
+  caddy:
+    container_name: depodorcol-caddy
+    image: caddy:2.8-alpine
+    restart: unless-stopped
+    depends_on:
+      - app
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./deploy/Caddyfile:/etc/caddy/Caddyfile:ro
+      - caddy_data:/data
+      - caddy_config:/config
+    networks:
+      - depodorcol_net
+
+networks:
+  depodorcol_net:
+    driver: bridge
+
+volumes:
+  caddy_data:
+  caddy_config:

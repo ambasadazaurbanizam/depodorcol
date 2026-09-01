@@ -1,0 +1,12 @@
+depo.ambasada.online {
+  redir https://depodorcol.rs{uri} permanent
+}
+
+www.depodorcol.rs {
+  redir https://depodorcol.rs{uri} permanent
+}
+
+depodorcol.rs {
+  encode gzip zstd
+  reverse_proxy 127.0.0.1:3010
+}

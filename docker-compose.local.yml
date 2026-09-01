@@ -1,0 +1,12 @@
+services:
+  app:
+    container_name: depodorcol-local
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+    environment:
+      WRANGLER_WRITE_LOGS: "false"
+      WRANGLER_LOG_PATH: /tmp/wrangler/logs
+      MINIFLARE_REGISTRY_PATH: /tmp/wrangler/registry
