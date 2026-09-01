@@ -44,7 +44,10 @@ export function MuseumLanding() {
       <header className="site-header">
         <a className="wordmark" href="#top" aria-label={`${t.hero.museum} — home`}>
           <img className="wordmark-logo" src="/media/logo.png" alt="Muzej javnog prevoza Beograda" />
-          <span>Muzej javnog prevoza Beograda</span>
+          <span className="wordmark-text" aria-label="Muzej javnog prevoza Beograda">
+            <span>MUZEJ JAVNOG</span>
+            <span>PREVOZA BEOGRADA</span>
+          </span>
         </a>
 
         <nav className="header-nav" aria-label="Primary navigation">
@@ -221,7 +224,7 @@ export function MuseumLanding() {
 
       <footer className="site-footer">
         <div className="footer-brand">
-          <span className="footer-mark" aria-hidden="true">M</span>
+          <img className="footer-mark" src="/media/logo_white.png" alt="Muzej javnog prevoza Beograda" />
           <div>
             <strong>Muzej javnog prevoza Beograda</strong>
             <span>Belgrade Museum of Public Transport</span>

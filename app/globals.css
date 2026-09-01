@@ -186,18 +186,22 @@ button, input, select, textarea { font: inherit; }
 
 .contribute-section { padding: 118px clamp(18px, 4.8vw, 76px) 128px; display: grid; grid-template-columns: minmax(0, 1fr) minmax(420px, .86fr); gap: clamp(64px, 9vw, 148px); background: var(--signal); color: white; }
 .contribute-intro h2 { max-width: 800px; margin: 30px 0 34px; font-family: Georgia, 'Times New Roman', serif; font-size: clamp(54px, 6.3vw, 100px); line-height: .92; letter-spacing: -.05em; font-weight: 400; }
-.contribute-intro > p:not(.section-index) { max-width: 640px; margin: 0; font-size: 21px; line-height: 1.45; }
+.contribute-intro > p:not(.section-index) { max-width: 640px; margin: 0; font-size: 21px; line-height: 1.45; color: rgba(255,255,255,0.96); }
 .looking-list { margin-top: 72px; display: grid; grid-template-columns: 160px 1fr; gap: 24px; padding-top: 17px; border-top: 1px solid rgba(255,255,255,.5); }
-.looking-list h3 { margin: 0; font-size: 11px; line-height: 1.4; text-transform: uppercase; letter-spacing: .12em; }
-.looking-list ul { list-style: none; margin: 0; padding: 0; }
-.looking-list li { padding: 8px 0; border-bottom: 1px solid rgba(255,255,255,.32); font-family: Georgia, 'Times New Roman', serif; font-size: 25px; }
+.looking-list h3 { margin: 0; font-size: 11px; line-height: 1.4; text-transform: uppercase; letter-spacing: .12em; color: rgba(255,255,255,0.96); }
+.looking-list ul { list-style: none; margin: 0; padding: 0; color: rgba(255,255,255,0.96); }
+.looking-list li { padding: 8px 0; border-bottom: 1px solid rgba(255,255,255,.32); font-family: Georgia, 'Times New Roman', serif; font-size: 25px; color: rgba(255,255,255,0.96); }
 .contribution-form { padding: clamp(28px, 4vw, 54px); background: var(--night); align-self: start; }
 .contribution-form > h3 { margin: 0 0 42px; font-family: Georgia, 'Times New Roman', serif; font-size: 37px; font-weight: 400; }
 .contribution-form label { display: block; margin-bottom: 26px; }
 .contribution-form label > span { display: block; margin-bottom: 9px; color: #c9cdc9; font-size: 10px; text-transform: uppercase; letter-spacing: .11em; }
 .contribution-form input, .contribution-form select, .contribution-form textarea { width: 100%; border: 0; border-bottom: 1px solid #6a726e; border-radius: 0; padding: 12px 0; background: transparent; color: white; }
 .contribution-form input, .contribution-form select { min-height: 48px; }
-.contribution-form select { color-scheme: dark; }
+.contribution-form select { color-scheme: dark; background: var(--night); color: white; }
+.contribution-form select option { background: var(--cream); color: var(--ink); }
+.contribution-form select option:checked,
+.contribution-form select option:hover,
+.contribution-form select option:focus { background: #dfeaf8; color: var(--ink); }
 .contribution-form textarea { resize: vertical; line-height: 1.45; }
 .contribution-form textarea::placeholder { color: #858c88; }
 .form-privacy { margin: 0 0 22px; color: #aeb3af; font-size: 11px; line-height: 1.5; }
