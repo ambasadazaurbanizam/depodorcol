@@ -21,7 +21,7 @@ services:
       SMTP_PASS: ${SMTP_PASS:-${RESEND_API_KEY}}
       SMTP_FROM: ${SMTP_FROM:-onboarding@resend.dev}
     networks:
-      - depodorcol_net
+      - shared-web
 
   caddy:
     container_name: depodorcol-caddy
@@ -37,10 +37,10 @@ services:
       - caddy_data:/data
       - caddy_config:/config
     networks:
-      - depodorcol_net
+      - shared-web
 
 networks:
-  depodorcol_net:
+  shared-web:
     driver: bridge
 
 volumes:

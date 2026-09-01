@@ -26,4 +26,4 @@ services:
 networks:
   caddy_shared:
     external: true
-    name: ${CADDY_DOCKER_NETWORK:-prod_default}
+    name: ${CADDY_DOCKER_NETWORK:-shared-web}
