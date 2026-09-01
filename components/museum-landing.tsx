@@ -13,6 +13,8 @@ function Arrow({ diagonal = false }: { diagonal?: boolean }) {
 export function MuseumLanding() {
   const [locale, setLocale] = useState<PublicLocale>('en');
   const [formReady, setFormReady] = useState(false);
+  const [formStatus, setFormStatus] = useState('');
+  const [isSubmitting, setIsSubmitting] = useState(false);
   const t = getMessages(locale);
 
   useEffect(() => {
@@ -21,20 +23,39 @@ export function MuseumLanding() {
 
   async function prepareContribution(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
-    const form = new FormData(event.currentTarget);
-    const note = [
-      `${t.contribute.name}: ${form.get('name')}`,
-      `${t.contribute.email}: ${form.get('email')}`,
-      `${t.contribute.type}: ${form.get('type')}`,
-      `${t.contribute.message}: ${form.get('message')}`,
-    ].join('\n');
+    const form = event.currentTarget;
+
+    if (!form || isSubmitting) {
+      return;
+    }
+
+    setIsSubmitting(true);
+    setFormReady(false);
+    setFormStatus('');
+
+    const formData = new FormData(form);
 
     try {
-      await navigator.clipboard.writeText(note);
-    } catch {
-      // The note remains visible in the form when clipboard permission is unavailable.
+      const response = await fetch('/api/contribute', {
+        method: 'POST',
+        body: formData,
+      });
+
+      const payload = await response.json().catch(() => ({}));
+
+      if (!response.ok) {
+        throw new Error(payload.error || 'Unable to send the information.');
+      }
+
+      setFormReady(false);
+      setFormStatus(t.contribute.ready);
+      form.reset();
+    } catch (error) {
+      setFormReady(false);
+      setFormStatus(error instanceof Error ? error.message : 'Unable to send the information.');
+    } finally {
+      setIsSubmitting(false);
     }
-    setFormReady(true);
   }
 
   return (
@@ -199,15 +220,18 @@ export function MuseumLanding() {
               <span>{t.contribute.message}</span>
               <textarea name="message" rows={5} placeholder={t.contribute.messageHint} required />
             </label>
-            <p className="form-privacy">{t.contribute.privacy}</p>
-            <button className="button button-light form-submit" type="submit">{t.contribute.prepare}<Arrow /></button>
+            <p className="form-privacy">{t.contribute.fileShareHint}</p>
+            {t.contribute.privacy && <p className="form-privacy">{t.contribute.privacy}</p>}
+            <button
+              className="button button-light form-submit"
+              type="submit"
+              disabled={isSubmitting}
+              aria-busy={isSubmitting}
+            >
+              {isSubmitting ? 'Sending...' : `${t.contribute.prepare}`}<Arrow />
+            </button>
             <div className="form-status" aria-live="polite">
-              {formReady && (
-                <>
-                  <p>{t.contribute.ready}</p>
-                  <a className="button button-signal" href={INSTAGRAM_URL} target="_blank" rel="noreferrer">{t.contribute.instagram}<Arrow diagonal /></a>
-                </>
-              )}
+              {formStatus && <p>{formStatus}</p>}
             </div>
           </form>
         </section>

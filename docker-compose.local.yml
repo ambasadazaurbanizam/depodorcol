@@ -1,4 +1,4 @@
- services:
+services:
   app:
     container_name: depodorcol-local
     build:
@@ -10,3 +10,11 @@
       WRANGLER_WRITE_LOGS: "false"
       WRANGLER_LOG_PATH: /tmp/wrangler/logs
       MINIFLARE_REGISTRY_PATH: /tmp/wrangler/registry
+      CONTRIBUTION_EMAIL: "sergey.belyuga@gmail.com"
+      SMTP_HOST: "smtp.resend.com"
+      SMTP_PORT: "587"
+      SMTP_SECURE: "false"
+      SMTP_REQUIRE_TLS: "true"
+      SMTP_USER: "resend"
+      SMTP_PASS: ${RESEND_API_KEY}
+      SMTP_FROM: ${SMTP_FROM:-onboarding@resend.dev}
