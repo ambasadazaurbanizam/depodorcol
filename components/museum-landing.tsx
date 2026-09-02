@@ -267,7 +267,7 @@ export function MuseumLanding() {
         </nav>
 
         <div className="footer-legal" id="privacy">
-          <p>{t.footer.privacyText}</p>
+          {t.footer.privacyText && <p>{t.footer.privacyText}</p>}
           <p>{t.footer.credits}</p>
           <p>© {new Date().getFullYear()} Muzej javnog prevoza Beograda</p>
         </div>

@@ -93,7 +93,7 @@ const en = {
     contact: 'Contact',
     instagram: 'Instagram',
     privacy: 'Privacy',
-    privacyText: 'Privacy: no files are uploaded and no form submission is stored on this first release. Contact begins through Instagram.',
+    privacyText: '',
     credits: 'Concept visuals: Ambasada za urbanizam project materials.',
   },
 };
@@ -192,7 +192,7 @@ const sr: Messages = {
     contact: 'Kontakt',
     instagram: 'Instagram',
     privacy: 'Privatnost',
-    privacyText: 'Privatnost: u ovoj prvoj verziji fajlovi se ne otpremaju i podaci iz forme se ne čuvaju. Kontakt počinje preko Instagrama.',
+    privacyText: '',
     credits: 'Konceptualni vizuali: projektni materijali Ambasade za urbanizam.',
   },
 };
