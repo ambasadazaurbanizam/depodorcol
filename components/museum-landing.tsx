@@ -44,7 +44,12 @@ export function MuseumLanding() {
       const payload = await response.json().catch(() => ({}));
 
       if (!response.ok) {
-        throw new Error(payload.error || 'Unable to send the information.');
+        const errorMessage =
+          typeof payload === 'object' && payload !== null &&
+          'error' in payload && typeof payload.error === 'string' && payload.error
+            ? payload.error
+            : 'Unable to send the information.';
+        throw new Error(errorMessage);
       }
 
       setFormReady(false);
@@ -73,6 +78,7 @@ export function MuseumLanding() {
 
         <nav className="header-nav" aria-label="Primary navigation">
           <a href="#collection">{t.nav.collection}</a>
+          <a href={`/exhibitions?lang=${locale}`}>{t.nav.exhibitions}</a>
           <a href="#depot">{t.nav.home}</a>
           <a href="#contribute">{t.nav.contribute}</a>
         </nav>
@@ -135,6 +141,14 @@ export function MuseumLanding() {
               </li>
             ))}
           </ol>
+        </section>
+
+        <section className="landing-exhibitions" aria-labelledby="exhibitions-title">
+          <h2 id="exhibitions-title">{t.nav.exhibitions}</h2>
+          <nav aria-label={t.nav.exhibitions}>
+            <a href={`/exhibitions/second-life/${locale}`}>{t.exhibitions.baselTitle}</a>
+            <a href={`/exhibitions/belgrade-in-motion/${locale}`}>{t.exhibitions.belgradeTitle}</a>
+          </nav>
         </section>
 
         <section className="stories-section" aria-labelledby="stories-title">
