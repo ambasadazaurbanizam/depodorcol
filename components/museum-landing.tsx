@@ -44,7 +44,12 @@ export function MuseumLanding() {
       const payload = await response.json().catch(() => ({}));
 
       if (!response.ok) {
-        throw new Error(payload.error || 'Unable to send the information.');
+        const errorMessage =
+          typeof payload === 'object' && payload !== null &&
+          'error' in payload && typeof payload.error === 'string' && payload.error
+            ? payload.error
+            : 'Unable to send the information.';
+        throw new Error(errorMessage);
       }
 
       setFormReady(false);

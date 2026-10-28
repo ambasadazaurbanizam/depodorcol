@@ -13,7 +13,8 @@ sitemap receives new entries. Exhibition links use added keys in the existing
 SR/EN message dictionaries; existing translations are preserved. The root layout, submission
 API, logos, SMTP settings, Docker configuration and Caddy configuration are
 unchanged. The lock file adds the already-declared nodemailer dependency so a
-frozen installation can succeed; package.json versions are unchanged.
+frozen installation can succeed. Runtime package versions are unchanged; the
+official @types/nodemailer 7.0.0 development dependency completes type checking.
 
 Gallery files include responsive and full-resolution WebP derivatives with
 `Collection A. Radchenko, photo M.A.Haefliger` attribution. The 44 active original JPEG files are preserved byte-for-byte in public/media
@@ -42,6 +43,9 @@ Validation: production build; original landing/form preservation checks;
 desktop and mobile gallery checks in SR/EN; metadata/file integrity validation.
 No form submissions or email sends performed.
 
-Standalone `tsc --noEmit` reports two existing issues in the unchanged form code:
-missing nodemailer type declarations and an unknown JSON response payload.
-The production build succeeds. These unrelated form issues are not modified here.
+The follow-up resolves the two existing TypeScript issues: official Nodemailer
+types are declared as a development dependency, and the form checks that an
+error response contains a string before displaying it. The contribution API,
+SMTP configuration and successful submission behavior are unchanged.
+Validation commands: `pnpm exec tsc --noEmit`, `pnpm build`, and
+`node validate-exhibitions.mjs`.
