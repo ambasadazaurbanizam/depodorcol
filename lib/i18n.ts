@@ -3,7 +3,8 @@ export type PublicLocale = 'en' | 'sr';
 
 const en = {
   languageName: 'English',
-  nav: { collection: 'Collection', home: 'Future home', contribute: 'Contribute' },
+  nav: { collection: 'Collection', home: 'Future home', contribute: 'Contribute', exhibitions: 'Exhibitions' },
+  exhibitions: { title: 'Exhibitions', baselTitle: 'Second Life on the Same Tracks', belgradeTitle: 'Belgrade in Motion' },
   hero: {
     museum: 'Belgrade Museum of Public Transport',
     titleLineOne: 'Belgrade moves.',
@@ -102,7 +103,8 @@ export type Messages = typeof en;
 
 const sr: Messages = {
   languageName: 'Srpski',
-  nav: { collection: 'Zbirka', home: 'Budući dom', contribute: 'Doprinesite' },
+  nav: { collection: 'Zbirka', home: 'Budući dom', contribute: 'Doprinesite', exhibitions: 'Izložbe' },
+  exhibitions: { title: 'Izložbe', baselTitle: 'Drugi život na istim šinama', belgradeTitle: 'Beograd u pokretu' },
   hero: {
     museum: 'Muzej javnog prevoza Beograda',
     titleLineOne: 'Beograd se kreće.',

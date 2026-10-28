@@ -1,0 +1,3343 @@
+[
+  {
+    "id": "bg1978-104-a",
+    "series": "belgrade-1978",
+    "originalFilename": "104 Beograd (april 1978).jpg",
+    "localDownloadFilename": "104 Beograd (april 1978).jpg",
+    "original": "/media/original-104 Beograd (april 1978).jpg",
+    "sha256": "5a7b63e60b93869e9eed6ed386733b10759904a18f2dc6c387ed469805c7263a",
+    "width": 5024,
+    "height": 3222,
+    "variants": [
+      {
+        "src": "/media/bg1978-104-a-640.webp",
+        "width": 640,
+        "height": 410,
+        "bytes": 58070
+      },
+      {
+        "src": "/media/bg1978-104-a-1280.webp",
+        "width": 1280,
+        "height": 821,
+        "bytes": 207348
+      },
+      {
+        "src": "/media/bg1978-104-a-2000.webp",
+        "width": 2000,
+        "height": 1283,
+        "bytes": 507996
+      }
+    ],
+    "digitalFileTimestamp": null,
+    "date": "1978-04",
+    "dateBasis": "Supplied filename; not independently dated to a day.",
+    "creator": "M.A.Haefliger",
+    "rightsStatus": "permission-2026-10-26",
+    "source": "Collection A. Radchenko; supplied by Martin Häfliger",
+    "place": "Belgrade",
+    "vehicle": "104",
+    "vehicleType": "Unconfirmed; no type or foreign origin assigned from appearance alone",
+    "caption": {
+      "sr": "Vagon 104 na ulicama Beograda.",
+      "en": "Car 104 on the streets of Belgrade.",
+      "ru": "Вагон 104 на улицах Белграда."
+    },
+    "alt": {
+      "sr": "Vagon 104 na ulicama Beograda.",
+      "en": "Car 104 on the streets of Belgrade.",
+      "ru": "Вагон 104 на улицах Белграда."
+    },
+    "placeLabel": {
+      "sr": "Beograd — precizno mesto nije potvrđeno",
+      "en": "Belgrade — exact location unconfirmed",
+      "ru": "Белград — точное место не подтверждено"
+    },
+    "typeLabel": {
+      "sr": "Nije potvrđeno za ovaj snimak",
+      "en": "Unconfirmed for this photograph",
+      "ru": "Для этого снимка не подтверждён"
+    },
+    "credit": "Collection A. Radchenko, photo M.A.Haefliger",
+    "authorshipBasis": "Martin Häfliger permission email, 2026-10-26; collection owner confirmation for both series, 2026-10-27.",
+    "previousOriginals": [
+      {
+        "original": "/media/original-104 Beograd (april 1978)(1).jpg",
+        "sha256": "780810b70fded7e14befe39850f43dc431fd82ecc75087aca8d1269f93f107bd",
+        "width": 2048,
+        "height": 1313
+      }
+    ],
+    "importSource": "Martin Häfliger WeTransfer collection, received 2026-10-22",
+    "identificationNote": {
+      "sr": "104 sa prikolicom. Bočni pogled čuva odnos između dva vozila i ulice.",
+      "en": "104 with a trailer. The side view preserves the relationship between the two vehicles and the street.",
+      "ru": "104 с прицепом. Боковой ракурс сохраняет отношения между двумя вагонами и улицей."
+    },
+    "fullSize": {
+      "src": "/media/bg1978-104-a-full.webp",
+      "width": 5024,
+      "height": 3222,
+      "bytes": 3360120,
+      "format": "image/webp",
+      "quality": 92
+    }
+  },
+  {
+    "id": "bg1978-118-b",
+    "series": "belgrade-1978",
+    "originalFilename": "118 Beograd Hauptbahnhof (April 1978) (2).jpg",
+    "localDownloadFilename": "118 Beograd Hauptbahnhof (April 1978) (2).jpg",
+    "original": "/media/original-118 Beograd Hauptbahnhof (April 1978) (2).jpg",
+    "sha256": "faea746a13bb703c74701561f3245179da90068424be7b007e8792467a6804e7",
+    "width": 5480,
+    "height": 3520,
+    "variants": [
+      {
+        "src": "/media/bg1978-118-b-640.webp",
+        "width": 640,
+        "height": 411,
+        "bytes": 42836
+      },
+      {
+        "src": "/media/bg1978-118-b-1280.webp",
+        "width": 1280,
+        "height": 822,
+        "bytes": 163362
+      },
+      {
+        "src": "/media/bg1978-118-b-2000.webp",
+        "width": 2000,
+        "height": 1285,
+        "bytes": 455456
+      }
+    ],
+    "digitalFileTimestamp": null,
+    "date": "1978-04",
+    "dateBasis": "Supplied filename; not independently dated to a day.",
+    "creator": "M.A.Haefliger",
+    "rightsStatus": "permission-2026-10-26",
+    "source": "Collection A. Radchenko; supplied by Martin Häfliger",
+    "place": "Belgrade, former main railway station (filename and visible façade)",
+    "vehicle": "118",
+    "vehicleType": "Unconfirmed; no type or foreign origin assigned from appearance alone",
+    "caption": {
+      "sr": "Vagon 118 ispred glavne železničke stanice.",
+      "en": "Car 118 outside the main railway station.",
+      "ru": "Вагон 118 у главного вокзала."
+    },
+    "alt": {
+      "sr": "Vagon 118 ispred glavne železničke stanice.",
+      "en": "Car 118 outside the main railway station.",
+      "ru": "Вагон 118 у главного вокзала."
+    },
+    "placeLabel": {
+      "sr": "Beograd, nekadašnja glavna železnička stanica",
+      "en": "Belgrade, former main railway station",
+      "ru": "Белград, бывший главный вокзал"
+    },
+    "typeLabel": {
+      "sr": "Nije potvrđeno za ovaj snimak",
+      "en": "Unconfirmed for this photograph",
+      "ru": "Для этого снимка не подтверждён"
+    },
+    "credit": "Collection A. Radchenko, photo M.A.Haefliger",
+    "authorshipBasis": "Martin Häfliger permission email, 2026-10-26; collection owner confirmation for both series, 2026-10-27.",
+    "previousOriginals": [
+      {
+        "original": "/media/original-118 Beograd Hauptbahnhof (April 1978) (2)(1).jpg",
+        "sha256": "da4ae344c495014d45c8fcab061cbaa83677f6625fa84ee5c29e6f07c3ab457b",
+        "width": 2047,
+        "height": 1315
+      }
+    ],
+    "importSource": "Martin Häfliger WeTransfer collection, received 2026-10-22",
+    "identificationNote": {
+      "sr": "118 ispred glavne železničke stanice, uz druge učesnike saobraćaja.",
+      "en": "118 outside the main railway station, alongside other traffic.",
+      "ru": "118 перед главным вокзалом, рядом с другими участниками движения."
+    },
+    "fullSize": {
+      "src": "/media/bg1978-118-b-full.webp",
+      "width": 5480,
+      "height": 3520,
+      "bytes": 4658888,
+      "format": "image/webp",
+      "quality": 92
+    }
+  },
+  {
+    "id": "bg1978-121-a",
+    "series": "belgrade-1978",
+    "originalFilename": "121 Beograd (Aril 1978).jpg",
+    "localDownloadFilename": "121 Beograd (Aril 1978).jpg",
+    "original": "/media/original-121 Beograd (Aril 1978).jpg",
+    "sha256": "243326f2cef8d9164333b2767581bfcfb5a6d591bfb5aa3258bdeccd90f7a1bf",
+    "width": 4170,
+    "height": 2884,
+    "variants": [
+      {
+        "src": "/media/bg1978-121-a-640.webp",
+        "width": 640,
+        "height": 443,
+        "bytes": 54054
+      },
+      {
+        "src": "/media/bg1978-121-a-1280.webp",
+        "width": 1280,
+        "height": 885,
+        "bytes": 212490
+      },
+      {
+        "src": "/media/bg1978-121-a-2000.webp",
+        "width": 2000,
+        "height": 1383,
+        "bytes": 535220
+      }
+    ],
+    "digitalFileTimestamp": null,
+    "date": "1978-04",
+    "dateBasis": "Supplied filename; not independently dated to a day.",
+    "creator": "M.A.Haefliger",
+    "rightsStatus": "permission-2026-10-26",
+    "source": "Collection A. Radchenko; supplied by Martin Häfliger",
+    "place": "Belgrade",
+    "vehicle": "121",
+    "vehicleType": "Unconfirmed; no type or foreign origin assigned from appearance alone",
+    "caption": {
+      "sr": "Vagon 121 na ulicama Beograda.",
+      "en": "Car 121 on the streets of Belgrade.",
+      "ru": "Вагон 121 на улицах Белграда."
+    },
+    "alt": {
+      "sr": "Vagon 121 na ulicama Beograda.",
+      "en": "Car 121 on the streets of Belgrade.",
+      "ru": "Вагон 121 на улицах Белграда."
+    },
+    "placeLabel": {
+      "sr": "Beograd — precizno mesto nije potvrđeno",
+      "en": "Belgrade — exact location unconfirmed",
+      "ru": "Белград — точное место не подтверждено"
+    },
+    "typeLabel": {
+      "sr": "Nije potvrđeno za ovaj snimak",
+      "en": "Unconfirmed for this photograph",
+      "ru": "Для этого снимка не подтверждён"
+    },
+    "credit": "Collection A. Radchenko, photo M.A.Haefliger",
+    "authorshipBasis": "Martin Häfliger permission email, 2026-10-26; collection owner confirmation for both series, 2026-10-27.",
+    "previousOriginals": [
+      {
+        "original": "/media/original-121 Beograd (Aril 1978)(1).jpg",
+        "sha256": "d4be79aeb1729fe2582d7e51e185c717f3cc88863012bc608926ab5ae8bd285d",
+        "width": 2048,
+        "height": 1416
+      }
+    ],
+    "importSource": "Martin Häfliger WeTransfer collection, received 2026-10-22",
+    "identificationNote": {
+      "sr": "121 i osoba uz otvorena vrata. Njenu ulogu ne možemo utvrditi iz fotografije.",
+      "en": "121 and a person beside an open doorway. Their role cannot be established from the photograph.",
+      "ru": "121 и человек у открытой двери. Его роль по фотографии установить нельзя."
+    },
+    "fullSize": {
+      "src": "/media/bg1978-121-a-full.webp",
+      "width": 4170,
+      "height": 2884,
+      "bytes": 2802942,
+      "format": "image/webp",
+      "quality": 92
+    }
+  },
+  {
+    "id": "bg1978-127-a",
+    "series": "belgrade-1978",
+    "originalFilename": "127 Beograd (April 1978).jpg",
+    "localDownloadFilename": "127 Beograd (April 1978).jpg",
+    "original": "/media/original-127 Beograd (April 1978).jpg",
+    "sha256": "c5d4ac67592a7e542b3791765581740fc99ffcaecf7260353ae9057220c0305e",
+    "width": 5468,
+    "height": 3512,
+    "variants": [
+      {
+        "src": "/media/bg1978-127-a-640.webp",
+        "width": 640,
+        "height": 411,
+        "bytes": 45926
+      },
+      {
+        "src": "/media/bg1978-127-a-1280.webp",
+        "width": 1280,
+        "height": 822,
+        "bytes": 156072
+      },
+      {
+        "src": "/media/bg1978-127-a-2000.webp",
+        "width": 2000,
+        "height": 1285,
+        "bytes": 429128
+      }
+    ],
+    "digitalFileTimestamp": null,
+    "date": "1978-04",
+    "dateBasis": "Supplied filename; not independently dated to a day.",
+    "creator": "M.A.Haefliger",
+    "rightsStatus": "permission-2026-10-26",
+    "source": "Collection A. Radchenko; supplied by Martin Häfliger",
+    "place": "Belgrade",
+    "vehicle": "127",
+    "vehicleType": "Unconfirmed; no type or foreign origin assigned from appearance alone",
+    "caption": {
+      "sr": "Vagon 127 na ulicama Beograda.",
+      "en": "Car 127 on the streets of Belgrade.",
+      "ru": "Вагон 127 на улицах Белграда."
+    },
+    "alt": {
+      "sr": "Vagon 127 na ulicama Beograda.",
+      "en": "Car 127 on the streets of Belgrade.",
+      "ru": "Вагон 127 на улицах Белграда."
+    },
+    "placeLabel": {
+      "sr": "Beograd — precizno mesto nije potvrđeno",
+      "en": "Belgrade — exact location unconfirmed",
+      "ru": "Белград — точное место не подтверждено"
+    },
+    "typeLabel": {
+      "sr": "Nije potvrđeno za ovaj snimak",
+      "en": "Unconfirmed for this photograph",
+      "ru": "Для этого снимка не подтверждён"
+    },
+    "credit": "Collection A. Radchenko, photo M.A.Haefliger",
+    "authorshipBasis": "Martin Häfliger permission email, 2026-10-26; collection owner confirmation for both series, 2026-10-27.",
+    "previousOriginals": [
+      {
+        "original": "/media/original-127 Beograd (April 1978)(1).jpg",
+        "sha256": "18cb49d5aa929cd12c48066aa3a839c175bacc979017f736056401ea96a5de05",
+        "width": 2048,
+        "height": 1315
+      }
+    ],
+    "importSource": "Martin Häfliger WeTransfer collection, received 2026-10-22",
+    "identificationNote": {
+      "sr": "127 uz drugi tramvaj i okolne zgrade. Razlike u obliku vozila ostaju vidljive u jednom kadru.",
+      "en": "127 beside another tram and surrounding buildings. Different vehicle forms remain visible within one frame.",
+      "ru": "127 рядом с другим трамваем и окружающими зданиями. Различия форм видны в одном кадре."
+    },
+    "fullSize": {
+      "src": "/media/bg1978-127-a-full.webp",
+      "width": 5468,
+      "height": 3512,
+      "bytes": 4397878,
+      "format": "image/webp",
+      "quality": 92
+    }
+  },
+  {
+    "id": "bg1978-128-a",
+    "series": "belgrade-1978",
+    "originalFilename": "128 Beograd (april 1978).jpg",
+    "localDownloadFilename": "128 Beograd (april 1978).jpg",
+    "original": "/media/original-128 Beograd (april 1978).jpg",
+    "sha256": "03b5e05d2b2dc248f96db586abfaf7e7bb3edc18ee9ec6967b2033fb8713e19f",
+    "width": 5456,
+    "height": 3516,
+    "variants": [
+      {
+        "src": "/media/bg1978-128-a-640.webp",
+        "width": 640,
+        "height": 412,
+        "bytes": 58956
+      },
+      {
+        "src": "/media/bg1978-128-a-1280.webp",
+        "width": 1280,
+        "height": 825,
+        "bytes": 222396
+      },
+      {
+        "src": "/media/bg1978-128-a-2000.webp",
+        "width": 2000,
+        "height": 1289,
+        "bytes": 540262
+      }
+    ],
+    "digitalFileTimestamp": null,
+    "date": "1978-04",
+    "dateBasis": "Supplied filename; not independently dated to a day.",
+    "creator": "M.A.Haefliger",
+    "rightsStatus": "permission-2026-10-26",
+    "source": "Collection A. Radchenko; supplied by Martin Häfliger",
+    "place": "Belgrade",
+    "vehicle": "128",
+    "vehicleType": "Unconfirmed; no type or foreign origin assigned from appearance alone",
+    "caption": {
+      "sr": "Vagon 128 na ulicama Beograda.",
+      "en": "Car 128 on the streets of Belgrade.",
+      "ru": "Вагон 128 на улицах Белграда."
+    },
+    "alt": {
+      "sr": "Vagon 128 na ulicama Beograda.",
+      "en": "Car 128 on the streets of Belgrade.",
+      "ru": "Вагон 128 на улицах Белграда."
+    },
+    "placeLabel": {
+      "sr": "Beograd — precizno mesto nije potvrđeno",
+      "en": "Belgrade — exact location unconfirmed",
+      "ru": "Белград — точное место не подтверждено"
+    },
+    "typeLabel": {
+      "sr": "Nije potvrđeno za ovaj snimak",
+      "en": "Unconfirmed for this photograph",
+      "ru": "Для этого снимка не подтверждён"
+    },
+    "credit": "Collection A. Radchenko, photo M.A.Haefliger",
+    "authorshipBasis": "Martin Häfliger permission email, 2026-10-26; collection owner confirmation for both series, 2026-10-27.",
+    "previousOriginals": [
+      {
+        "original": "/media/original-128 Beograd (april 1978)(1).jpg",
+        "sha256": "b9406a58bf60c883a5f8eab798a465f81eaedf090d5177156e5cfd8554e31e6a",
+        "width": 2048,
+        "height": 1319
+      }
+    ],
+    "importSource": "Martin Häfliger WeTransfer collection, received 2026-10-22",
+    "identificationNote": {
+      "sr": "128 u širokom uličnom kadru, sa grupom ljudi uz ivicu kolovoza.",
+      "en": "128 in a broad street view, with a group of people beside the roadway.",
+      "ru": "128 в широком уличном кадре, с группой людей у края проезжей части."
+    },
+    "fullSize": {
+      "src": "/media/bg1978-128-a-full.webp",
+      "width": 5456,
+      "height": 3516,
+      "bytes": 5067610,
+      "format": "image/webp",
+      "quality": 92
+    }
+  },
+  {
+    "id": "bg1978-128-b",
+    "series": "belgrade-1978",
+    "originalFilename": "128 Beograd (pril 1978) (2).jpg",
+    "localDownloadFilename": "128 Beograd (pril 1978) (2).jpg",
+    "original": "/media/original-128 Beograd (pril 1978) (2).jpg",
+    "sha256": "1cd24ed9e5e9e738d426915a0e0698dfdb78ef56a83d9a6a3b1de9e5a8aaeed2",
+    "width": 5464,
+    "height": 3500,
+    "variants": [
+      {
+        "src": "/media/bg1978-128-b-640.webp",
+        "width": 640,
+        "height": 410,
+        "bytes": 63672
+      },
+      {
+        "src": "/media/bg1978-128-b-1280.webp",
+        "width": 1280,
+        "height": 820,
+        "bytes": 209818
+      },
+      {
+        "src": "/media/bg1978-128-b-2000.webp",
+        "width": 2000,
+        "height": 1281,
+        "bytes": 463334
+      }
+    ],
+    "digitalFileTimestamp": null,
+    "date": "1978-04",
+    "dateBasis": "Supplied filename; not independently dated to a day.",
+    "creator": "M.A.Haefliger",
+    "rightsStatus": "permission-2026-10-26",
+    "source": "Collection A. Radchenko; supplied by Martin Häfliger",
+    "place": "Belgrade",
+    "vehicle": "128",
+    "vehicleType": "Unconfirmed; no type or foreign origin assigned from appearance alone",
+    "caption": {
+      "sr": "Vagon 128 na ulicama Beograda.",
+      "en": "Car 128 on the streets of Belgrade.",
+      "ru": "Вагон 128 на улицах Белграда."
+    },
+    "alt": {
+      "sr": "Vagon 128 na ulicama Beograda.",
+      "en": "Car 128 on the streets of Belgrade.",
+      "ru": "Вагон 128 на улицах Белграда."
+    },
+    "placeLabel": {
+      "sr": "Beograd — precizno mesto nije potvrđeno",
+      "en": "Belgrade — exact location unconfirmed",
+      "ru": "Белград — точное место не подтверждено"
+    },
+    "typeLabel": {
+      "sr": "Nije potvrđeno za ovaj snimak",
+      "en": "Unconfirmed for this photograph",
+      "ru": "Для этого снимка не подтверждён"
+    },
+    "credit": "Collection A. Radchenko, photo M.A.Haefliger",
+    "authorshipBasis": "Martin Häfliger permission email, 2026-10-26; collection owner confirmation for both series, 2026-10-27.",
+    "previousOriginals": [
+      {
+        "original": "/media/original-128 Beograd (pril 1978) (2)(1).jpg",
+        "sha256": "9c6a7ac8bdd8747a0fb055ca4023bfc54cb0046c93c1e01eb215bb56e8b254e7",
+        "width": 2048,
+        "height": 1311
+      }
+    ],
+    "importSource": "Martin Häfliger WeTransfer collection, received 2026-10-22",
+    "identificationNote": {
+      "sr": "Drugi pogled na 128: pešaci u prvom planu, drveće i niz fasada iza vozila.",
+      "en": "Another view of 128: pedestrians in the foreground, trees and a row of façades behind the vehicle.",
+      "ru": "Другой ракурс 128: пешеходы на переднем плане, деревья и ряд фасадов за вагоном."
+    },
+    "fullSize": {
+      "src": "/media/bg1978-128-b-full.webp",
+      "width": 5464,
+      "height": 3500,
+      "bytes": 3570646,
+      "format": "image/webp",
+      "quality": 92
+    }
+  },
+  {
+    "id": "bg1978-171-a",
+    "series": "belgrade-1978",
+    "originalFilename": "171 Beograd Hauptbahnhof (April 1978).jpg",
+    "localDownloadFilename": "171 Beograd Hauptbahnhof (April 1978).jpg",
+    "original": "/media/original-171 Beograd Hauptbahnhof (April 1978).jpg",
+    "sha256": "97fb6f7ea9531c4752f5573724c4af5da7cc0be4fb5192a65c6b8aa7b299eabe",
+    "width": 4083,
+    "height": 2791,
+    "variants": [
+      {
+        "src": "/media/bg1978-171-a-640.webp",
+        "width": 640,
+        "height": 437,
+        "bytes": 52124
+      },
+      {
+        "src": "/media/bg1978-171-a-1280.webp",
+        "width": 1280,
+        "height": 875,
+        "bytes": 192656
+      },
+      {
+        "src": "/media/bg1978-171-a-2000.webp",
+        "width": 2000,
+        "height": 1367,
+        "bytes": 468562
+      }
+    ],
+    "digitalFileTimestamp": null,
+    "date": "1978-04",
+    "dateBasis": "Supplied filename; not independently dated to a day.",
+    "creator": "M.A.Haefliger",
+    "rightsStatus": "permission-2026-10-26",
+    "source": "Collection A. Radchenko; supplied by Martin Häfliger",
+    "place": "Belgrade, former main railway station (filename and visible façade)",
+    "vehicle": "171",
+    "vehicleType": "Unconfirmed; no type or foreign origin assigned from appearance alone",
+    "caption": {
+      "sr": "Vagon 171 ispred glavne železničke stanice.",
+      "en": "Car 171 outside the main railway station.",
+      "ru": "Вагон 171 у главного вокзала."
+    },
+    "alt": {
+      "sr": "Vagon 171 ispred glavne železničke stanice.",
+      "en": "Car 171 outside the main railway station.",
+      "ru": "Вагон 171 у главного вокзала."
+    },
+    "placeLabel": {
+      "sr": "Beograd, nekadašnja glavna železnička stanica",
+      "en": "Belgrade, former main railway station",
+      "ru": "Белград, бывший главный вокзал"
+    },
+    "typeLabel": {
+      "sr": "Nije potvrđeno za ovaj snimak",
+      "en": "Unconfirmed for this photograph",
+      "ru": "Для этого снимка не подтверждён"
+    },
+    "credit": "Collection A. Radchenko, photo M.A.Haefliger",
+    "authorshipBasis": "Martin Häfliger permission email, 2026-10-26; collection owner confirmation for both series, 2026-10-27.",
+    "previousOriginals": [
+      {
+        "original": "/media/original-171 Beograd Hauptbahnhof (April 1978)(1).jpg",
+        "sha256": "b833f5dd33d30fc062d2e9b317874c641a9aad81c361f6609765baffd53e7903",
+        "width": 2048,
+        "height": 1399
+      }
+    ],
+    "importSource": "Martin Häfliger WeTransfer collection, received 2026-10-22",
+    "identificationNote": {
+      "sr": "171 ispred glavne železničke stanice. Prednji deo vozila i stanica nalaze se u istoj osi pogleda.",
+      "en": "171 outside the main railway station. The vehicle’s front and the station share the line of sight.",
+      "ru": "171 перед главным вокзалом. Лобовая часть вагона и станция оказываются на одной линии взгляда."
+    },
+    "fullSize": {
+      "src": "/media/bg1978-171-a-full.webp",
+      "width": 4083,
+      "height": 2791,
+      "bytes": 2249554,
+      "format": "image/webp",
+      "quality": 92
+    }
+  },
+  {
+    "id": "bg1978-47-a",
+    "series": "belgrade-1978",
+    "originalFilename": "47 Beograd (april 1978).jpg",
+    "localDownloadFilename": "47 Beograd (april 1978).jpg",
+    "original": "/media/original-47 Beograd (april 1978).jpg",
+    "sha256": "d8cc2dbc3a9092de0a982ffdf81d0d9fa4b1733c2446efb99f6f3dd44c32a8a1",
+    "width": 5468,
+    "height": 3516,
+    "variants": [
+      {
+        "src": "/media/bg1978-47-a-640.webp",
+        "width": 640,
+        "height": 412,
+        "bytes": 40690
+      },
+      {
+        "src": "/media/bg1978-47-a-1280.webp",
+        "width": 1280,
+        "height": 823,
+        "bytes": 150146
+      },
+      {
+        "src": "/media/bg1978-47-a-2000.webp",
+        "width": 2000,
+        "height": 1286,
+        "bytes": 418770
+      }
+    ],
+    "digitalFileTimestamp": null,
+    "date": "1978-04",
+    "dateBasis": "Supplied filename; not independently dated to a day.",
+    "creator": "M.A.Haefliger",
+    "rightsStatus": "permission-2026-10-26",
+    "source": "Collection A. Radchenko; supplied by Martin Häfliger",
+    "place": "Belgrade",
+    "vehicle": "47",
+    "vehicleType": "Unconfirmed; no type or foreign origin assigned from appearance alone",
+    "caption": {
+      "sr": "Vagon 47 na ulicama Beograda.",
+      "en": "Car 47 on the streets of Belgrade.",
+      "ru": "Вагон 47 на улицах Белграда."
+    },
+    "alt": {
+      "sr": "Vagon 47 na ulicama Beograda.",
+      "en": "Car 47 on the streets of Belgrade.",
+      "ru": "Вагон 47 на улицах Белграда."
+    },
+    "placeLabel": {
+      "sr": "Beograd — precizno mesto nije potvrđeno",
+      "en": "Belgrade — exact location unconfirmed",
+      "ru": "Белград — точное место не подтверждено"
+    },
+    "typeLabel": {
+      "sr": "Nije potvrđeno za ovaj snimak",
+      "en": "Unconfirmed for this photograph",
+      "ru": "Для этого снимка не подтверждён"
+    },
+    "credit": "Collection A. Radchenko, photo M.A.Haefliger",
+    "authorshipBasis": "Martin Häfliger permission email, 2026-10-26; collection owner confirmation for both series, 2026-10-27.",
+    "identificationNote": {
+      "sr": "47 na gradskom koloseku. Pešaci i druga vozila ostaju deo prizora; tačna lokacija nije potvrđena.",
+      "en": "47 on city tracks. Pedestrians and other vehicles remain part of the scene; the exact location is unconfirmed.",
+      "ru": "47 на городских путях. Пешеходы и другие машины остаются частью сцены; точное место не подтверждено."
+    },
+    "fullSize": {
+      "src": "/media/bg1978-47-a-full.webp",
+      "width": 5468,
+      "height": 3516,
+      "bytes": 4254920,
+      "format": "image/webp",
+      "quality": 92
+    }
+  },
+  {
+    "id": "bg1978-47-b",
+    "series": "belgrade-1978",
+    "originalFilename": "47 Beograd Slavija (April 1978) (2).jpg",
+    "localDownloadFilename": "47 Beograd Slavija (April 1978) (2).jpg",
+    "original": "/media/original-47 Beograd Slavija (April 1978) (2).jpg",
+    "sha256": "7a44975629aae8314f1a81f42f06022c81b4710a6d5539842b4e43910503855c",
+    "width": 4582,
+    "height": 2977,
+    "variants": [
+      {
+        "src": "/media/bg1978-47-b-640.webp",
+        "width": 640,
+        "height": 416,
+        "bytes": 35674
+      },
+      {
+        "src": "/media/bg1978-47-b-1280.webp",
+        "width": 1280,
+        "height": 832,
+        "bytes": 153402
+      },
+      {
+        "src": "/media/bg1978-47-b-2000.webp",
+        "width": 2000,
+        "height": 1299,
+        "bytes": 468076
+      }
+    ],
+    "digitalFileTimestamp": null,
+    "date": "1978-04",
+    "dateBasis": "Supplied filename; not independently dated to a day.",
+    "creator": "M.A.Haefliger",
+    "rightsStatus": "permission-2026-10-26",
+    "source": "Collection A. Radchenko; supplied by Martin Häfliger",
+    "place": "Belgrade, Slavija (supplied filename; exact viewpoint unconfirmed)",
+    "vehicle": "47",
+    "vehicleType": "Unconfirmed; no type or foreign origin assigned from appearance alone",
+    "caption": {
+      "sr": "Vagon 47 na Slaviji.",
+      "en": "Car 47 at Slavija.",
+      "ru": "Вагон 47 на Славии."
+    },
+    "alt": {
+      "sr": "Vagon 47 na Slaviji.",
+      "en": "Car 47 at Slavija.",
+      "ru": "Вагон 47 на Славии."
+    },
+    "placeLabel": {
+      "sr": "Slavija — prema nazivu; tačka snimanja nije potvrđena",
+      "en": "Slavija — filename; viewpoint unconfirmed",
+      "ru": "Славия — по имени; точка съёмки не подтверждена"
+    },
+    "typeLabel": {
+      "sr": "Nije potvrđeno za ovaj snimak",
+      "en": "Unconfirmed for this photograph",
+      "ru": "Для этого снимка не подтверждён"
+    },
+    "credit": "Collection A. Radchenko, photo M.A.Haefliger",
+    "authorshipBasis": "Martin Häfliger permission email, 2026-10-26; collection owner confirmation for both series, 2026-10-27.",
+    "identificationNote": {
+      "sr": "47 na Slaviji, prema nazivu datoteke. Široki kadar pokazuje koloseke i okolnu izgradnju; ugao snimanja treba proveriti.",
+      "en": "47 at Slavija, according to the filename. The wide frame includes tracks and surrounding buildings; the viewpoint awaits verification.",
+      "ru": "47 на Славии — по имени файла. Широкий кадр включает пути и окружающую застройку; точку съёмки предстоит проверить."
+    },
+    "fullSize": {
+      "src": "/media/bg1978-47-b-full.webp",
+      "width": 4582,
+      "height": 2977,
+      "bytes": 3106114,
+      "format": "image/webp",
+      "quality": 92
+    }
+  },
+  {
+    "id": "bg1978-53-a",
+    "series": "belgrade-1978",
+    "originalFilename": "53 Beograd Hauptbahnhof (April 1978).jpg",
+    "localDownloadFilename": "53 Beograd Hauptbahnhof (April 1978).jpg",
+    "original": "/media/original-53 Beograd Hauptbahnhof (April 1978).jpg",
+    "sha256": "8b7cce2f203f043790744fe65d5a511f9eeefc5585a3bb92bed848b65b516917",
+    "width": 5061,
+    "height": 3177,
+    "variants": [
+      {
+        "src": "/media/bg1978-53-a-640.webp",
+        "width": 640,
+        "height": 402,
+        "bytes": 47742
+      },
+      {
+        "src": "/media/bg1978-53-a-1280.webp",
+        "width": 1280,
+        "height": 804,
+        "bytes": 183010
+      },
+      {
+        "src": "/media/bg1978-53-a-2000.webp",
+        "width": 2000,
+        "height": 1255,
+        "bytes": 450646
+      }
+    ],
+    "digitalFileTimestamp": null,
+    "date": "1978-04",
+    "dateBasis": "Supplied filename; not independently dated to a day.",
+    "creator": "M.A.Haefliger",
+    "rightsStatus": "permission-2026-10-26",
+    "source": "Collection A. Radchenko; supplied by Martin Häfliger",
+    "place": "Belgrade, former main railway station (filename and visible façade)",
+    "vehicle": "53",
+    "vehicleType": "Unconfirmed; no type or foreign origin assigned from appearance alone",
+    "caption": {
+      "sr": "Vagon 53 ispred glavne železničke stanice.",
+      "en": "Car 53 outside the main railway station.",
+      "ru": "Вагон 53 у главного вокзала."
+    },
+    "alt": {
+      "sr": "Vagon 53 ispred glavne železničke stanice.",
+      "en": "Car 53 outside the main railway station.",
+      "ru": "Вагон 53 у главного вокзала."
+    },
+    "placeLabel": {
+      "sr": "Beograd, nekadašnja glavna železnička stanica",
+      "en": "Belgrade, former main railway station",
+      "ru": "Белград, бывший главный вокзал"
+    },
+    "typeLabel": {
+      "sr": "Nije potvrđeno za ovaj snimak",
+      "en": "Unconfirmed for this photograph",
+      "ru": "Для этого снимка не подтверждён"
+    },
+    "credit": "Collection A. Radchenko, photo M.A.Haefliger",
+    "authorshipBasis": "Martin Häfliger permission email, 2026-10-26; collection owner confirmation for both series, 2026-10-27.",
+    "identificationNote": {
+      "sr": "53 sa prikolicom ispred glavne železničke stanice. Fasada u pozadini podržava lokaciju navedenu u nazivu.",
+      "en": "53 with a trailer outside the main railway station. The background façade supports the supplied location.",
+      "ru": "53 с прицепом перед главным вокзалом. Фасад на заднем плане поддерживает локализацию из названия."
+    },
+    "fullSize": {
+      "src": "/media/bg1978-53-a-full.webp",
+      "width": 5061,
+      "height": 3177,
+      "bytes": 2746290,
+      "format": "image/webp",
+      "quality": 92
+    }
+  },
+  {
+    "id": "bg1978-62-a",
+    "series": "belgrade-1978",
+    "originalFilename": "62 Beograd (april 1978).jpg",
+    "localDownloadFilename": "62 Beograd (april 1978).jpg",
+    "original": "/media/original-62 Beograd (april 1978).jpg",
+    "sha256": "972c6db7478739ac80f4d684ec4e982d926db00dbfacb13c720ff40ccdbe9a58",
+    "width": 4188,
+    "height": 3002,
+    "variants": [
+      {
+        "src": "/media/bg1978-62-a-640.webp",
+        "width": 640,
+        "height": 459,
+        "bytes": 52944
+      },
+      {
+        "src": "/media/bg1978-62-a-1280.webp",
+        "width": 1280,
+        "height": 918,
+        "bytes": 193482
+      },
+      {
+        "src": "/media/bg1978-62-a-2000.webp",
+        "width": 2000,
+        "height": 1434,
+        "bytes": 453360
+      }
+    ],
+    "digitalFileTimestamp": null,
+    "date": "1978-04",
+    "dateBasis": "Supplied filename; not independently dated to a day.",
+    "creator": "M.A.Haefliger",
+    "rightsStatus": "permission-2026-10-26",
+    "source": "Collection A. Radchenko; supplied by Martin Häfliger",
+    "place": "Belgrade",
+    "vehicle": "62",
+    "vehicleType": "Unconfirmed; no type or foreign origin assigned from appearance alone",
+    "caption": {
+      "sr": "Vagon 62 na ulicama Beograda.",
+      "en": "Car 62 on the streets of Belgrade.",
+      "ru": "Вагон 62 на улицах Белграда."
+    },
+    "alt": {
+      "sr": "Vagon 62 na ulicama Beograda.",
+      "en": "Car 62 on the streets of Belgrade.",
+      "ru": "Вагон 62 на улицах Белграда."
+    },
+    "placeLabel": {
+      "sr": "Beograd — precizno mesto nije potvrđeno",
+      "en": "Belgrade — exact location unconfirmed",
+      "ru": "Белград — точное место не подтверждено"
+    },
+    "typeLabel": {
+      "sr": "Nije potvrđeno za ovaj snimak",
+      "en": "Unconfirmed for this photograph",
+      "ru": "Для этого снимка не подтверждён"
+    },
+    "credit": "Collection A. Radchenko, photo M.A.Haefliger",
+    "authorshipBasis": "Martin Häfliger permission email, 2026-10-26; collection owner confirmation for both series, 2026-10-27.",
+    "identificationNote": {
+      "sr": "62 između drveća, zgrada i drugih vozila. Ulična scena ostaje jednako važna kao tramvaj.",
+      "en": "62 among trees, buildings and other vehicles. The street scene matters as much as the tram.",
+      "ru": "62 среди деревьев, домов и других машин. Уличная сцена столь же важна, как сам трамвай."
+    },
+    "fullSize": {
+      "src": "/media/bg1978-62-a-full.webp",
+      "width": 4188,
+      "height": 3002,
+      "bytes": 2117962,
+      "format": "image/webp",
+      "quality": 92
+    }
+  },
+  {
+    "id": "bg1978-74-a",
+    "series": "belgrade-1978",
+    "originalFilename": "74 Beograd (april 1978).jpg",
+    "localDownloadFilename": "74 Beograd (april 1978).jpg",
+    "original": "/media/original-74 Beograd (april 1978).jpg",
+    "sha256": "59bfb4c4ddb7eb58866cc9318c86b97bbdaa4361c8bf07bb9a07c011e0d5d263",
+    "width": 5480,
+    "height": 3504,
+    "variants": [
+      {
+        "src": "/media/bg1978-74-a-640.webp",
+        "width": 640,
+        "height": 409,
+        "bytes": 55902
+      },
+      {
+        "src": "/media/bg1978-74-a-1280.webp",
+        "width": 1280,
+        "height": 818,
+        "bytes": 203198
+      },
+      {
+        "src": "/media/bg1978-74-a-2000.webp",
+        "width": 2000,
+        "height": 1279,
+        "bytes": 491374
+      }
+    ],
+    "digitalFileTimestamp": null,
+    "date": "1978-04",
+    "dateBasis": "Supplied filename; not independently dated to a day.",
+    "creator": "M.A.Haefliger",
+    "rightsStatus": "permission-2026-10-26",
+    "source": "Collection A. Radchenko; supplied by Martin Häfliger",
+    "place": "Belgrade",
+    "vehicle": "74",
+    "vehicleType": "Unconfirmed; no type or foreign origin assigned from appearance alone",
+    "caption": {
+      "sr": "Vagon 74 na ulicama Beograda.",
+      "en": "Car 74 on the streets of Belgrade.",
+      "ru": "Вагон 74 на улицах Белграда."
+    },
+    "alt": {
+      "sr": "Vagon 74 na ulicama Beograda.",
+      "en": "Car 74 on the streets of Belgrade.",
+      "ru": "Вагон 74 на улицах Белграда."
+    },
+    "placeLabel": {
+      "sr": "Beograd — precizno mesto nije potvrđeno",
+      "en": "Belgrade — exact location unconfirmed",
+      "ru": "Белград — точное место не подтверждено"
+    },
+    "typeLabel": {
+      "sr": "Nije potvrđeno za ovaj snimak",
+      "en": "Unconfirmed for this photograph",
+      "ru": "Для этого снимка не подтверждён"
+    },
+    "credit": "Collection A. Radchenko, photo M.A.Haefliger",
+    "authorshipBasis": "Martin Häfliger permission email, 2026-10-26; collection owner confirmation for both series, 2026-10-27.",
+    "previousOriginals": [
+      {
+        "original": "/media/original-74 Beograd (april 1978)(1).jpg",
+        "sha256": "479877306a6226e41aab5a3acfe9df7afadb1a20a1f386a664b26a079069647e",
+        "width": 2047,
+        "height": 1309
+      }
+    ],
+    "importSource": "Martin Häfliger WeTransfer collection, received 2026-10-22",
+    "identificationNote": {
+      "sr": "74 uz niz gradskih fasada. Prozori vozila i zgrada stvaraju paralelne ritmove.",
+      "en": "74 beside a row of urban façades. Vehicle and building windows create parallel rhythms.",
+      "ru": "74 вдоль городских фасадов. Окна вагона и домов создают параллельные ритмы."
+    },
+    "fullSize": {
+      "src": "/media/bg1978-74-a-full.webp",
+      "width": 5480,
+      "height": 3504,
+      "bytes": 3941180,
+      "format": "image/webp",
+      "quality": 92
+    }
+  },
+  {
+    "id": "bg1978-81-b",
+    "series": "belgrade-1978",
+    "originalFilename": "81 Beograd (April 1978) (2).jpg",
+    "localDownloadFilename": "81 Beograd (April 1978) (2).jpg",
+    "original": "/media/original-81 Beograd (April 1978) (2).jpg",
+    "sha256": "e72785e21105a74ae4ddca5bc6f64b2eb7b1bab68c186d77550dd4dea6fff569",
+    "width": 5112,
+    "height": 3368,
+    "variants": [
+      {
+        "src": "/media/bg1978-81-b-640.webp",
+        "width": 640,
+        "height": 422,
+        "bytes": 52710
+      },
+      {
+        "src": "/media/bg1978-81-b-1280.webp",
+        "width": 1280,
+        "height": 843,
+        "bytes": 209042
+      },
+      {
+        "src": "/media/bg1978-81-b-2000.webp",
+        "width": 2000,
+        "height": 1318,
+        "bytes": 559114
+      }
+    ],
+    "digitalFileTimestamp": null,
+    "date": "1978-04",
+    "dateBasis": "Supplied filename; not independently dated to a day.",
+    "creator": "M.A.Haefliger",
+    "rightsStatus": "permission-2026-10-26",
+    "source": "Collection A. Radchenko; supplied by Martin Häfliger",
+    "place": "Belgrade",
+    "vehicle": "81",
+    "vehicleType": "Unconfirmed; no type or foreign origin assigned from appearance alone",
+    "caption": {
+      "sr": "Vagon 81 na ulicama Beograda.",
+      "en": "Car 81 on the streets of Belgrade.",
+      "ru": "Вагон 81 на улицах Белграда."
+    },
+    "alt": {
+      "sr": "Vagon 81 na ulicama Beograda.",
+      "en": "Car 81 on the streets of Belgrade.",
+      "ru": "Вагон 81 на улицах Белграда."
+    },
+    "placeLabel": {
+      "sr": "Beograd — precizno mesto nije potvrđeno",
+      "en": "Belgrade — exact location unconfirmed",
+      "ru": "Белград — точное место не подтверждено"
+    },
+    "typeLabel": {
+      "sr": "Nije potvrđeno za ovaj snimak",
+      "en": "Unconfirmed for this photograph",
+      "ru": "Для этого снимка не подтверждён"
+    },
+    "credit": "Collection A. Radchenko, photo M.A.Haefliger",
+    "authorshipBasis": "Martin Häfliger permission email, 2026-10-26; collection owner confirmation for both series, 2026-10-27.",
+    "previousOriginals": [
+      {
+        "original": "/media/original-81 Beograd (April 1978) (2)(1).jpg",
+        "sha256": "c34f9f2e5205c137ec4ed26f84cd66157708ecf6a289aa70572f3c693b49d827",
+        "width": 2048,
+        "height": 1349
+      }
+    ],
+    "importSource": "Martin Häfliger WeTransfer collection, received 2026-10-22",
+    "identificationNote": {
+      "sr": "81 sa prikolicom; glavna železnička stanica ostaje vidljiva iza tramvaja.",
+      "en": "81 with a trailer; the main railway station remains visible behind the tram.",
+      "ru": "81 с прицепом; за трамваем виден главный железнодорожный вокзал."
+    },
+    "fullSize": {
+      "src": "/media/bg1978-81-b-full.webp",
+      "width": 5112,
+      "height": 3368,
+      "bytes": 4775152,
+      "format": "image/webp",
+      "quality": 92
+    }
+  },
+  {
+    "id": "bg1978-81-a",
+    "series": "belgrade-1978",
+    "originalFilename": "81 Beograd (april 1978).jpg",
+    "localDownloadFilename": "81 Beograd (april 1978).jpg",
+    "original": "/media/original-81 Beograd (april 1978).jpg",
+    "sha256": "e695b33a4de0005edcd17126feb6a941d34f4dc9d54b8d8f9c2905f1d19870b4",
+    "width": 4910,
+    "height": 2900,
+    "variants": [
+      {
+        "src": "/media/bg1978-81-a-640.webp",
+        "width": 640,
+        "height": 378,
+        "bytes": 44376
+      },
+      {
+        "src": "/media/bg1978-81-a-1280.webp",
+        "width": 1280,
+        "height": 756,
+        "bytes": 162960
+      },
+      {
+        "src": "/media/bg1978-81-a-2000.webp",
+        "width": 2000,
+        "height": 1181,
+        "bytes": 395356
+      }
+    ],
+    "digitalFileTimestamp": null,
+    "date": "1978-04",
+    "dateBasis": "Supplied filename; not independently dated to a day.",
+    "creator": "M.A.Haefliger",
+    "rightsStatus": "permission-2026-10-26",
+    "source": "Collection A. Radchenko; supplied by Martin Häfliger",
+    "place": "Belgrade",
+    "vehicle": "81",
+    "vehicleType": "Unconfirmed; no type or foreign origin assigned from appearance alone",
+    "caption": {
+      "sr": "Vagon 81 na ulicama Beograda.",
+      "en": "Car 81 on the streets of Belgrade.",
+      "ru": "Вагон 81 на улицах Белграда."
+    },
+    "alt": {
+      "sr": "Vagon 81 na ulicama Beograda.",
+      "en": "Car 81 on the streets of Belgrade.",
+      "ru": "Вагон 81 на улицах Белграда."
+    },
+    "placeLabel": {
+      "sr": "Beograd — precizno mesto nije potvrđeno",
+      "en": "Belgrade — exact location unconfirmed",
+      "ru": "Белград — точное место не подтверждено"
+    },
+    "typeLabel": {
+      "sr": "Nije potvrđeno za ovaj snimak",
+      "en": "Unconfirmed for this photograph",
+      "ru": "Для этого снимка не подтверждён"
+    },
+    "credit": "Collection A. Radchenko, photo M.A.Haefliger",
+    "authorshipBasis": "Martin Häfliger permission email, 2026-10-26; collection owner confirmation for both series, 2026-10-27.",
+    "previousOriginals": [
+      {
+        "original": "/media/original-81 Beograd (april 1978)(1).jpg",
+        "sha256": "7d3b2586c87796492f077632bf4fe796bc8bdfb6c2c12d47600530516f8a6d0d",
+        "width": 2048,
+        "height": 1209
+      }
+    ],
+    "importSource": "Martin Häfliger WeTransfer collection, received 2026-10-22",
+    "identificationNote": {
+      "sr": "81 sa prikolicom na krivini. Automobil u prvom planu naglašava zajednički ulični prostor.",
+      "en": "81 with a trailer on a curve. A foreground car emphasises the shared street space.",
+      "ru": "81 с прицепом на повороте. Автомобиль на переднем плане подчёркивает общее пространство улицы."
+    },
+    "fullSize": {
+      "src": "/media/bg1978-81-a-full.webp",
+      "width": 4910,
+      "height": 2900,
+      "bytes": 2900812,
+      "format": "image/webp",
+      "quality": 92
+    }
+  },
+  {
+    "id": "basel-0292",
+    "series": "basel",
+    "originalFilename": "_DSC0292.JPG",
+    "localDownloadFilename": "_DSC0292.JPG",
+    "original": "/media/original-_DSC0292.JPG",
+    "sha256": "68f7bdf9e58214a623b5de74fd4d7c60d19d572d0fd7b340b0a0873d2b1ab7c0",
+    "width": 3672,
+    "height": 2448,
+    "variants": [
+      {
+        "src": "/media/basel-0292-640.webp",
+        "width": 640,
+        "height": 427,
+        "bytes": 70302
+      },
+      {
+        "src": "/media/basel-0292-1280.webp",
+        "width": 1280,
+        "height": 853,
+        "bytes": 201002
+      },
+      {
+        "src": "/media/basel-0292-2000.webp",
+        "width": 2000,
+        "height": 1333,
+        "bytes": 365382
+      }
+    ],
+    "digitalFileTimestamp": "2007:12:07 17:05:48",
+    "date": "unconfirmed",
+    "dateBasis": "Photo date unconfirmed; EXIF may describe digitisation, not exposure.",
+    "creator": "M.A.Haefliger",
+    "rightsStatus": "permission-2026-10-26",
+    "source": "Collection A. Radchenko; supplied by Martin Häfliger",
+    "place": "Belgrade",
+    "vehicle": "632",
+    "vehicleType": "DÜWAG Be 4/6; catalogue identification, official vehicle dossier pending",
+    "caption": {
+      "sr": "Vagon 632 na gradskoj ulici.",
+      "en": "Car 632 on a city street.",
+      "ru": "Вагон 632 на городской улице."
+    },
+    "alt": {
+      "sr": "Vagon 632 na gradskoj ulici.",
+      "en": "Car 632 on a city street.",
+      "ru": "Вагон 632 на городской улице."
+    },
+    "placeLabel": {
+      "sr": "Beograd — precizno mesto nije potvrđeno",
+      "en": "Belgrade — exact location unconfirmed",
+      "ru": "Белград — точное место не подтверждено"
+    },
+    "typeLabel": {
+      "sr": "DÜWAG Be 4/6 — radni katalog; primarni dosije čeka proveru",
+      "en": "DÜWAG Be 4/6 — working catalogue; primary dossier pending",
+      "ru": "DÜWAG Be 4/6 — рабочий каталог; первичное досье требует сверки"
+    },
+    "credit": "Collection A. Radchenko, photo M.A.Haefliger",
+    "authorshipBasis": "Martin Häfliger permission email, 2026-10-26; collection owner confirmation for both series, 2026-10-27.",
+    "identificationNote": {
+      "sr": "632 u gradskom saobraćaju, sa oznakom linije 9. Fasade i prolaznici dele kadar sa zelenim vozilom.",
+      "en": "632 in city traffic, carrying a route 9 board. Façades and pedestrians share the frame with the green vehicle.",
+      "ru": "632 в городском движении, с табличкой маршрута 9. Фасады и прохожие делят кадр с зелёным вагоном."
+    },
+    "fullSize": {
+      "src": "/media/basel-0292-full.webp",
+      "width": 3672,
+      "height": 2448,
+      "bytes": 1370262,
+      "format": "image/webp",
+      "quality": 92
+    }
+  },
+  {
+    "id": "basel-0294",
+    "series": "basel",
+    "originalFilename": "_DSC0294.JPG",
+    "localDownloadFilename": "_DSC0294.JPG",
+    "original": "/media/original-_DSC0294.JPG",
+    "sha256": "ab2c4938c5fc33b754ed312ec1c350c07ca9900726e89500be679c51378c6bb1",
+    "width": 3872,
+    "height": 2592,
+    "variants": [
+      {
+        "src": "/media/basel-0294-640.webp",
+        "width": 640,
+        "height": 428,
+        "bytes": 84686
+      },
+      {
+        "src": "/media/basel-0294-1280.webp",
+        "width": 1280,
+        "height": 857,
+        "bytes": 307890
+      },
+      {
+        "src": "/media/basel-0294-2000.webp",
+        "width": 2000,
+        "height": 1339,
+        "bytes": 606894
+      }
+    ],
+    "digitalFileTimestamp": "2007:12:07 17:07:34",
+    "date": "unconfirmed",
+    "dateBasis": "Photo date unconfirmed; EXIF may describe digitisation, not exposure.",
+    "creator": "M.A.Haefliger",
+    "rightsStatus": "permission-2026-10-26",
+    "source": "Collection A. Radchenko; supplied by Martin Häfliger",
+    "place": "Belgrade",
+    "vehicle": "618",
+    "vehicleType": "DÜWAG Be 4/6; catalogue identification, official vehicle dossier pending",
+    "caption": {
+      "sr": "Vagon 618 sa žutom prikolicom.",
+      "en": "Car 618 with a yellow trailer.",
+      "ru": "Вагон 618 с жёлтым прицепом."
+    },
+    "alt": {
+      "sr": "Vagon 618 sa žutom prikolicom.",
+      "en": "Car 618 with a yellow trailer.",
+      "ru": "Вагон 618 с жёлтым прицепом."
+    },
+    "placeLabel": {
+      "sr": "Beograd — precizno mesto nije potvrđeno",
+      "en": "Belgrade — exact location unconfirmed",
+      "ru": "Белград — точное место не подтверждено"
+    },
+    "typeLabel": {
+      "sr": "DÜWAG Be 4/6 — radni katalog; primarni dosije čeka proveru",
+      "en": "DÜWAG Be 4/6 — working catalogue; primary dossier pending",
+      "ru": "DÜWAG Be 4/6 — рабочий каталог; первичное досье требует сверки"
+    },
+    "credit": "Collection A. Radchenko, photo M.A.Haefliger",
+    "authorshipBasis": "Martin Häfliger permission email, 2026-10-26; collection owner confirmation for both series, 2026-10-27.",
+    "identificationNote": {
+      "sr": "618 sa prikolicom i oznakom linije 3. Kolosek i drveće oblikuju drugačiji gradski prostor.",
+      "en": "618 with a trailer and route 3 board. Tracks and trees define a different kind of urban space.",
+      "ru": "618 с прицепом и табличкой маршрута 3. Пути и деревья формируют другое городское пространство."
+    },
+    "fullSize": {
+      "src": "/media/basel-0294-full.webp",
+      "width": 3872,
+      "height": 2592,
+      "bytes": 2232998,
+      "format": "image/webp",
+      "quality": 92
+    }
+  },
+  {
+    "id": "basel-0295",
+    "series": "basel",
+    "originalFilename": "_DSC0295.JPG",
+    "localDownloadFilename": "_DSC0295.JPG",
+    "original": "/media/original-_DSC0295.JPG",
+    "sha256": "e5382e0e13a688eedd4b3051b801ae887e83ff302f51de98e0b27df544d02582",
+    "width": 3872,
+    "height": 2592,
+    "variants": [
+      {
+        "src": "/media/basel-0295-640.webp",
+        "width": 640,
+        "height": 428,
+        "bytes": 51342
+      },
+      {
+        "src": "/media/basel-0295-1280.webp",
+        "width": 1280,
+        "height": 857,
+        "bytes": 141416
+      },
+      {
+        "src": "/media/basel-0295-2000.webp",
+        "width": 2000,
+        "height": 1339,
+        "bytes": 264900
+      }
+    ],
+    "digitalFileTimestamp": "2007:12:07 17:09:04",
+    "date": "unconfirmed",
+    "dateBasis": "Photo date unconfirmed; EXIF may describe digitisation, not exposure.",
+    "creator": "M.A.Haefliger",
+    "rightsStatus": "permission-2026-10-26",
+    "source": "Collection A. Radchenko; supplied by Martin Häfliger",
+    "place": "Belgrade",
+    "vehicle": "456",
+    "vehicleType": "Be 4/4; catalogue identification, official vehicle dossier pending",
+    "caption": {
+      "sr": "Vagon 456.",
+      "en": "Car 456.",
+      "ru": "Вагон 456."
+    },
+    "alt": {
+      "sr": "Vagon 456.",
+      "en": "Car 456.",
+      "ru": "Вагон 456."
+    },
+    "placeLabel": {
+      "sr": "Beograd — precizno mesto nije potvrđeno",
+      "en": "Belgrade — exact location unconfirmed",
+      "ru": "Белград — точное место не подтверждено"
+    },
+    "typeLabel": {
+      "sr": "Be 4/4 — radni katalog; primarni dosije čeka proveru",
+      "en": "Be 4/4 — working catalogue; primary dossier pending",
+      "ru": "Be 4/4 — рабочий каталог; первичное досье требует сверки"
+    },
+    "credit": "Collection A. Radchenko, photo M.A.Haefliger",
+    "authorshipBasis": "Martin Häfliger permission email, 2026-10-26; collection owner confirmation for both series, 2026-10-27.",
+    "identificationNote": {
+      "sr": "456 sa oznakom linije 9. Prikazani broj i tabla ne potvrđuju status redovne službe.",
+      "en": "456 carrying a route 9 board. The visible number and board do not establish regular-service status.",
+      "ru": "456 с табличкой маршрута 9. Видимые номер и табличка не подтверждают статус регулярной эксплуатации."
+    },
+    "fullSize": {
+      "src": "/media/basel-0295-full.webp",
+      "width": 3872,
+      "height": 2592,
+      "bytes": 1184864,
+      "format": "image/webp",
+      "quality": 92
+    }
+  },
+  {
+    "id": "basel-0296",
+    "series": "basel",
+    "originalFilename": "_DSC0296.JPG",
+    "localDownloadFilename": "_DSC0296.JPG",
+    "original": "/media/original-_DSC0296.JPG",
+    "sha256": "583c1ce5c865cf88f2687f87d3cd07a7a0592f6fc9fc01fcb3bd852074d79082",
+    "width": 3872,
+    "height": 2592,
+    "variants": [
+      {
+        "src": "/media/basel-0296-640.webp",
+        "width": 640,
+        "height": 428,
+        "bytes": 76128
+      },
+      {
+        "src": "/media/basel-0296-1280.webp",
+        "width": 1280,
+        "height": 857,
+        "bytes": 238432
+      },
+      {
+        "src": "/media/basel-0296-2000.webp",
+        "width": 2000,
+        "height": 1339,
+        "bytes": 438708
+      }
+    ],
+    "digitalFileTimestamp": "2007:12:07 17:10:45",
+    "date": "unconfirmed",
+    "dateBasis": "Photo date unconfirmed; EXIF may describe digitisation, not exposure.",
+    "creator": "M.A.Haefliger",
+    "rightsStatus": "permission-2026-10-26",
+    "source": "Collection A. Radchenko; supplied by Martin Häfliger",
+    "place": "Belgrade",
+    "vehicle": "608",
+    "vehicleType": "DÜWAG Be 4/6; catalogue identification, official vehicle dossier pending",
+    "caption": {
+      "sr": "Ljudi pored vagona 608.",
+      "en": "People beside car 608.",
+      "ru": "Люди рядом с вагоном 608."
+    },
+    "alt": {
+      "sr": "Ljudi pored vagona 608.",
+      "en": "People beside car 608.",
+      "ru": "Люди рядом с вагоном 608."
+    },
+    "placeLabel": {
+      "sr": "Beograd — precizno mesto nije potvrđeno",
+      "en": "Belgrade — exact location unconfirmed",
+      "ru": "Белград — точное место не подтверждено"
+    },
+    "typeLabel": {
+      "sr": "DÜWAG Be 4/6 — radni katalog; primarni dosije čeka proveru",
+      "en": "DÜWAG Be 4/6 — working catalogue; primary dossier pending",
+      "ru": "DÜWAG Be 4/6 — рабочий каталог; первичное досье требует сверки"
+    },
+    "credit": "Collection A. Radchenko, photo M.A.Haefliger",
+    "authorshipBasis": "Martin Häfliger permission email, 2026-10-26; collection owner confirmation for both series, 2026-10-27.",
+    "identificationNote": {
+      "sr": "608 pored ljudi i kolosečne opreme. Na originalu se čita 608; ranije radno čitanje 600 je ispravljeno. Uloge prisutnih nisu poznate.",
+      "en": "608 beside people and track equipment. The original reads 608, correcting an earlier working reading of 600. The people’s roles are unknown.",
+      "ru": "608 рядом с людьми и путевым оборудованием. На оригинале читается 608; предварительное прочтение 600 исправлено. Роли присутствующих неизвестны."
+    },
+    "fullSize": {
+      "src": "/media/basel-0296-full.webp",
+      "width": 3872,
+      "height": 2592,
+      "bytes": 1712814,
+      "format": "image/webp",
+      "quality": 92
+    }
+  },
+  {
+    "id": "basel-scan-008",
+    "series": "basel",
+    "date": "unconfirmed",
+    "dateBasis": "Exposure date not supplied; digital timestamps are not treated as exposure dates.",
+    "creator": "M.A.Haefliger",
+    "credit": "Collection A. Radchenko, photo M.A.Haefliger",
+    "rightsStatus": "permission-2026-10-26",
+    "authorshipBasis": "Martin Häfliger permission email, 2026-10-26; collection owner confirmation, 2026-10-27.",
+    "source": "Collection A. Radchenko; supplied by Martin Häfliger",
+    "place": "Unconfirmed for this photograph",
+    "vehicle": "456",
+    "vehicleType": "Individual identification pending primary documentation",
+    "placeLabel": {
+      "sr": "Tačno mesto nije potvrđeno",
+      "en": "Exact location unconfirmed",
+      "ru": "Точное место не подтверждено"
+    },
+    "typeLabel": {
+      "sr": "Identifikacija prema primarnom dosijeu još nije završena",
+      "en": "Primary vehicle dossier identification pending",
+      "ru": "Идентификация по первичному досье ещё не завершена"
+    },
+    "caption": {
+      "sr": "Vagon 456 uz druge tramvaje.",
+      "en": "Car 456 alongside other trams.",
+      "ru": "Вагон 456 рядом с другими трамваями."
+    },
+    "alt": {
+      "sr": "Vagon 456 uz druge tramvaje.",
+      "en": "Car 456 alongside other trams.",
+      "ru": "Вагон 456 рядом с другими трамваями."
+    },
+    "originalFilename": "BVB BE 4_4 456 in Belgrad (8).jpg",
+    "localDownloadFilename": "BVB BE 4_4 456 in Belgrad (8).jpg",
+    "original": "/media/original-basel-scan-008.jpg",
+    "sha256": "cae03f7d9260d3445a618e799698e824acc4e6595beae52b9ad6627bd142e0e3",
+    "importSource": "Martin Häfliger WeTransfer collection, received 2026-10-22",
+    "digitalFileTimestamp": "2011:11:01 12:03:13",
+    "width": 4779,
+    "height": 3160,
+    "variants": [
+      {
+        "src": "/media/basel-scan-008-640.webp",
+        "width": 640,
+        "height": 423,
+        "bytes": 47578
+      },
+      {
+        "src": "/media/basel-scan-008-1280.webp",
+        "width": 1280,
+        "height": 846,
+        "bytes": 141986
+      },
+      {
+        "src": "/media/basel-scan-008-2000.webp",
+        "width": 2000,
+        "height": 1322,
+        "bytes": 291592
+      }
+    ],
+    "identificationNote": null,
+    "fullSize": {
+      "src": "/media/basel-scan-008-full.webp",
+      "width": 4779,
+      "height": 3160,
+      "bytes": 1528350,
+      "format": "image/webp",
+      "quality": 92
+    }
+  },
+  {
+    "id": "basel-scan-001",
+    "series": "basel",
+    "date": "unconfirmed",
+    "dateBasis": "Exposure date not supplied; digital timestamps are not treated as exposure dates.",
+    "creator": "M.A.Haefliger",
+    "credit": "Collection A. Radchenko, photo M.A.Haefliger",
+    "rightsStatus": "permission-2026-10-26",
+    "authorshipBasis": "Martin Häfliger permission email, 2026-10-26; collection owner confirmation, 2026-10-27.",
+    "source": "Collection A. Radchenko; supplied by Martin Häfliger",
+    "place": "Unconfirmed for this photograph",
+    "vehicle": "",
+    "vehicleType": "Individual identification pending primary documentation",
+    "placeLabel": {
+      "sr": "Tačno mesto nije potvrđeno",
+      "en": "Exact location unconfirmed",
+      "ru": "Точное место не подтверждено"
+    },
+    "typeLabel": {
+      "sr": "Identifikacija prema primarnom dosijeu još nije završena",
+      "en": "Primary vehicle dossier identification pending",
+      "ru": "Идентификация по первичному досье ещё не завершена"
+    },
+    "caption": {
+      "sr": "Zglobni tramvaj na koloseku.",
+      "en": "An articulated tram on the tracks.",
+      "ru": "Сочленённый трамвай на путях."
+    },
+    "alt": {
+      "sr": "Zglobni tramvaj na koloseku.",
+      "en": "An articulated tram on the tracks.",
+      "ru": "Сочленённый трамвай на путях."
+    },
+    "originalFilename": "BVB Düwag in Belgrad (1).jpg",
+    "localDownloadFilename": "BVB Düwag in Belgrad (1).jpg",
+    "original": "/media/original-basel-scan-001.jpg",
+    "sha256": "9f2cbfd31ae7b29e510dd2a0b1df2e4cc09281398151e517a9de96bcaae8e4a7",
+    "importSource": "Martin Häfliger WeTransfer collection, received 2026-10-22",
+    "digitalFileTimestamp": "2011:11:01 15:46:27",
+    "width": 4769,
+    "height": 3197,
+    "variants": [
+      {
+        "src": "/media/basel-scan-001-640.webp",
+        "width": 640,
+        "height": 429,
+        "bytes": 54234
+      },
+      {
+        "src": "/media/basel-scan-001-1280.webp",
+        "width": 1280,
+        "height": 858,
+        "bytes": 180980
+      },
+      {
+        "src": "/media/basel-scan-001-2000.webp",
+        "width": 2000,
+        "height": 1341,
+        "bytes": 372332
+      }
+    ],
+    "identificationNote": null,
+    "fullSize": {
+      "src": "/media/basel-scan-001-full.webp",
+      "width": 4769,
+      "height": 3197,
+      "bytes": 1772694,
+      "format": "image/webp",
+      "quality": 92
+    }
+  },
+  {
+    "id": "basel-scan-011",
+    "series": "basel",
+    "date": "unconfirmed",
+    "dateBasis": "Exposure date not supplied; digital timestamps are not treated as exposure dates.",
+    "creator": "M.A.Haefliger",
+    "credit": "Collection A. Radchenko, photo M.A.Haefliger",
+    "rightsStatus": "permission-2026-10-26",
+    "authorshipBasis": "Martin Häfliger permission email, 2026-10-26; collection owner confirmation, 2026-10-27.",
+    "source": "Collection A. Radchenko; supplied by Martin Häfliger",
+    "place": "Unconfirmed for this photograph",
+    "vehicle": "",
+    "vehicleType": "Individual identification pending primary documentation",
+    "placeLabel": {
+      "sr": "Tačno mesto nije potvrđeno",
+      "en": "Exact location unconfirmed",
+      "ru": "Точное место не подтверждено"
+    },
+    "typeLabel": {
+      "sr": "Identifikacija prema primarnom dosijeu još nije završena",
+      "en": "Primary vehicle dossier identification pending",
+      "ru": "Идентификация по первичному досье ещё не завершена"
+    },
+    "caption": {
+      "sr": "Tramvaji na više paralelnih koloseka.",
+      "en": "Trams on parallel tracks.",
+      "ru": "Трамваи на параллельных путях."
+    },
+    "alt": {
+      "sr": "Tramvaji na više paralelnih koloseka.",
+      "en": "Trams on parallel tracks.",
+      "ru": "Трамваи на параллельных путях."
+    },
+    "originalFilename": "BVB Düwag in Belgrad (11).jpg",
+    "localDownloadFilename": "BVB Düwag in Belgrad (11).jpg",
+    "original": "/media/original-basel-scan-011.jpg",
+    "sha256": "3bbfb4aec1d02d3a6e6ea204525360cf7c7abd954982e7f407395ccac856064d",
+    "importSource": "Martin Häfliger WeTransfer collection, received 2026-10-22",
+    "digitalFileTimestamp": "2011:11:01 12:18:00",
+    "width": 4764,
+    "height": 3175,
+    "variants": [
+      {
+        "src": "/media/basel-scan-011-640.webp",
+        "width": 640,
+        "height": 427,
+        "bytes": 46392
+      },
+      {
+        "src": "/media/basel-scan-011-1280.webp",
+        "width": 1280,
+        "height": 853,
+        "bytes": 146198
+      },
+      {
+        "src": "/media/basel-scan-011-2000.webp",
+        "width": 2000,
+        "height": 1333,
+        "bytes": 327404
+      }
+    ],
+    "identificationNote": null,
+    "fullSize": {
+      "src": "/media/basel-scan-011-full.webp",
+      "width": 4764,
+      "height": 3175,
+      "bytes": 1635854,
+      "format": "image/webp",
+      "quality": 92
+    }
+  },
+  {
+    "id": "basel-scan-018",
+    "series": "basel",
+    "date": "unconfirmed",
+    "dateBasis": "Exposure date not supplied; digital timestamps are not treated as exposure dates.",
+    "creator": "M.A.Haefliger",
+    "credit": "Collection A. Radchenko, photo M.A.Haefliger",
+    "rightsStatus": "permission-2026-10-26",
+    "authorshipBasis": "Martin Häfliger permission email, 2026-10-26; collection owner confirmation, 2026-10-27.",
+    "source": "Collection A. Radchenko; supplied by Martin Häfliger",
+    "place": "Unconfirmed for this photograph",
+    "vehicle": "",
+    "vehicleType": "Individual identification pending primary documentation",
+    "placeLabel": {
+      "sr": "Tačno mesto nije potvrđeno",
+      "en": "Exact location unconfirmed",
+      "ru": "Точное место не подтверждено"
+    },
+    "typeLabel": {
+      "sr": "Identifikacija prema primarnom dosijeu još nije završena",
+      "en": "Primary vehicle dossier identification pending",
+      "ru": "Идентификация по первичному досье ещё не завершена"
+    },
+    "caption": {
+      "sr": "Tramvaj i ljudi pod drvećem.",
+      "en": "A tram and people under the trees.",
+      "ru": "Трамвай и люди под деревьями."
+    },
+    "alt": {
+      "sr": "Tramvaj i ljudi pod drvećem.",
+      "en": "A tram and people under the trees.",
+      "ru": "Трамвай и люди под деревьями."
+    },
+    "originalFilename": "BVB Düwag in Belgrad (18).jpg",
+    "localDownloadFilename": "BVB Düwag in Belgrad (18).jpg",
+    "original": "/media/original-basel-scan-018.jpg",
+    "sha256": "8475e21abb748592831784d2d45e6a3a20a3218ccc341295b47a44268c7e97fb",
+    "importSource": "Martin Häfliger WeTransfer collection, received 2026-10-22",
+    "digitalFileTimestamp": "2011:11:01 13:20:18",
+    "width": 4767,
+    "height": 3179,
+    "variants": [
+      {
+        "src": "/media/basel-scan-018-640.webp",
+        "width": 640,
+        "height": 427,
+        "bytes": 112316
+      },
+      {
+        "src": "/media/basel-scan-018-1280.webp",
+        "width": 1280,
+        "height": 854,
+        "bytes": 371450
+      },
+      {
+        "src": "/media/basel-scan-018-2000.webp",
+        "width": 2000,
+        "height": 1334,
+        "bytes": 733226
+      }
+    ],
+    "identificationNote": null,
+    "fullSize": {
+      "src": "/media/basel-scan-018-full.webp",
+      "width": 4767,
+      "height": 3179,
+      "bytes": 2999540,
+      "format": "image/webp",
+      "quality": 92
+    }
+  },
+  {
+    "id": "basel-scan-019",
+    "series": "basel",
+    "date": "unconfirmed",
+    "dateBasis": "Exposure date not supplied; digital timestamps are not treated as exposure dates.",
+    "creator": "M.A.Haefliger",
+    "credit": "Collection A. Radchenko, photo M.A.Haefliger",
+    "rightsStatus": "permission-2026-10-26",
+    "authorshipBasis": "Martin Häfliger permission email, 2026-10-26; collection owner confirmation, 2026-10-27.",
+    "source": "Collection A. Radchenko; supplied by Martin Häfliger",
+    "place": "Unconfirmed for this photograph",
+    "vehicle": "",
+    "vehicleType": "Individual identification pending primary documentation",
+    "placeLabel": {
+      "sr": "Tačno mesto nije potvrđeno",
+      "en": "Exact location unconfirmed",
+      "ru": "Точное место не подтверждено"
+    },
+    "typeLabel": {
+      "sr": "Identifikacija prema primarnom dosijeu još nije završena",
+      "en": "Primary vehicle dossier identification pending",
+      "ru": "Идентификация по первичному досье ещё не завершена"
+    },
+    "caption": {
+      "sr": "Šine uz zelenu padinu.",
+      "en": "Tram tracks beside a green slope.",
+      "ru": "Трамвайные пути вдоль зелёного склона."
+    },
+    "alt": {
+      "sr": "Šine uz zelenu padinu.",
+      "en": "Tram tracks beside a green slope.",
+      "ru": "Трамвайные пути вдоль зелёного склона."
+    },
+    "originalFilename": "BVB Düwag in Belgrad (19).jpg",
+    "localDownloadFilename": "BVB Düwag in Belgrad (19).jpg",
+    "original": "/media/original-basel-scan-019.jpg",
+    "sha256": "9fc89788a8752c54c23e2197b3948622c4e0349ee07f89c9815436dd90a029f5",
+    "importSource": "Martin Häfliger WeTransfer collection, received 2026-10-22",
+    "digitalFileTimestamp": "2011:11:01 13:24:55",
+    "width": 4788,
+    "height": 3178,
+    "variants": [
+      {
+        "src": "/media/basel-scan-019-640.webp",
+        "width": 640,
+        "height": 425,
+        "bytes": 78756
+      },
+      {
+        "src": "/media/basel-scan-019-1280.webp",
+        "width": 1280,
+        "height": 850,
+        "bytes": 292482
+      },
+      {
+        "src": "/media/basel-scan-019-2000.webp",
+        "width": 2000,
+        "height": 1327,
+        "bytes": 571536
+      }
+    ],
+    "identificationNote": null,
+    "fullSize": {
+      "src": "/media/basel-scan-019-full.webp",
+      "width": 4788,
+      "height": 3178,
+      "bytes": 2506814,
+      "format": "image/webp",
+      "quality": 92
+    }
+  },
+  {
+    "id": "basel-scan-002",
+    "series": "basel",
+    "date": "unconfirmed",
+    "dateBasis": "Exposure date not supplied; digital timestamps are not treated as exposure dates.",
+    "creator": "M.A.Haefliger",
+    "credit": "Collection A. Radchenko, photo M.A.Haefliger",
+    "rightsStatus": "permission-2026-10-26",
+    "authorshipBasis": "Martin Häfliger permission email, 2026-10-26; collection owner confirmation, 2026-10-27.",
+    "source": "Collection A. Radchenko; supplied by Martin Häfliger",
+    "place": "Unconfirmed for this photograph",
+    "vehicle": "",
+    "vehicleType": "Individual identification pending primary documentation",
+    "placeLabel": {
+      "sr": "Tačno mesto nije potvrđeno",
+      "en": "Exact location unconfirmed",
+      "ru": "Точное место не подтверждено"
+    },
+    "typeLabel": {
+      "sr": "Identifikacija prema primarnom dosijeu još nije završena",
+      "en": "Primary vehicle dossier identification pending",
+      "ru": "Идентификация по первичному досье ещё не завершена"
+    },
+    "caption": {
+      "sr": "Detalj zelenog vagona.",
+      "en": "A detail of the green tram.",
+      "ru": "Деталь зелёного вагона."
+    },
+    "alt": {
+      "sr": "Detalj zelenog vagona.",
+      "en": "A detail of the green tram.",
+      "ru": "Деталь зелёного вагона."
+    },
+    "originalFilename": "BVB Düwag in Belgrad (2).jpg",
+    "localDownloadFilename": "BVB Düwag in Belgrad (2).jpg",
+    "original": "/media/original-basel-scan-002.jpg",
+    "sha256": "195a644de4ebd019381e9f4130d6cbb82b46ad9b950b4dffb297b13ef13134ee",
+    "importSource": "Martin Häfliger WeTransfer collection, received 2026-10-22",
+    "digitalFileTimestamp": "2011:11:01 15:49:28",
+    "width": 3202,
+    "height": 4763,
+    "variants": [
+      {
+        "src": "/media/basel-scan-002-640.webp",
+        "width": 430,
+        "height": 640,
+        "bytes": 87718
+      },
+      {
+        "src": "/media/basel-scan-002-1280.webp",
+        "width": 860,
+        "height": 1280,
+        "bytes": 300196
+      },
+      {
+        "src": "/media/basel-scan-002-2000.webp",
+        "width": 1345,
+        "height": 2000,
+        "bytes": 598226
+      }
+    ],
+    "identificationNote": null,
+    "fullSize": {
+      "src": "/media/basel-scan-002-full.webp",
+      "width": 3202,
+      "height": 4763,
+      "bytes": 2525266,
+      "format": "image/webp",
+      "quality": 92
+    }
+  },
+  {
+    "id": "basel-scan-020",
+    "series": "basel",
+    "date": "unconfirmed",
+    "dateBasis": "Exposure date not supplied; digital timestamps are not treated as exposure dates.",
+    "creator": "M.A.Haefliger",
+    "credit": "Collection A. Radchenko, photo M.A.Haefliger",
+    "rightsStatus": "permission-2026-10-26",
+    "authorshipBasis": "Martin Häfliger permission email, 2026-10-26; collection owner confirmation, 2026-10-27.",
+    "source": "Collection A. Radchenko; supplied by Martin Häfliger",
+    "place": "Unconfirmed for this photograph",
+    "vehicle": "",
+    "vehicleType": "Individual identification pending primary documentation",
+    "placeLabel": {
+      "sr": "Tačno mesto nije potvrđeno",
+      "en": "Exact location unconfirmed",
+      "ru": "Точное место не подтверждено"
+    },
+    "typeLabel": {
+      "sr": "Identifikacija prema primarnom dosijeu još nije završena",
+      "en": "Primary vehicle dossier identification pending",
+      "ru": "Идентификация по первичному досье ещё не завершена"
+    },
+    "caption": {
+      "sr": "Zeleni tramvaj ispred železničke stanice.",
+      "en": "A green tram in front of the railway station.",
+      "ru": "Зелёный трамвай перед железнодорожным вокзалом."
+    },
+    "alt": {
+      "sr": "Zeleni tramvaj ispred železničke stanice.",
+      "en": "A green tram in front of the railway station.",
+      "ru": "Зелёный трамвай перед железнодорожным вокзалом."
+    },
+    "originalFilename": "BVB Düwag in Belgrad (20).jpg",
+    "localDownloadFilename": "BVB Düwag in Belgrad (20).jpg",
+    "original": "/media/original-basel-scan-020.jpg",
+    "sha256": "c9610a39e33c04118e044c7ba0bb3adb333a10ea48ff728f09870c1d3416f5d8",
+    "importSource": "Martin Häfliger WeTransfer collection, received 2026-10-22",
+    "digitalFileTimestamp": "2011:11:01 13:27:41",
+    "width": 4764,
+    "height": 3174,
+    "variants": [
+      {
+        "src": "/media/basel-scan-020-640.webp",
+        "width": 640,
+        "height": 426,
+        "bytes": 76556
+      },
+      {
+        "src": "/media/basel-scan-020-1280.webp",
+        "width": 1280,
+        "height": 853,
+        "bytes": 273452
+      },
+      {
+        "src": "/media/basel-scan-020-2000.webp",
+        "width": 2000,
+        "height": 1332,
+        "bytes": 610870
+      }
+    ],
+    "identificationNote": null,
+    "fullSize": {
+      "src": "/media/basel-scan-020-full.webp",
+      "width": 4764,
+      "height": 3174,
+      "bytes": 2879010,
+      "format": "image/webp",
+      "quality": 92
+    }
+  },
+  {
+    "id": "basel-scan-003",
+    "series": "basel",
+    "date": "unconfirmed",
+    "dateBasis": "Exposure date not supplied; digital timestamps are not treated as exposure dates.",
+    "creator": "M.A.Haefliger",
+    "credit": "Collection A. Radchenko, photo M.A.Haefliger",
+    "rightsStatus": "permission-2026-10-26",
+    "authorshipBasis": "Martin Häfliger permission email, 2026-10-26; collection owner confirmation, 2026-10-27.",
+    "source": "Collection A. Radchenko; supplied by Martin Häfliger",
+    "place": "Unconfirmed for this photograph",
+    "vehicle": "",
+    "vehicleType": "Individual identification pending primary documentation",
+    "placeLabel": {
+      "sr": "Tačno mesto nije potvrđeno",
+      "en": "Exact location unconfirmed",
+      "ru": "Точное место не подтверждено"
+    },
+    "typeLabel": {
+      "sr": "Identifikacija prema primarnom dosijeu još nije završena",
+      "en": "Primary vehicle dossier identification pending",
+      "ru": "Идентификация по первичному досье ещё не завершена"
+    },
+    "caption": {
+      "sr": "Ljudi pored tramvaja i koloseka.",
+      "en": "People beside the tram and tracks.",
+      "ru": "Люди рядом с трамваем и путями."
+    },
+    "alt": {
+      "sr": "Ljudi pored tramvaja i koloseka.",
+      "en": "People beside the tram and tracks.",
+      "ru": "Люди рядом с трамваем и путями."
+    },
+    "originalFilename": "BVB Düwag in Belgrad (3).jpg",
+    "localDownloadFilename": "BVB Düwag in Belgrad (3).jpg",
+    "original": "/media/original-basel-scan-003.jpg",
+    "sha256": "7a2699ec42ce421bfe05ea94f33be1dc85386ae258b5d739a767d0dc3aae9068",
+    "importSource": "Martin Häfliger WeTransfer collection, received 2026-10-22",
+    "digitalFileTimestamp": "2011:11:01 16:11:15",
+    "width": 4769,
+    "height": 3179,
+    "variants": [
+      {
+        "src": "/media/basel-scan-003-640.webp",
+        "width": 640,
+        "height": 427,
+        "bytes": 66048
+      },
+      {
+        "src": "/media/basel-scan-003-1280.webp",
+        "width": 1280,
+        "height": 853,
+        "bytes": 246084
+      },
+      {
+        "src": "/media/basel-scan-003-2000.webp",
+        "width": 2000,
+        "height": 1333,
+        "bytes": 525274
+      }
+    ],
+    "identificationNote": null,
+    "fullSize": {
+      "src": "/media/basel-scan-003-full.webp",
+      "width": 4769,
+      "height": 3179,
+      "bytes": 2239754,
+      "format": "image/webp",
+      "quality": 92
+    }
+  },
+  {
+    "id": "basel-scan-039",
+    "series": "basel",
+    "date": "unconfirmed",
+    "dateBasis": "Exposure date not supplied; digital timestamps are not treated as exposure dates.",
+    "creator": "M.A.Haefliger",
+    "credit": "Collection A. Radchenko, photo M.A.Haefliger",
+    "rightsStatus": "permission-2026-10-26",
+    "authorshipBasis": "Martin Häfliger permission email, 2026-10-26; collection owner confirmation, 2026-10-27.",
+    "source": "Collection A. Radchenko; supplied by Martin Häfliger",
+    "place": "Unconfirmed for this photograph",
+    "vehicle": "618",
+    "vehicleType": "Individual identification pending primary documentation",
+    "placeLabel": {
+      "sr": "Tačno mesto nije potvrđeno",
+      "en": "Exact location unconfirmed",
+      "ru": "Точное место не подтверждено"
+    },
+    "typeLabel": {
+      "sr": "Identifikacija prema primarnom dosijeu još nije završena",
+      "en": "Primary vehicle dossier identification pending",
+      "ru": "Идентификация по первичному досье ещё не завершена"
+    },
+    "caption": {
+      "sr": "Vagon 618 sa prikolicom.",
+      "en": "Car 618 with a trailer.",
+      "ru": "Вагон 618 с прицепом."
+    },
+    "alt": {
+      "sr": "Vagon 618 sa prikolicom.",
+      "en": "Car 618 with a trailer.",
+      "ru": "Вагон 618 с прицепом."
+    },
+    "originalFilename": "BVB Düwag in Belgrad (39).jpg",
+    "localDownloadFilename": "BVB Düwag in Belgrad (39).jpg",
+    "original": "/media/original-basel-scan-039.jpg",
+    "sha256": "6a3a14690a06f8def9100db0cf14181107207c706f1b9b8e3bea28552b2af010",
+    "importSource": "Martin Häfliger WeTransfer collection, received 2026-10-22",
+    "digitalFileTimestamp": "2011:11:01 14:45:34",
+    "width": 4760,
+    "height": 3188,
+    "variants": [
+      {
+        "src": "/media/basel-scan-039-640.webp",
+        "width": 640,
+        "height": 429,
+        "bytes": 88140
+      },
+      {
+        "src": "/media/basel-scan-039-1280.webp",
+        "width": 1280,
+        "height": 857,
+        "bytes": 316840
+      },
+      {
+        "src": "/media/basel-scan-039-2000.webp",
+        "width": 2000,
+        "height": 1339,
+        "bytes": 647112
+      }
+    ],
+    "identificationNote": null,
+    "fullSize": {
+      "src": "/media/basel-scan-039-full.webp",
+      "width": 4760,
+      "height": 3188,
+      "bytes": 2601736,
+      "format": "image/webp",
+      "quality": 92
+    }
+  },
+  {
+    "id": "basel-scan-004",
+    "series": "basel",
+    "date": "unconfirmed",
+    "dateBasis": "Exposure date not supplied; digital timestamps are not treated as exposure dates.",
+    "creator": "M.A.Haefliger",
+    "credit": "Collection A. Radchenko, photo M.A.Haefliger",
+    "rightsStatus": "permission-2026-10-26",
+    "authorshipBasis": "Martin Häfliger permission email, 2026-10-26; collection owner confirmation, 2026-10-27.",
+    "source": "Collection A. Radchenko; supplied by Martin Häfliger",
+    "place": "Unconfirmed for this photograph",
+    "vehicle": "",
+    "vehicleType": "Individual identification pending primary documentation",
+    "placeLabel": {
+      "sr": "Tačno mesto nije potvrđeno",
+      "en": "Exact location unconfirmed",
+      "ru": "Точное место не подтверждено"
+    },
+    "typeLabel": {
+      "sr": "Identifikacija prema primarnom dosijeu još nije završena",
+      "en": "Primary vehicle dossier identification pending",
+      "ru": "Идентификация по первичному досье ещё не завершена"
+    },
+    "caption": {
+      "sr": "Tramvaj sa prikolicom na krivini.",
+      "en": "Tram and trailer on a curve.",
+      "ru": "Трамвай с прицепом на повороте."
+    },
+    "alt": {
+      "sr": "Tramvaj sa prikolicom na krivini.",
+      "en": "Tram and trailer on a curve.",
+      "ru": "Трамвай с прицепом на повороте."
+    },
+    "originalFilename": "BVB Düwag in Belgrad (4).jpg",
+    "localDownloadFilename": "BVB Düwag in Belgrad (4).jpg",
+    "original": "/media/original-basel-scan-004.jpg",
+    "sha256": "0373b4c83f11738ac7d44ef65cef72ef6a4320e350e754d21ecb2017b0d92ab6",
+    "importSource": "Martin Häfliger WeTransfer collection, received 2026-10-22",
+    "digitalFileTimestamp": "2011:11:01 16:17:53",
+    "width": 4760,
+    "height": 3188,
+    "variants": [
+      {
+        "src": "/media/basel-scan-004-640.webp",
+        "width": 640,
+        "height": 429,
+        "bytes": 48402
+      },
+      {
+        "src": "/media/basel-scan-004-1280.webp",
+        "width": 1280,
+        "height": 857,
+        "bytes": 172558
+      },
+      {
+        "src": "/media/basel-scan-004-2000.webp",
+        "width": 2000,
+        "height": 1339,
+        "bytes": 358986
+      }
+    ],
+    "identificationNote": null,
+    "fullSize": {
+      "src": "/media/basel-scan-004-full.webp",
+      "width": 4760,
+      "height": 3188,
+      "bytes": 1806850,
+      "format": "image/webp",
+      "quality": 92
+    }
+  },
+  {
+    "id": "basel-scan-044",
+    "series": "basel",
+    "date": "unconfirmed",
+    "dateBasis": "Exposure date not supplied; digital timestamps are not treated as exposure dates.",
+    "creator": "M.A.Haefliger",
+    "credit": "Collection A. Radchenko, photo M.A.Haefliger",
+    "rightsStatus": "permission-2026-10-26",
+    "authorshipBasis": "Martin Häfliger permission email, 2026-10-26; collection owner confirmation, 2026-10-27.",
+    "source": "Collection A. Radchenko; supplied by Martin Häfliger",
+    "place": "Unconfirmed for this photograph",
+    "vehicle": "",
+    "vehicleType": "Individual identification pending primary documentation",
+    "placeLabel": {
+      "sr": "Tačno mesto nije potvrđeno",
+      "en": "Exact location unconfirmed",
+      "ru": "Точное место не подтверждено"
+    },
+    "typeLabel": {
+      "sr": "Identifikacija prema primarnom dosijeu još nije završena",
+      "en": "Primary vehicle dossier identification pending",
+      "ru": "Идентификация по первичному досье ещё не завершена"
+    },
+    "caption": {
+      "sr": "Tramvaj na krivini uz drveće.",
+      "en": "A tram on a curve beside the trees.",
+      "ru": "Трамвай на повороте у деревьев."
+    },
+    "alt": {
+      "sr": "Tramvaj na krivini uz drveće.",
+      "en": "A tram on a curve beside the trees.",
+      "ru": "Трамвай на повороте у деревьев."
+    },
+    "originalFilename": "BVB Düwag in Belgrad (44).jpg",
+    "localDownloadFilename": "BVB Düwag in Belgrad (44).jpg",
+    "original": "/media/original-basel-scan-044.jpg",
+    "sha256": "a2f646ca021aef42f7f72911364531faf0bedc47730381b5f0ffabad7a4daa0f",
+    "importSource": "Martin Häfliger WeTransfer collection, received 2026-10-22",
+    "digitalFileTimestamp": "2011:11:01 15:10:20",
+    "width": 4757,
+    "height": 3164,
+    "variants": [
+      {
+        "src": "/media/basel-scan-044-640.webp",
+        "width": 640,
+        "height": 426,
+        "bytes": 65678
+      },
+      {
+        "src": "/media/basel-scan-044-1280.webp",
+        "width": 1280,
+        "height": 851,
+        "bytes": 211084
+      },
+      {
+        "src": "/media/basel-scan-044-2000.webp",
+        "width": 2000,
+        "height": 1330,
+        "bytes": 418698
+      }
+    ],
+    "identificationNote": null,
+    "fullSize": {
+      "src": "/media/basel-scan-044-full.webp",
+      "width": 4757,
+      "height": 3164,
+      "bytes": 1784674,
+      "format": "image/webp",
+      "quality": 92
+    }
+  },
+  {
+    "id": "basel-scan-048",
+    "series": "basel",
+    "date": "unconfirmed",
+    "dateBasis": "Exposure date not supplied; digital timestamps are not treated as exposure dates.",
+    "creator": "M.A.Haefliger",
+    "credit": "Collection A. Radchenko, photo M.A.Haefliger",
+    "rightsStatus": "permission-2026-10-26",
+    "authorshipBasis": "Martin Häfliger permission email, 2026-10-26; collection owner confirmation, 2026-10-27.",
+    "source": "Collection A. Radchenko; supplied by Martin Häfliger",
+    "place": "Unconfirmed for this photograph",
+    "vehicle": "",
+    "vehicleType": "Individual identification pending primary documentation",
+    "placeLabel": {
+      "sr": "Tačno mesto nije potvrđeno",
+      "en": "Exact location unconfirmed",
+      "ru": "Точное место не подтверждено"
+    },
+    "typeLabel": {
+      "sr": "Identifikacija prema primarnom dosijeu još nije završena",
+      "en": "Primary vehicle dossier identification pending",
+      "ru": "Идентификация по первичному досье ещё не завершена"
+    },
+    "caption": {
+      "sr": "Tramvaj sa prikolicom na otvorenom delu pruge.",
+      "en": "Tram and trailer on an open stretch of track.",
+      "ru": "Трамвай с прицепом на открытом участке пути."
+    },
+    "alt": {
+      "sr": "Tramvaj sa prikolicom na otvorenom delu pruge.",
+      "en": "Tram and trailer on an open stretch of track.",
+      "ru": "Трамвай с прицепом на открытом участке пути."
+    },
+    "originalFilename": "BVB Düwag in Belgrad (48).jpg",
+    "localDownloadFilename": "BVB Düwag in Belgrad (48).jpg",
+    "original": "/media/original-basel-scan-048.jpg",
+    "sha256": "fea8844dcdf9a8f99411e2fa3a37212b9e496e8f2a5a6d0de293d7943bc3ff77",
+    "importSource": "Martin Häfliger WeTransfer collection, received 2026-10-22",
+    "digitalFileTimestamp": "2011:11:01 15:29:56",
+    "width": 4728,
+    "height": 3147,
+    "variants": [
+      {
+        "src": "/media/basel-scan-048-640.webp",
+        "width": 640,
+        "height": 426,
+        "bytes": 60218
+      },
+      {
+        "src": "/media/basel-scan-048-1280.webp",
+        "width": 1280,
+        "height": 852,
+        "bytes": 208734
+      },
+      {
+        "src": "/media/basel-scan-048-2000.webp",
+        "width": 2000,
+        "height": 1331,
+        "bytes": 429260
+      }
+    ],
+    "identificationNote": null,
+    "fullSize": {
+      "src": "/media/basel-scan-048-full.webp",
+      "width": 4728,
+      "height": 3147,
+      "bytes": 1970486,
+      "format": "image/webp",
+      "quality": 92
+    }
+  },
+  {
+    "id": "basel-scan-005",
+    "series": "basel",
+    "date": "unconfirmed",
+    "dateBasis": "Exposure date not supplied; digital timestamps are not treated as exposure dates.",
+    "creator": "M.A.Haefliger",
+    "credit": "Collection A. Radchenko, photo M.A.Haefliger",
+    "rightsStatus": "permission-2026-10-26",
+    "authorshipBasis": "Martin Häfliger permission email, 2026-10-26; collection owner confirmation, 2026-10-27.",
+    "source": "Collection A. Radchenko; supplied by Martin Häfliger",
+    "place": "Unconfirmed for this photograph",
+    "vehicle": "",
+    "vehicleType": "Individual identification pending primary documentation",
+    "placeLabel": {
+      "sr": "Tačno mesto nije potvrđeno",
+      "en": "Exact location unconfirmed",
+      "ru": "Точное место не подтверждено"
+    },
+    "typeLabel": {
+      "sr": "Identifikacija prema primarnom dosijeu još nije završena",
+      "en": "Primary vehicle dossier identification pending",
+      "ru": "Идентификация по первичному досье ещё не завершена"
+    },
+    "caption": {
+      "sr": "Tramvaj među drvećem.",
+      "en": "A tram among the trees.",
+      "ru": "Трамвай среди деревьев."
+    },
+    "alt": {
+      "sr": "Tramvaj među drvećem.",
+      "en": "A tram among the trees.",
+      "ru": "Трамвай среди деревьев."
+    },
+    "originalFilename": "BVB Düwag in Belgrad (5).jpg",
+    "localDownloadFilename": "BVB Düwag in Belgrad (5).jpg",
+    "original": "/media/original-basel-scan-005.jpg",
+    "sha256": "2beec64cf81ce6e8c2084c16675616e83fcffc8f8ee12801aeb93015df4da8f7",
+    "importSource": "Martin Häfliger WeTransfer collection, received 2026-10-22",
+    "digitalFileTimestamp": "2011:11:01 16:21:24",
+    "width": 4779,
+    "height": 3178,
+    "variants": [
+      {
+        "src": "/media/basel-scan-005-640.webp",
+        "width": 640,
+        "height": 426,
+        "bytes": 99388
+      },
+      {
+        "src": "/media/basel-scan-005-1280.webp",
+        "width": 1280,
+        "height": 851,
+        "bytes": 344352
+      },
+      {
+        "src": "/media/basel-scan-005-2000.webp",
+        "width": 2000,
+        "height": 1330,
+        "bytes": 690922
+      }
+    ],
+    "identificationNote": null,
+    "fullSize": {
+      "src": "/media/basel-scan-005-full.webp",
+      "width": 4779,
+      "height": 3178,
+      "bytes": 2789264,
+      "format": "image/webp",
+      "quality": 92
+    }
+  },
+  {
+    "id": "basel-scan-065",
+    "series": "basel",
+    "date": "unconfirmed",
+    "dateBasis": "Exposure date not supplied; digital timestamps are not treated as exposure dates.",
+    "creator": "M.A.Haefliger",
+    "credit": "Collection A. Radchenko, photo M.A.Haefliger",
+    "rightsStatus": "permission-2026-10-26",
+    "authorshipBasis": "Martin Häfliger permission email, 2026-10-26; collection owner confirmation, 2026-10-27.",
+    "source": "Collection A. Radchenko; supplied by Martin Häfliger",
+    "place": "Unconfirmed for this photograph",
+    "vehicle": "",
+    "vehicleType": "Individual identification pending primary documentation",
+    "placeLabel": {
+      "sr": "Tačno mesto nije potvrđeno",
+      "en": "Exact location unconfirmed",
+      "ru": "Точное место не подтверждено"
+    },
+    "typeLabel": {
+      "sr": "Identifikacija prema primarnom dosijeu još nije završena",
+      "en": "Primary vehicle dossier identification pending",
+      "ru": "Идентификация по первичному досье ещё не завершена"
+    },
+    "caption": {
+      "sr": "Tramvaj ispred stambene zgrade.",
+      "en": "A tram in front of an apartment building.",
+      "ru": "Трамвай перед жилым домом."
+    },
+    "alt": {
+      "sr": "Tramvaj ispred stambene zgrade.",
+      "en": "A tram in front of an apartment building.",
+      "ru": "Трамвай перед жилым домом."
+    },
+    "originalFilename": "BVB Düwag in Belgrad (65).jpg",
+    "localDownloadFilename": "BVB Düwag in Belgrad (65).jpg",
+    "original": "/media/original-basel-scan-065.jpg",
+    "sha256": "0458e7b059e5ec3f8ba4012dce1bebfa59892e81c59550d3e45cfe20fd7aedcb",
+    "importSource": "Martin Häfliger WeTransfer collection, received 2026-10-22",
+    "digitalFileTimestamp": "2011:11:01 19:10:48",
+    "width": 4740,
+    "height": 3169,
+    "variants": [
+      {
+        "src": "/media/basel-scan-065-640.webp",
+        "width": 640,
+        "height": 428,
+        "bytes": 76272
+      },
+      {
+        "src": "/media/basel-scan-065-1280.webp",
+        "width": 1280,
+        "height": 856,
+        "bytes": 247738
+      },
+      {
+        "src": "/media/basel-scan-065-2000.webp",
+        "width": 2000,
+        "height": 1337,
+        "bytes": 517678
+      }
+    ],
+    "identificationNote": null,
+    "fullSize": {
+      "src": "/media/basel-scan-065-full.webp",
+      "width": 4740,
+      "height": 3169,
+      "bytes": 2351952,
+      "format": "image/webp",
+      "quality": 92
+    }
+  },
+  {
+    "id": "basel-scan-075",
+    "series": "basel",
+    "date": "unconfirmed",
+    "dateBasis": "Exposure date not supplied; digital timestamps are not treated as exposure dates.",
+    "creator": "M.A.Haefliger",
+    "credit": "Collection A. Radchenko, photo M.A.Haefliger",
+    "rightsStatus": "permission-2026-10-26",
+    "authorshipBasis": "Martin Häfliger permission email, 2026-10-26; collection owner confirmation, 2026-10-27.",
+    "source": "Collection A. Radchenko; supplied by Martin Häfliger",
+    "place": "Unconfirmed for this photograph",
+    "vehicle": "",
+    "vehicleType": "Individual identification pending primary documentation",
+    "placeLabel": {
+      "sr": "Tačno mesto nije potvrđeno",
+      "en": "Exact location unconfirmed",
+      "ru": "Точное место не подтверждено"
+    },
+    "typeLabel": {
+      "sr": "Identifikacija prema primarnom dosijeu još nije završena",
+      "en": "Primary vehicle dossier identification pending",
+      "ru": "Идентификация по первичному досье ещё не завершена"
+    },
+    "caption": {
+      "sr": "Tramvaj sa tablom linije 9 i prikolicom.",
+      "en": "A tram carrying a route 9 board, with a trailer.",
+      "ru": "Трамвай с табличкой маршрута 9 и прицепом."
+    },
+    "alt": {
+      "sr": "Tramvaj sa tablom linije 9 i prikolicom.",
+      "en": "A tram carrying a route 9 board, with a trailer.",
+      "ru": "Трамвай с табличкой маршрута 9 и прицепом."
+    },
+    "originalFilename": "BVB Düwag in Belgrad (75).jpg",
+    "localDownloadFilename": "BVB Düwag in Belgrad (75).jpg",
+    "original": "/media/original-basel-scan-075.jpg",
+    "sha256": "ea6f7d62255f2681eaa80b168c0cd463b8b28ba418ea166ed33c480ebe0cf0a3",
+    "importSource": "Martin Häfliger WeTransfer collection, received 2026-10-22",
+    "digitalFileTimestamp": "2011:11:01 20:49:33",
+    "width": 4714,
+    "height": 3175,
+    "variants": [
+      {
+        "src": "/media/basel-scan-075-640.webp",
+        "width": 640,
+        "height": 431,
+        "bytes": 62822
+      },
+      {
+        "src": "/media/basel-scan-075-1280.webp",
+        "width": 1280,
+        "height": 862,
+        "bytes": 196880
+      },
+      {
+        "src": "/media/basel-scan-075-2000.webp",
+        "width": 2000,
+        "height": 1347,
+        "bytes": 383610
+      }
+    ],
+    "identificationNote": null,
+    "fullSize": {
+      "src": "/media/basel-scan-075-full.webp",
+      "width": 4714,
+      "height": 3175,
+      "bytes": 1798652,
+      "format": "image/webp",
+      "quality": 92
+    }
+  },
+  {
+    "id": "basel-scan-076",
+    "series": "belgrade-other-trams",
+    "date": "unconfirmed",
+    "dateBasis": "Exposure date not supplied; digital timestamps are not treated as exposure dates.",
+    "creator": "M.A.Haefliger",
+    "credit": "Collection A. Radchenko, photo M.A.Haefliger",
+    "rightsStatus": "permission-2026-10-26",
+    "authorshipBasis": "Martin Häfliger permission email, 2026-10-26; collection owner confirmation, 2026-10-27.",
+    "source": "Collection A. Radchenko; supplied by Martin Häfliger",
+    "place": "Unconfirmed for this photograph",
+    "vehicle": "1004",
+    "vehicleType": "Individual identification pending primary documentation",
+    "placeLabel": {
+      "sr": "Tačno mesto nije potvrđeno",
+      "en": "Exact location unconfirmed",
+      "ru": "Точное место не подтверждено"
+    },
+    "typeLabel": {
+      "sr": "Identifikacija prema primarnom dosijeu još nije završena",
+      "en": "Primary vehicle dossier identification pending",
+      "ru": "Идентификация по первичному досье ещё не завершена"
+    },
+    "caption": {
+      "sr": "Crveno-beli tramvaj na ulici.",
+      "en": "A red-and-white tram in the street.",
+      "ru": "Красно-белый трамвай на улице."
+    },
+    "alt": {
+      "sr": "Crveno-beli tramvaj na ulici.",
+      "en": "A red-and-white tram in the street.",
+      "ru": "Красно-белый трамвай на улице."
+    },
+    "originalFilename": "BVB Düwag in Belgrad (76).jpg",
+    "localDownloadFilename": "BVB Düwag in Belgrad (76).jpg",
+    "original": "/media/original-basel-scan-076.jpg",
+    "sha256": "5d455e1f05d9aa00d9d8935c2ae3aacc5ee8d148526dc0921f297843f7a52126",
+    "importSource": "Martin Häfliger WeTransfer collection, received 2026-10-22",
+    "digitalFileTimestamp": "2011:11:01 20:50:11",
+    "width": 3153,
+    "height": 4679,
+    "variants": [
+      {
+        "src": "/media/basel-scan-076-640.webp",
+        "width": 431,
+        "height": 640,
+        "bytes": 105768
+      },
+      {
+        "src": "/media/basel-scan-076-1280.webp",
+        "width": 863,
+        "height": 1280,
+        "bytes": 362602
+      },
+      {
+        "src": "/media/basel-scan-076-2000.webp",
+        "width": 1348,
+        "height": 2000,
+        "bytes": 732344
+      }
+    ],
+    "identificationNote": null,
+    "fullSize": {
+      "src": "/media/basel-scan-076-full.webp",
+      "width": 3153,
+      "height": 4679,
+      "bytes": 3049246,
+      "format": "image/webp",
+      "quality": 92
+    },
+    "exhibitionStatus": "excluded-from-second-life",
+    "exclusionReason": "Tram 1004 is not from Basel; collection owner correction, 2026-10-27."
+  },
+  {
+    "id": "basel-scan-086",
+    "series": "basel",
+    "date": "unconfirmed",
+    "dateBasis": "Exposure date not supplied; digital timestamps are not treated as exposure dates.",
+    "creator": "M.A.Haefliger",
+    "credit": "Collection A. Radchenko, photo M.A.Haefliger",
+    "rightsStatus": "permission-2026-10-26",
+    "authorshipBasis": "Martin Häfliger permission email, 2026-10-26; collection owner confirmation, 2026-10-27.",
+    "source": "Collection A. Radchenko; supplied by Martin Häfliger",
+    "place": "Unconfirmed for this photograph",
+    "vehicle": "",
+    "vehicleType": "Individual identification pending primary documentation",
+    "placeLabel": {
+      "sr": "Tačno mesto nije potvrđeno",
+      "en": "Exact location unconfirmed",
+      "ru": "Точное место не подтверждено"
+    },
+    "typeLabel": {
+      "sr": "Identifikacija prema primarnom dosijeu još nije završena",
+      "en": "Primary vehicle dossier identification pending",
+      "ru": "Идентификация по первичному досье ещё не завершена"
+    },
+    "caption": {
+      "sr": "Narandžasti i zeleni tramvaj na kolosecima.",
+      "en": "Orange and green trams on the tracks.",
+      "ru": "Оранжевый и зелёный трамваи на путях."
+    },
+    "alt": {
+      "sr": "Narandžasti i zeleni tramvaj na kolosecima.",
+      "en": "Orange and green trams on the tracks.",
+      "ru": "Оранжевый и зелёный трамваи на путях."
+    },
+    "originalFilename": "BVB Düwag in Belgrad (86).jpg",
+    "localDownloadFilename": "BVB Düwag in Belgrad (86).jpg",
+    "original": "/media/original-basel-scan-086.jpg",
+    "sha256": "bd5bf05fed61de93061e47dc88dc7c2d269b1c53ca3d37f6ef0a0976d7ee6312",
+    "importSource": "Martin Häfliger WeTransfer collection, received 2026-10-22",
+    "digitalFileTimestamp": "2011:11:01 21:46:52",
+    "width": 4706,
+    "height": 3148,
+    "variants": [
+      {
+        "src": "/media/basel-scan-086-640.webp",
+        "width": 640,
+        "height": 428,
+        "bytes": 58664
+      },
+      {
+        "src": "/media/basel-scan-086-1280.webp",
+        "width": 1280,
+        "height": 856,
+        "bytes": 175742
+      },
+      {
+        "src": "/media/basel-scan-086-2000.webp",
+        "width": 2000,
+        "height": 1338,
+        "bytes": 339442
+      }
+    ],
+    "identificationNote": null,
+    "fullSize": {
+      "src": "/media/basel-scan-086-full.webp",
+      "width": 4706,
+      "height": 3148,
+      "bytes": 1667188,
+      "format": "image/webp",
+      "quality": 92
+    }
+  },
+  {
+    "id": "basel-scan-087",
+    "series": "basel",
+    "date": "unconfirmed",
+    "dateBasis": "Exposure date not supplied; digital timestamps are not treated as exposure dates.",
+    "creator": "M.A.Haefliger",
+    "credit": "Collection A. Radchenko, photo M.A.Haefliger",
+    "rightsStatus": "permission-2026-10-26",
+    "authorshipBasis": "Martin Häfliger permission email, 2026-10-26; collection owner confirmation, 2026-10-27.",
+    "source": "Collection A. Radchenko; supplied by Martin Häfliger",
+    "place": "Unconfirmed for this photograph",
+    "vehicle": "",
+    "vehicleType": "Individual identification pending primary documentation",
+    "placeLabel": {
+      "sr": "Tačno mesto nije potvrđeno",
+      "en": "Exact location unconfirmed",
+      "ru": "Точное место не подтверждено"
+    },
+    "typeLabel": {
+      "sr": "Identifikacija prema primarnom dosijeu još nije završena",
+      "en": "Primary vehicle dossier identification pending",
+      "ru": "Идентификация по первичному досье ещё не завершена"
+    },
+    "caption": {
+      "sr": "Dva tramvaja, pogled sa strane.",
+      "en": "Two trams seen from the side.",
+      "ru": "Два трамвая, вид сбоку."
+    },
+    "alt": {
+      "sr": "Dva tramvaja, pogled sa strane.",
+      "en": "Two trams seen from the side.",
+      "ru": "Два трамвая, вид сбоку."
+    },
+    "originalFilename": "BVB Düwag in Belgrad (87).jpg",
+    "localDownloadFilename": "BVB Düwag in Belgrad (87).jpg",
+    "original": "/media/original-basel-scan-087.jpg",
+    "sha256": "b6bdfee50db919b7f3d358434bb6117375a9eabfd6a32f03328bb3f2f7f70f0a",
+    "importSource": "Martin Häfliger WeTransfer collection, received 2026-10-22",
+    "digitalFileTimestamp": "2011:11:02 20:25:18",
+    "width": 4725,
+    "height": 3172,
+    "variants": [
+      {
+        "src": "/media/basel-scan-087-640.webp",
+        "width": 640,
+        "height": 430,
+        "bytes": 57458
+      },
+      {
+        "src": "/media/basel-scan-087-1280.webp",
+        "width": 1280,
+        "height": 859,
+        "bytes": 182352
+      },
+      {
+        "src": "/media/basel-scan-087-2000.webp",
+        "width": 2000,
+        "height": 1343,
+        "bytes": 363668
+      }
+    ],
+    "identificationNote": null,
+    "fullSize": {
+      "src": "/media/basel-scan-087-full.webp",
+      "width": 4725,
+      "height": 3172,
+      "bytes": 1711274,
+      "format": "image/webp",
+      "quality": 92
+    }
+  },
+  {
+    "id": "basel-scan-088",
+    "series": "basel",
+    "date": "unconfirmed",
+    "dateBasis": "Exposure date not supplied; digital timestamps are not treated as exposure dates.",
+    "creator": "M.A.Haefliger",
+    "credit": "Collection A. Radchenko, photo M.A.Haefliger",
+    "rightsStatus": "permission-2026-10-26",
+    "authorshipBasis": "Martin Häfliger permission email, 2026-10-26; collection owner confirmation, 2026-10-27.",
+    "source": "Collection A. Radchenko; supplied by Martin Häfliger",
+    "place": "Unconfirmed for this photograph",
+    "vehicle": "",
+    "vehicleType": "Individual identification pending primary documentation",
+    "placeLabel": {
+      "sr": "Tačno mesto nije potvrđeno",
+      "en": "Exact location unconfirmed",
+      "ru": "Точное место не подтверждено"
+    },
+    "typeLabel": {
+      "sr": "Identifikacija prema primarnom dosijeu još nije završena",
+      "en": "Primary vehicle dossier identification pending",
+      "ru": "Идентификация по первичному досье ещё не завершена"
+    },
+    "caption": {
+      "sr": "Tramvaj na železničkoj platformi.",
+      "en": "A tram on a railway flat wagon.",
+      "ru": "Трамвай на железнодорожной платформе."
+    },
+    "alt": {
+      "sr": "Tramvaj na železničkoj platformi.",
+      "en": "A tram on a railway flat wagon.",
+      "ru": "Трамвай на железнодорожной платформе."
+    },
+    "originalFilename": "BVB Düwag in Belgrad (88).jpg",
+    "localDownloadFilename": "BVB Düwag in Belgrad (88).jpg",
+    "original": "/media/original-basel-scan-088.jpg",
+    "sha256": "d46ea526856678d0566f5d0a5df0a1899d0c153dc6b601924660d6b7982e41d1",
+    "importSource": "Martin Häfliger WeTransfer collection, received 2026-10-22",
+    "digitalFileTimestamp": "2011:11:02 20:34:49",
+    "width": 3169,
+    "height": 4722,
+    "variants": [
+      {
+        "src": "/media/basel-scan-088-640.webp",
+        "width": 430,
+        "height": 640,
+        "bytes": 50564
+      },
+      {
+        "src": "/media/basel-scan-088-1280.webp",
+        "width": 859,
+        "height": 1280,
+        "bytes": 168284
+      },
+      {
+        "src": "/media/basel-scan-088-2000.webp",
+        "width": 1342,
+        "height": 2000,
+        "bytes": 380468
+      }
+    ],
+    "identificationNote": null,
+    "fullSize": {
+      "src": "/media/basel-scan-088-full.webp",
+      "width": 3169,
+      "height": 4722,
+      "bytes": 1864006,
+      "format": "image/webp",
+      "quality": 92
+    }
+  },
+  {
+    "id": "basel-scan-089",
+    "series": "basel",
+    "date": "unconfirmed",
+    "dateBasis": "Exposure date not supplied; digital timestamps are not treated as exposure dates.",
+    "creator": "M.A.Haefliger",
+    "credit": "Collection A. Radchenko, photo M.A.Haefliger",
+    "rightsStatus": "permission-2026-10-26",
+    "authorshipBasis": "Martin Häfliger permission email, 2026-10-26; collection owner confirmation, 2026-10-27.",
+    "source": "Collection A. Radchenko; supplied by Martin Häfliger",
+    "place": "Unconfirmed for this photograph",
+    "vehicle": "",
+    "vehicleType": "Individual identification pending primary documentation",
+    "placeLabel": {
+      "sr": "Tačno mesto nije potvrđeno",
+      "en": "Exact location unconfirmed",
+      "ru": "Точное место не подтверждено"
+    },
+    "typeLabel": {
+      "sr": "Identifikacija prema primarnom dosijeu još nije završena",
+      "en": "Primary vehicle dossier identification pending",
+      "ru": "Идентификация по первичному досье ещё не завершена"
+    },
+    "caption": {
+      "sr": "Tramvaji pripremljeni za prevoz železnicom.",
+      "en": "Trams prepared for transport by rail.",
+      "ru": "Трамваи, подготовленные к перевозке по железной дороге."
+    },
+    "alt": {
+      "sr": "Tramvaji pripremljeni za prevoz železnicom.",
+      "en": "Trams prepared for transport by rail.",
+      "ru": "Трамваи, подготовленные к перевозке по железной дороге."
+    },
+    "originalFilename": "BVB Düwag in Belgrad (89).jpg",
+    "localDownloadFilename": "BVB Düwag in Belgrad (89).jpg",
+    "original": "/media/original-basel-scan-089.jpg",
+    "sha256": "4af0a6df6375c1287efd74e8df509f239d4ce8a9aaea56d1ea22f23b899728cc",
+    "importSource": "Martin Häfliger WeTransfer collection, received 2026-10-22",
+    "digitalFileTimestamp": "2011:11:03 17:56:03",
+    "width": 3185,
+    "height": 4741,
+    "variants": [
+      {
+        "src": "/media/basel-scan-089-640.webp",
+        "width": 430,
+        "height": 640,
+        "bytes": 53598
+      },
+      {
+        "src": "/media/basel-scan-089-1280.webp",
+        "width": 860,
+        "height": 1280,
+        "bytes": 183044
+      },
+      {
+        "src": "/media/basel-scan-089-2000.webp",
+        "width": 1344,
+        "height": 2000,
+        "bytes": 392696
+      }
+    ],
+    "identificationNote": null,
+    "fullSize": {
+      "src": "/media/basel-scan-089-full.webp",
+      "width": 3185,
+      "height": 4741,
+      "bytes": 1927906,
+      "format": "image/webp",
+      "quality": 92
+    }
+  },
+  {
+    "id": "basel-scan-090",
+    "series": "basel",
+    "date": "unconfirmed",
+    "dateBasis": "Exposure date not supplied; digital timestamps are not treated as exposure dates.",
+    "creator": "M.A.Haefliger",
+    "credit": "Collection A. Radchenko, photo M.A.Haefliger",
+    "rightsStatus": "permission-2026-10-26",
+    "authorshipBasis": "Martin Häfliger permission email, 2026-10-26; collection owner confirmation, 2026-10-27.",
+    "source": "Collection A. Radchenko; supplied by Martin Häfliger",
+    "place": "Unconfirmed for this photograph",
+    "vehicle": "",
+    "vehicleType": "Individual identification pending primary documentation",
+    "placeLabel": {
+      "sr": "Tačno mesto nije potvrđeno",
+      "en": "Exact location unconfirmed",
+      "ru": "Точное место не подтверждено"
+    },
+    "typeLabel": {
+      "sr": "Identifikacija prema primarnom dosijeu još nije završena",
+      "en": "Primary vehicle dossier identification pending",
+      "ru": "Идентификация по первичному досье ещё не завершена"
+    },
+    "caption": {
+      "sr": "Oprema za podizanje pored tramvaja.",
+      "en": "Lifting equipment beside the tram.",
+      "ru": "Подъёмное оборудование рядом с трамваем."
+    },
+    "alt": {
+      "sr": "Oprema za podizanje pored tramvaja.",
+      "en": "Lifting equipment beside the tram.",
+      "ru": "Подъёмное оборудование рядом с трамваем."
+    },
+    "originalFilename": "BVB Düwag in Belgrad (90).jpg",
+    "localDownloadFilename": "BVB Düwag in Belgrad (90).jpg",
+    "original": "/media/original-basel-scan-090.jpg",
+    "sha256": "c8e24869157b252235a96ef36ab018140e530af54eb3a650c89e04a2c1cc6f55",
+    "importSource": "Martin Häfliger WeTransfer collection, received 2026-10-22",
+    "digitalFileTimestamp": "2011:11:03 18:38:33",
+    "width": 3163,
+    "height": 4660,
+    "variants": [
+      {
+        "src": "/media/basel-scan-090-640.webp",
+        "width": 434,
+        "height": 640,
+        "bytes": 48302
+      },
+      {
+        "src": "/media/basel-scan-090-1280.webp",
+        "width": 869,
+        "height": 1280,
+        "bytes": 140918
+      },
+      {
+        "src": "/media/basel-scan-090-2000.webp",
+        "width": 1358,
+        "height": 2000,
+        "bytes": 284864
+      }
+    ],
+    "identificationNote": null,
+    "fullSize": {
+      "src": "/media/basel-scan-090-full.webp",
+      "width": 3163,
+      "height": 4660,
+      "bytes": 1370582,
+      "format": "image/webp",
+      "quality": 92
+    }
+  },
+  {
+    "id": "basel-scan-092",
+    "series": "basel",
+    "date": "unconfirmed",
+    "dateBasis": "Exposure date not supplied; digital timestamps are not treated as exposure dates.",
+    "creator": "M.A.Haefliger",
+    "credit": "Collection A. Radchenko, photo M.A.Haefliger",
+    "rightsStatus": "permission-2026-10-26",
+    "authorshipBasis": "Martin Häfliger permission email, 2026-10-26; collection owner confirmation, 2026-10-27.",
+    "source": "Collection A. Radchenko; supplied by Martin Häfliger",
+    "place": "Unconfirmed for this photograph",
+    "vehicle": "",
+    "vehicleType": "Individual identification pending primary documentation",
+    "placeLabel": {
+      "sr": "Tačno mesto nije potvrđeno",
+      "en": "Exact location unconfirmed",
+      "ru": "Точное место не подтверждено"
+    },
+    "typeLabel": {
+      "sr": "Identifikacija prema primarnom dosijeu još nije završena",
+      "en": "Primary vehicle dossier identification pending",
+      "ru": "Идентификация по первичному досье ещё не завершена"
+    },
+    "caption": {
+      "sr": "Tramvaj pored viljuškara.",
+      "en": "A tram beside a forklift.",
+      "ru": "Трамвай рядом с погрузчиком."
+    },
+    "alt": {
+      "sr": "Tramvaj pored viljuškara.",
+      "en": "A tram beside a forklift.",
+      "ru": "Трамвай рядом с погрузчиком."
+    },
+    "originalFilename": "BVB Düwag in Belgrad (92).jpg",
+    "localDownloadFilename": "BVB Düwag in Belgrad (92).jpg",
+    "original": "/media/original-basel-scan-092.jpg",
+    "sha256": "a5b856a3050c06d82b5f8f52992c49330c3d43cb2fe1c62b8508fa7e6a27a36a",
+    "importSource": "Martin Häfliger WeTransfer collection, received 2026-10-22",
+    "digitalFileTimestamp": "2011:11:03 19:08:54",
+    "width": 3164,
+    "height": 4709,
+    "variants": [
+      {
+        "src": "/media/basel-scan-092-640.webp",
+        "width": 430,
+        "height": 640,
+        "bytes": 48618
+      },
+      {
+        "src": "/media/basel-scan-092-1280.webp",
+        "width": 860,
+        "height": 1280,
+        "bytes": 160328
+      },
+      {
+        "src": "/media/basel-scan-092-2000.webp",
+        "width": 1344,
+        "height": 2000,
+        "bytes": 326064
+      }
+    ],
+    "identificationNote": null,
+    "fullSize": {
+      "src": "/media/basel-scan-092-full.webp",
+      "width": 3164,
+      "height": 4709,
+      "bytes": 1622818,
+      "format": "image/webp",
+      "quality": 92
+    }
+  },
+  {
+    "id": "basel-scan-093",
+    "series": "basel",
+    "date": "unconfirmed",
+    "dateBasis": "Exposure date not supplied; digital timestamps are not treated as exposure dates.",
+    "creator": "M.A.Haefliger",
+    "credit": "Collection A. Radchenko, photo M.A.Haefliger",
+    "rightsStatus": "permission-2026-10-26",
+    "authorshipBasis": "Martin Häfliger permission email, 2026-10-26; collection owner confirmation, 2026-10-27.",
+    "source": "Collection A. Radchenko; supplied by Martin Häfliger",
+    "place": "Unconfirmed for this photograph",
+    "vehicle": "",
+    "vehicleType": "Individual identification pending primary documentation",
+    "placeLabel": {
+      "sr": "Tačno mesto nije potvrđeno",
+      "en": "Exact location unconfirmed",
+      "ru": "Точное место не подтверждено"
+    },
+    "typeLabel": {
+      "sr": "Identifikacija prema primarnom dosijeu još nije završena",
+      "en": "Primary vehicle dossier identification pending",
+      "ru": "Идентификация по первичному досье ещё не завершена"
+    },
+    "caption": {
+      "sr": "Tramvaji i železnička stanica.",
+      "en": "Trams and a railway station.",
+      "ru": "Трамваи и железнодорожная станция."
+    },
+    "alt": {
+      "sr": "Tramvaji i železnička stanica.",
+      "en": "Trams and a railway station.",
+      "ru": "Трамваи и железнодорожная станция."
+    },
+    "originalFilename": "BVB Düwag in Belgrad (93).jpg",
+    "localDownloadFilename": "BVB Düwag in Belgrad (93).jpg",
+    "original": "/media/original-basel-scan-093.jpg",
+    "sha256": "538c807fcdb7738a9bfd8038cc69c747ffde1dca3f97ff7e978c1d3f50c3613b",
+    "importSource": "Martin Häfliger WeTransfer collection, received 2026-10-22",
+    "digitalFileTimestamp": "2011:11:03 19:16:15",
+    "width": 4734,
+    "height": 3173,
+    "variants": [
+      {
+        "src": "/media/basel-scan-093-640.webp",
+        "width": 640,
+        "height": 429,
+        "bytes": 75552
+      },
+      {
+        "src": "/media/basel-scan-093-1280.webp",
+        "width": 1280,
+        "height": 858,
+        "bytes": 234526
+      },
+      {
+        "src": "/media/basel-scan-093-2000.webp",
+        "width": 2000,
+        "height": 1341,
+        "bytes": 468576
+      }
+    ],
+    "identificationNote": null,
+    "fullSize": {
+      "src": "/media/basel-scan-093-full.webp",
+      "width": 4734,
+      "height": 3173,
+      "bytes": 2133450,
+      "format": "image/webp",
+      "quality": 92
+    }
+  },
+  {
+    "id": "basel-scan-094",
+    "series": "basel",
+    "date": "unconfirmed",
+    "dateBasis": "Exposure date not supplied; digital timestamps are not treated as exposure dates.",
+    "creator": "M.A.Haefliger",
+    "credit": "Collection A. Radchenko, photo M.A.Haefliger",
+    "rightsStatus": "permission-2026-10-26",
+    "authorshipBasis": "Martin Häfliger permission email, 2026-10-26; collection owner confirmation, 2026-10-27.",
+    "source": "Collection A. Radchenko; supplied by Martin Häfliger",
+    "place": "Unconfirmed for this photograph",
+    "vehicle": "",
+    "vehicleType": "Individual identification pending primary documentation",
+    "placeLabel": {
+      "sr": "Tačno mesto nije potvrđeno",
+      "en": "Exact location unconfirmed",
+      "ru": "Точное место не подтверждено"
+    },
+    "typeLabel": {
+      "sr": "Identifikacija prema primarnom dosijeu još nije završena",
+      "en": "Primary vehicle dossier identification pending",
+      "ru": "Идентификация по первичному досье ещё не завершена"
+    },
+    "caption": {
+      "sr": "Tramvaji na železničkim kolosecima.",
+      "en": "Trams on railway tracks.",
+      "ru": "Трамваи на железнодорожных путях."
+    },
+    "alt": {
+      "sr": "Tramvaji na železničkim kolosecima.",
+      "en": "Trams on railway tracks.",
+      "ru": "Трамваи на железнодорожных путях."
+    },
+    "originalFilename": "BVB Düwag in Belgrad (94).jpg",
+    "localDownloadFilename": "BVB Düwag in Belgrad (94).jpg",
+    "original": "/media/original-basel-scan-094.jpg",
+    "sha256": "943a9cef7eb81f49146daa08e6c3dc45c676fe8412680981fe770303ab2d1f41",
+    "importSource": "Martin Häfliger WeTransfer collection, received 2026-10-22",
+    "digitalFileTimestamp": "2011:11:03 19:23:43",
+    "width": 4665,
+    "height": 3173,
+    "variants": [
+      {
+        "src": "/media/basel-scan-094-640.webp",
+        "width": 640,
+        "height": 435,
+        "bytes": 74242
+      },
+      {
+        "src": "/media/basel-scan-094-1280.webp",
+        "width": 1280,
+        "height": 871,
+        "bytes": 227660
+      },
+      {
+        "src": "/media/basel-scan-094-2000.webp",
+        "width": 2000,
+        "height": 1360,
+        "bytes": 442650
+      }
+    ],
+    "identificationNote": null,
+    "fullSize": {
+      "src": "/media/basel-scan-094-full.webp",
+      "width": 4665,
+      "height": 3173,
+      "bytes": 2085036,
+      "format": "image/webp",
+      "quality": 92
+    }
+  },
+  {
+    "id": "basel-scan-095",
+    "series": "basel",
+    "date": "unconfirmed",
+    "dateBasis": "Exposure date not supplied; digital timestamps are not treated as exposure dates.",
+    "creator": "M.A.Haefliger",
+    "credit": "Collection A. Radchenko, photo M.A.Haefliger",
+    "rightsStatus": "permission-2026-10-26",
+    "authorshipBasis": "Martin Häfliger permission email, 2026-10-26; collection owner confirmation, 2026-10-27.",
+    "source": "Collection A. Radchenko; supplied by Martin Häfliger",
+    "place": "Unconfirmed for this photograph",
+    "vehicle": "",
+    "vehicleType": "Individual identification pending primary documentation",
+    "placeLabel": {
+      "sr": "Tačno mesto nije potvrđeno",
+      "en": "Exact location unconfirmed",
+      "ru": "Точное место не подтверждено"
+    },
+    "typeLabel": {
+      "sr": "Identifikacija prema primarnom dosijeu još nije završena",
+      "en": "Primary vehicle dossier identification pending",
+      "ru": "Идентификация по первичному досье ещё не завершена"
+    },
+    "caption": {
+      "sr": "Tramvaji uz zgradu depoa.",
+      "en": "Trams beside a depot building.",
+      "ru": "Трамваи у здания депо."
+    },
+    "alt": {
+      "sr": "Tramvaji uz zgradu depoa.",
+      "en": "Trams beside a depot building.",
+      "ru": "Трамваи у здания депо."
+    },
+    "originalFilename": "BVB Düwag in Belgrad (95).jpg",
+    "localDownloadFilename": "BVB Düwag in Belgrad (95).jpg",
+    "original": "/media/original-basel-scan-095.jpg",
+    "sha256": "e1cb51766c1e6a2eac0eb644e505cbd4ae4622f506c77af33cb8d95f84de6f7a",
+    "importSource": "Martin Häfliger WeTransfer collection, received 2026-10-22",
+    "digitalFileTimestamp": "2011:11:03 19:30:34",
+    "width": 4760,
+    "height": 3162,
+    "variants": [
+      {
+        "src": "/media/basel-scan-095-640.webp",
+        "width": 640,
+        "height": 425,
+        "bytes": 34326
+      },
+      {
+        "src": "/media/basel-scan-095-1280.webp",
+        "width": 1280,
+        "height": 850,
+        "bytes": 105336
+      },
+      {
+        "src": "/media/basel-scan-095-2000.webp",
+        "width": 2000,
+        "height": 1329,
+        "bytes": 219942
+      }
+    ],
+    "identificationNote": null,
+    "fullSize": {
+      "src": "/media/basel-scan-095-full.webp",
+      "width": 4760,
+      "height": 3162,
+      "bytes": 1229402,
+      "format": "image/webp",
+      "quality": 92
+    }
+  },
+  {
+    "id": "basel-scan-042",
+    "series": "basel",
+    "date": "unconfirmed",
+    "dateBasis": "Exposure date not supplied; digital timestamps are not treated as exposure dates.",
+    "creator": "M.A.Haefliger",
+    "credit": "Collection A. Radchenko, photo M.A.Haefliger",
+    "rightsStatus": "permission-2026-10-26",
+    "authorshipBasis": "Martin Häfliger permission email, 2026-10-26; collection owner confirmation, 2026-10-27.",
+    "source": "Collection A. Radchenko; supplied by Martin Häfliger",
+    "place": "Unconfirmed for this photograph",
+    "vehicle": "",
+    "vehicleType": "Individual identification pending primary documentation",
+    "placeLabel": {
+      "sr": "Tačno mesto nije potvrđeno",
+      "en": "Exact location unconfirmed",
+      "ru": "Точное место не подтверждено"
+    },
+    "typeLabel": {
+      "sr": "Identifikacija prema primarnom dosijeu još nije završena",
+      "en": "Primary vehicle dossier identification pending",
+      "ru": "Идентификация по первичному досье ещё не завершена"
+    },
+    "caption": {
+      "sr": "Tramvaj, krivina i kontaktna mreža.",
+      "en": "Tram, curved track and overhead wires.",
+      "ru": "Трамвай, поворот путей и контактная сеть."
+    },
+    "alt": {
+      "sr": "Tramvaj, krivina i kontaktna mreža.",
+      "en": "Tram, curved track and overhead wires.",
+      "ru": "Трамвай, поворот путей и контактная сеть."
+    },
+    "originalFilename": "klein BVB Düwag in Belgrad (42).jpg",
+    "localDownloadFilename": "klein BVB Düwag in Belgrad (42).jpg",
+    "original": "/media/original-basel-scan-042.jpg",
+    "sha256": "d7078ee14bd2d17ddc97d59395e22f99cb5d205511691da31e74ef44c7ecee7c",
+    "importSource": "Martin Häfliger WeTransfer collection, received 2026-10-22",
+    "digitalFileTimestamp": "2016:11:13 15:13:16",
+    "width": 4770,
+    "height": 3177,
+    "variants": [
+      {
+        "src": "/media/basel-scan-042-640.webp",
+        "width": 640,
+        "height": 426,
+        "bytes": 50646
+      },
+      {
+        "src": "/media/basel-scan-042-1280.webp",
+        "width": 1280,
+        "height": 853,
+        "bytes": 168252
+      },
+      {
+        "src": "/media/basel-scan-042-2000.webp",
+        "width": 2000,
+        "height": 1332,
+        "bytes": 359280
+      }
+    ],
+    "identificationNote": null,
+    "fullSize": {
+      "src": "/media/basel-scan-042-full.webp",
+      "width": 4770,
+      "height": 3177,
+      "bytes": 2137240,
+      "format": "image/webp",
+      "quality": 92
+    }
+  },
+  {
+    "id": "basel-scan-057",
+    "series": "basel",
+    "date": "unconfirmed",
+    "dateBasis": "Exposure date not supplied; digital timestamps are not treated as exposure dates.",
+    "creator": "M.A.Haefliger",
+    "credit": "Collection A. Radchenko, photo M.A.Haefliger",
+    "rightsStatus": "permission-2026-10-26",
+    "authorshipBasis": "Martin Häfliger permission email, 2026-10-26; collection owner confirmation, 2026-10-27.",
+    "source": "Collection A. Radchenko; supplied by Martin Häfliger",
+    "place": "Unconfirmed for this photograph",
+    "vehicle": "",
+    "vehicleType": "Individual identification pending primary documentation",
+    "placeLabel": {
+      "sr": "Tačno mesto nije potvrđeno",
+      "en": "Exact location unconfirmed",
+      "ru": "Точное место не подтверждено"
+    },
+    "typeLabel": {
+      "sr": "Identifikacija prema primarnom dosijeu još nije završena",
+      "en": "Primary vehicle dossier identification pending",
+      "ru": "Идентификация по первичному досье ещё не завершена"
+    },
+    "caption": {
+      "sr": "Zeleni tramvaj sa žutom prikolicom.",
+      "en": "A green tram with a yellow trailer.",
+      "ru": "Зелёный трамвай с жёлтым прицепом."
+    },
+    "alt": {
+      "sr": "Zeleni tramvaj sa žutom prikolicom.",
+      "en": "A green tram with a yellow trailer.",
+      "ru": "Зелёный трамвай с жёлтым прицепом."
+    },
+    "originalFilename": "klein BVB Düwag in Belgrad (57).jpg",
+    "localDownloadFilename": "klein BVB Düwag in Belgrad (57).jpg",
+    "original": "/media/original-basel-scan-057.jpg",
+    "sha256": "5ba833e6b8e750c4988279b72b51aeced4befce55f1f96578db3e5c18429d4e8",
+    "importSource": "Martin Häfliger WeTransfer collection, received 2026-10-22",
+    "digitalFileTimestamp": "2016:11:13 13:58:44",
+    "width": 1200,
+    "height": 797,
+    "variants": [
+      {
+        "src": "/media/basel-scan-057-640.webp",
+        "width": 640,
+        "height": 425,
+        "bytes": 75540
+      },
+      {
+        "src": "/media/basel-scan-057-1280.webp",
+        "width": 1200,
+        "height": 797,
+        "bytes": 240076
+      },
+      {
+        "src": "/media/basel-scan-057-2000.webp",
+        "width": 1200,
+        "height": 797,
+        "bytes": 240076
+      }
+    ],
+    "identificationNote": null,
+    "fullSize": {
+      "src": "/media/basel-scan-057-full.webp",
+      "width": 1200,
+      "height": 797,
+      "bytes": 311938,
+      "format": "image/webp",
+      "quality": 92
+    }
+  }
+]

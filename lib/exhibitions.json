@@ -1,0 +1,575 @@
+{
+  "ui": {
+    "home": {
+      "sr": "Muzej",
+      "en": "Museum",
+      "ru": "Музей"
+    },
+    "exhibitions": {
+      "sr": "Izložbe",
+      "en": "Exhibitions",
+      "ru": "Выставки"
+    },
+    "draft": {
+      "sr": "Fotografska izložba",
+      "en": "Photographic exhibition",
+      "ru": "Фотографическая выставка"
+    },
+    "skip": {
+      "sr": "Pređi na sadržaj",
+      "en": "Skip to content",
+      "ru": "Перейти к содержанию"
+    },
+    "contents": {
+      "sr": "Kroz izložbu",
+      "en": "Explore the exhibition",
+      "ru": "По выставке"
+    },
+    "objects": {
+      "sr": "Fotografska zbirka",
+      "en": "Photographic collection",
+      "ru": "Фотографическая коллекция"
+    },
+    "sources": {
+      "sr": "Izvori i istraživanje",
+      "en": "Sources and research",
+      "ru": "Источники и исследование"
+    },
+    "rights": {
+      "sr": "Poreklo i prava",
+      "en": "Provenance and rights",
+      "ru": "Происхождение и права"
+    },
+    "record": {
+      "sr": "Podaci o snimku",
+      "en": "Photograph record",
+      "ru": "Карточка снимка"
+    },
+    "open": {
+      "sr": "Uvećaj fotografiju",
+      "en": "Enlarge photograph",
+      "ru": "Увеличить фотографию"
+    },
+    "close": {
+      "sr": "Zatvori",
+      "en": "Close",
+      "ru": "Закрыть"
+    },
+    "previous": {
+      "sr": "Prethodna",
+      "en": "Previous",
+      "ru": "Предыдущая"
+    },
+    "next": {
+      "sr": "Sledeća",
+      "en": "Next",
+      "ru": "Следующая"
+    },
+    "date": {
+      "sr": "Datum",
+      "en": "Date",
+      "ru": "Дата"
+    },
+    "place": {
+      "sr": "Mesto",
+      "en": "Place",
+      "ru": "Место"
+    },
+    "type": {
+      "sr": "Tip vozila",
+      "en": "Vehicle type",
+      "ru": "Тип вагона"
+    },
+    "unconfirmed": {
+      "sr": "Nije potvrđeno",
+      "en": "Unconfirmed",
+      "ru": "Не подтверждено"
+    },
+    "april": {
+      "sr": "April 1978 — prema nazivu datoteke",
+      "en": "April 1978 — supplied filename",
+      "ru": "Апрель 1978 — по имени файла"
+    },
+    "filename": {
+      "sr": "Izvorna datoteka",
+      "en": "Original filename",
+      "ru": "Исходный файл"
+    },
+    "credit": {
+      "sr": "Collection A. Radchenko, photo M.A.Haefliger",
+      "en": "Collection A. Radchenko, photo M.A.Haefliger",
+      "ru": "Collection A. Radchenko, photo M.A.Haefliger"
+    },
+    "photos": {
+      "sr": "fotografije",
+      "en": "photographs",
+      "ru": "фотографий"
+    },
+    "other": {
+      "sr": "Još jedna izložba",
+      "en": "Another exhibition",
+      "ru": "Другая выставка"
+    },
+    "closed": {
+      "sr": "Digitalni muzej u razvoju. Fizički muzej trenutno nije otvoren za posete.",
+      "en": "Digital museum in development. The physical museum is not currently open to visitors.",
+      "ru": "Цифровой музей в развитии. Физический музей пока не открыт для посещения."
+    },
+    "draftNotice": {
+      "sr": "Zbirka se dopunjava. Istorijski podaci označeni kao nepotvrđeni ostaju predmet istraživanja.",
+      "en": "The collection is growing. Historical information marked as unconfirmed remains under research.",
+      "ru": "Коллекция пополняется. Исторические сведения, отмеченные как неподтверждённые, остаются предметом исследования."
+    },
+    "original": {
+      "sr": "Otvori punu rezoluciju",
+      "en": "Open full resolution",
+      "ru": "Открыть в полном разрешении"
+    },
+    "indexIntro": {
+      "sr": "Dve fotografske celine, dva vremena grada. Prve izložbe zbirke javnog prevoza Beograda.",
+      "en": "Two photographic series, two moments in the city. The first exhibitions of Belgrade’s public transport collection.",
+      "ru": "Две фотографические серии, два времени города. Первые выставки коллекции общественного транспорта Белграда."
+    },
+    "all": {
+      "sr": "Sve fotografije",
+      "en": "All photographs",
+      "ru": "Все фотографии"
+    },
+    "photoCount": {
+      "sr": "Fotografija",
+      "en": "Photographs",
+      "ru": "Фотографий"
+    },
+    "about": {
+      "sr": "O fotografijama i izvorima",
+      "en": "About the photographs and sources",
+      "ru": "О фотографиях и источниках"
+    },
+    "view": {
+      "sr": "Pogledaj fotografiju",
+      "en": "View photograph",
+      "ru": "Открыть фотографию"
+    }
+  },
+  "sources": {
+    "catalogue": {
+      "title": "25 лет базельским трамваям в Белграде — музейный каталог v1",
+      "url": "https://docs.google.com/spreadsheets/d/1srw6l5Qj9daQkOIxj0S7eY7KNOZwNn83CNXFd_gGpbo/edit",
+      "note": {
+        "sr": "Radni katalog; identifikacije vozila zahtevaju proveru u primarnim dosijeima.",
+        "en": "Working catalogue; vehicle identifications require verification against primary dossiers.",
+        "ru": "Рабочий каталог; идентификации требуют сверки с первичными досье."
+      }
+    },
+    "basel2001": {
+      "title": "Basel-Stadt, 22.05.2001 — 20 alte BVB-Trams für Belgrad",
+      "url": "https://www.bs.ch/medienmitteilungen/2001-20-alte-bvb-trams-fuer-belgrad",
+      "note": {
+        "sr": "Plan transfera i obuka; nije konačan akt prijema.",
+        "en": "Transfer and training plan; not a final receipt record.",
+        "ru": "План передачи и обучения; не итоговый акт приёмки."
+      }
+    },
+    "gsp2001": {
+      "title": "GSP Beograd — 2000–2010",
+      "url": "https://www.gsp.rs/od_2000_do_2010.aspx",
+      "note": {
+        "sr": "Istorijat prevoznika; zapis za 2001. godinu.",
+        "en": "Operator history; entry for 2001.",
+        "ru": "История перевозчика; запись за 2001 год."
+      }
+    },
+    "seco": {
+      "title": "SECO — Trams for Belgrade, 2001–2016",
+      "url": "https://www.newsd.admin.ch/newsd/message/attachments/48130.pdf",
+      "note": {
+        "sr": "Obnova, tehničke prilagodbe, rezervni delovi i obuka.",
+        "en": "Rehabilitation, technical adaptations, spare parts and training.",
+        "ru": "Восстановление, техническая адаптация, запчасти и обучение."
+      }
+    },
+    "gsp1970": {
+      "title": "GSP Beograd — 1970–1980",
+      "url": "https://www.gsp.rs/od_1970_do_1980.aspx",
+      "note": {
+        "sr": "Kontekst decenije; ne identifikuje pojedinačne snimke.",
+        "en": "Decade context; does not identify individual photographs.",
+        "ru": "Контекст десятилетия; не идентифицирует отдельные снимки."
+      }
+    },
+    "gsp1950": {
+      "title": "GSP Beograd — 1950–1960",
+      "url": "https://www.gsp.rs/od_1950_do_1960.aspx",
+      "note": {
+        "sr": "Istorija domaće proizvodnje; nije dokaz tipa svakog prikazanog vozila.",
+        "en": "Domestic production history; not proof of the type of each depicted vehicle.",
+        "ru": "История отечественного производства; не доказательство типа каждого показанного вагона."
+      }
+    },
+    "filenames": {
+      "title": "Collection A. Radchenko — supplied image filenames",
+      "url": "",
+      "note": {
+        "sr": "April 1978; Slavija i Hauptbahnhof samo gde su navedeni.",
+        "en": "April 1978; Slavija and Hauptbahnhof only where named.",
+        "ru": "Апрель 1978; Slavija и Hauptbahnhof — только там, где указаны."
+      }
+    }
+  },
+  "exhibitions": [
+    {
+      "slug": "second-life",
+      "theme": "basel",
+      "hero": "basel-0292",
+      "period": {
+        "sr": "2001–2026 · 25 godina",
+        "en": "2001–2026 · 25 years",
+        "ru": "2001–2026 · 25 лет"
+      },
+      "title": {
+        "sr": "Drugi život na istim šinama",
+        "en": "Second Life on the Same Tracks",
+        "ru": "Вторая жизнь на тех же рельсах"
+      },
+      "deck": {
+        "sr": "Bazelski tramvaji u Beogradu. Fotografije Martina Häfligera.",
+        "en": "Basel trams in Belgrade. Photographs by Martin Häfliger.",
+        "ru": "Базельские трамваи в Белграде. Фотографии Мартина Хефлигера."
+      },
+      "intro": {
+        "sr": "Prvi tramvaji iz Bazela stigli su u Beograd 2001. Na fotografijama Martina Häfligera vidimo ih na ulicama, u depou i tokom prevoza.",
+        "en": "The first Basel trams arrived in Belgrade in 2001. Martin Häfliger’s photographs show them in the streets, in depots and during transport.",
+        "ru": "Первые трамваи из Базеля прибыли в Белград в 2001 году. На фотографиях Мартина Хефлигера — вагоны на улицах, в депо и во время перевозки."
+      },
+      "chapters": [
+        {
+          "id": "streets",
+          "title": {
+            "sr": "Na ulicama",
+            "en": "In the streets",
+            "ru": "На улицах"
+          },
+          "text": {
+            "sr": "",
+            "en": "",
+            "ru": ""
+          },
+          "images": [
+            "basel-0292",
+            "basel-0294",
+            "basel-0295",
+            "basel-scan-020",
+            "basel-scan-018",
+            "basel-scan-019",
+            "basel-scan-004",
+            "basel-scan-005",
+            "basel-scan-039",
+            "basel-scan-042",
+            "basel-scan-044",
+            "basel-scan-048",
+            "basel-scan-057",
+            "basel-scan-065",
+            "basel-scan-075"
+          ]
+        },
+        {
+          "id": "depot",
+          "title": {
+            "sr": "U depou",
+            "en": "In the depot",
+            "ru": "В депо"
+          },
+          "text": {
+            "sr": "",
+            "en": "",
+            "ru": ""
+          },
+          "images": [
+            "basel-0296",
+            "basel-scan-008",
+            "basel-scan-001",
+            "basel-scan-002",
+            "basel-scan-003",
+            "basel-scan-011",
+            "basel-scan-086",
+            "basel-scan-087"
+          ]
+        },
+        {
+          "id": "transport",
+          "title": {
+            "sr": "Prevoz vagona",
+            "en": "Transporting the trams",
+            "ru": "Перевозка вагонов"
+          },
+          "text": {
+            "sr": "",
+            "en": "",
+            "ru": ""
+          },
+          "images": [
+            "basel-scan-088",
+            "basel-scan-089",
+            "basel-scan-090",
+            "basel-scan-092",
+            "basel-scan-093",
+            "basel-scan-094",
+            "basel-scan-095"
+          ]
+        }
+      ],
+      "rights": {
+        "sr": "Četiri snimka dostavio je Martin Häfliger. Dozvola od 26.10.2026. predviđa potpis „Collection A. Radchenko, photo M.A.Haefliger“. Taj potpis koristimo za njegovu kolor-seriju. Datum snimanja i precizna mesta još nisu potvrđeni; digitalna oznaka vremena nije automatski datum fotografisanja.",
+        "en": "Martin Häfliger supplied these four photographs. His permission of 26 October 2026 specifies the credit “Collection A. Radchenko, photo M.A.Haefliger”, used here for his colour series. Exposure dates and exact locations remain unconfirmed; a digital timestamp is not automatically a photograph’s date.",
+        "ru": "Четыре снимка предоставил Мартин Хефлигер. Разрешение от 26.10.2026 предусматривает подпись «Collection A. Radchenko, photo M.A.Haefliger»; она используется для его цветной серии. Даты съёмки и точные места пока не подтверждены; цифровая отметка времени не равна дате фотографирования."
+      },
+      "sources": ["catalogue", "basel2001", "gsp2001", "seco"],
+      "research": {
+        "sr": "Za dopunu: datumi i mesta četiri snimka; fabrički i GSP dosijei; provera broja 608; dokumenti o predaji; imena i uloge ljudi samo uz potvrdu.",
+        "en": "To add: dates and locations of the four images; factory and GSP dossiers; verification of number 608; transfer records; names and roles only with confirmation.",
+        "ru": "Уточнить: даты и места четырёх снимков; заводские и GSP-досье; номер 608; акты передачи; имена и роли людей — только после подтверждения."
+      },
+      "anniversary": {
+        "sr": "Izložba je posvećena 25. godišnjici početka predaje bazelskih tramvaja Beogradu (2001–2026).",
+        "en": "This exhibition marks 25 years since the first Basel trams were transferred to Belgrade (2001–2026).",
+        "ru": "Выставка приурочена к 25-летию начала передачи базельских трамваев в Белград (2001–2026)."
+      },
+      "previousNarrative": {
+        "intro": {
+          "sr": "Tramvaj prelazi iz jednog grada u drugi, ali njegova biografija ne počinje iznova. Ostaju konstrukcija, broj i tragovi korišćenja; menjaju se putnici, ulice i uslovi rada. Četiri fotografije otvaraju izložbu o drugom životu bazelskih vozila u Beogradu. Jubilej se odnosi na početak transfera 2001. godine, a ne na datum ovih snimaka.",
+          "en": "A tram moves to another city, but its biography does not start again. Its construction, number and traces of use remain; its passengers, streets and working conditions change. Four photographs begin an exhibition about the second life of Basel vehicles in Belgrade. The anniversary refers to the start of transfers in 2001, not to the date of these photographs.",
+          "ru": "Трамвай переезжает в другой город, но его биография не начинается заново. Сохраняются конструкция, номер и следы эксплуатации; меняются пассажиры, улицы и условия работы. Четыре фотографии открывают выставку о второй жизни базельских вагонов в Белграде. Юбилей относится к началу передач в 2001 году, а не к дате этих снимков."
+        },
+        "chapters": [
+          {
+            "id": "transfer",
+            "title": {
+              "sr": "Put koji počinje 2001.",
+              "en": "A journey beginning in 2001",
+              "ru": "Путь, начавшийся в 2001 году"
+            },
+            "text": {
+              "sr": "Odluka kantona Basel-Stadt od 22. maja 2001. opisuje plan predaje vozila i obuku beogradskih majstora u Bazelu. GSP beleži dolazak švajcarskih tramvaja i prikolica iste godine. To su dva različita pogleda: plan donacije i zapis o prijemu. Za muzej je važno da ih ne svedemo na jednu, naizgled konačnu brojku.",
+              "en": "The Basel-Stadt announcement of 22 May 2001 describes a planned vehicle transfer and training for Belgrade workshop staff in Basel. GSP records the arrival of Swiss trams and trailers that year. These are different kinds of evidence: a donation plan and a record of receipt. A museum should preserve that distinction rather than turn them into one apparently definitive total.",
+              "ru": "Сообщение кантона Базель-Штадт от 22 мая 2001 года описывает план передачи вагонов и обучение белградских мастеров в Базеле. GSP фиксирует поступление швейцарских трамваев и прицепов в том же году. Это разные свидетельства: план дарения и запись о получении. Музею важно сохранять различие между ними, а не сводить их к одному окончательному числу."
+            },
+            "images": ["basel-0292"]
+          },
+          {
+            "id": "biographies",
+            "title": {
+              "sr": "Ista boja, različite biografije",
+              "en": "One colour, different biographies",
+              "ru": "Один цвет, разные биографии"
+            },
+            "text": {
+              "sr": "Brojevi 632 i 618 vode ka porodici zglobnih DÜWAG Be 4/6; 456 pripada drugom tipu, Be 4/4. Radni katalog povezuje ove brojeve sa BVB i kasnijom beogradskom numeracijom. To je polazna identifikacija, ne zamena za fabrički dosije i akt o predaji. Fotografija 456 sa oznakom linije 9 sama ne dokazuje redovnu putničku službu.",
+              "en": "Numbers 632 and 618 point to the articulated DÜWAG Be 4/6 family; 456 belongs to a different type, Be 4/4. The working catalogue connects these numbers with BVB and later Belgrade numbering. This is an initial identification, not a substitute for factory dossiers and transfer records. The photograph of 456 with a route 9 board does not by itself establish regular passenger service.",
+              "ru": "Номера 632 и 618 относятся к семейству сочленённых DÜWAG Be 4/6; 456 — к другому типу, Be 4/4. Рабочий каталог связывает эти номера с BVB и последующей белградской нумерацией. Это исходная идентификация, а не замена заводского досье и акта передачи. Фотография 456 с табличкой маршрута 9 сама по себе не доказывает регулярную пассажирскую эксплуатацию."
+            },
+            "images": ["basel-0294", "basel-0295"]
+          },
+          {
+            "id": "work",
+            "title": {
+              "sr": "Drugi život je zajednički rad",
+              "en": "A second life takes work",
+              "ru": "Вторая жизнь требует труда"
+            },
+            "text": {
+              "sr": "Na snimku 608 vidimo ljude pored vozila i koloseka. Njihova imena, uloge i povod okupljanja nisu potvrđeni. Fotografija ipak postavlja važno muzejsko pitanje: čiji rad omogućava vozilu da traje? Dokument SECO o projektu 2001–2016 navodi tehničke prilagodbe, rezervne delove i obuku vozača i osoblja održavanja. U nastavku zbirke želimo da povežemo takve dokumente sa alatima, delovima i svedočenjima ljudi iz GSP-a.",
+              "en": "The photograph of 608 shows people beside the vehicle and tracks. Their names, roles and the occasion are unconfirmed. Yet the image raises a central museum question: whose work allows a vehicle to last? SECO’s account of the 2001–2016 project includes technical adaptations, spare parts and training for drivers and maintenance staff. Future additions can connect those documents with tools, components and testimony from GSP workers.",
+              "ru": "На снимке 608 видны люди рядом с вагоном и путями. Их имена, роли и повод встречи не подтверждены. Но фотография ставит важный музейный вопрос: чей труд позволяет вагону жить дальше? Документ SECO о проекте 2001–2016 годов перечисляет техническую адаптацию, запчасти и обучение водителей и ремонтного персонала. Следующий шаг коллекции — связать документы с инструментами, деталями и свидетельствами работников GSP."
+            },
+            "images": ["basel-0296"]
+          },
+          {
+            "id": "future",
+            "title": {
+              "sr": "Šta čuvamo posle jubileja?",
+              "en": "What should outlast the anniversary?",
+              "ru": "Что останется после юбилея?"
+            },
+            "text": {
+              "sr": "Godišnjica je prilika da sačuvamo više od prepoznatljivog zelenog tramvaja. Za svaki vagon potrebni su dosije, proveren niz brojeva, fotografije pre i posle transfera i tragovi popravki. Ova izložba je početak tog posla: prostor za nove snimke, potvrđene podatke i priče o svakodnevnom prevozu.",
+              "en": "An anniversary is an opportunity to preserve more than a familiar green tram. Each vehicle needs a dossier, a verified chain of numbers, photographs before and after transfer, and evidence of repairs. This exhibition starts that work: a place for further photographs, confirmed information and stories of everyday transport.",
+              "ru": "Юбилей — повод сохранить больше, чем узнаваемый зелёный трамвай. Каждому вагону нужны досье, проверенная цепочка номеров, фотографии до и после передачи, следы ремонта. Выставка начинает эту работу: здесь появятся новые снимки, подтверждённые сведения и истории повседневного транспорта."
+            },
+            "images": []
+          }
+        ]
+      }
+    },
+    {
+      "slug": "belgrade-in-motion",
+      "theme": "archive",
+      "hero": "bg1978-128-a",
+      "period": {
+        "sr": "April 1978",
+        "en": "April 1978",
+        "ru": "Апрель 1978"
+      },
+      "title": {
+        "sr": "Beograd u pokretu",
+        "en": "Belgrade in Motion",
+        "ru": "Белград в движении"
+      },
+      "deck": {
+        "sr": "Beograd, april 1978. Četrnaest fotografija Martina Häfligera.",
+        "en": "Belgrade, April 1978. Fourteen photographs by Martin Häfliger.",
+        "ru": "Белград, апрель 1978 года. Четырнадцать фотографий Мартина Хефлигера."
+      },
+      "intro": {
+        "sr": "Beograd u aprilu 1978. Tramvaji ispred glavne železničke stanice, na Slaviji i drugim gradskim ulicama — na 14 fotografija Martina Häfligera.",
+        "en": "Belgrade in April 1978. Trams outside the main railway station, at Slavija and on the city’s streets, in 14 photographs by Martin Häfliger.",
+        "ru": "Белград в апреле 1978 года. Трамваи у главного вокзала, на Славии и других городских улицах — на 14 фотографиях Мартина Хефлигера."
+      },
+      "chapters": [
+        {
+          "id": "station",
+          "title": {
+            "sr": "Kod stanice",
+            "en": "At the station",
+            "ru": "У вокзала"
+          },
+          "text": {
+            "sr": "",
+            "en": "",
+            "ru": ""
+          },
+          "images": [
+            "bg1978-53-a",
+            "bg1978-81-b",
+            "bg1978-118-b",
+            "bg1978-171-a"
+          ]
+        },
+        {
+          "id": "slavija",
+          "title": {
+            "sr": "Slavija",
+            "en": "Slavija",
+            "ru": "Славия"
+          },
+          "text": {
+            "sr": "",
+            "en": "",
+            "ru": ""
+          },
+          "images": ["bg1978-47-b"]
+        },
+        {
+          "id": "streets",
+          "title": {
+            "sr": "Druge ulice",
+            "en": "Other streets",
+            "ru": "Другие улицы"
+          },
+          "text": {
+            "sr": "",
+            "en": "",
+            "ru": ""
+          },
+          "images": [
+            "bg1978-47-a",
+            "bg1978-62-a",
+            "bg1978-81-a",
+            "bg1978-128-a",
+            "bg1978-121-a",
+            "bg1978-128-b",
+            "bg1978-74-a",
+            "bg1978-104-a",
+            "bg1978-127-a"
+          ]
+        }
+      ],
+      "rights": {
+        "sr": "Fotografije: M.A.Haefliger. Zbirka A. Radchenko. Dozvola Martina Häfligera od 26.10.2026. odnosi se na fotografije koje je dostavio, uz potpis „Collection A. Radchenko, photo M.A.Haefliger“. Vlasnik zbirke je potvrdio da se ovaj potpis koristi i za seriju iz aprila 1978. godine.",
+        "en": "Photographs: M.A.Haefliger. Collection A. Radchenko. Martin Häfliger’s permission of 26 October 2026 covers the photographs he supplied, with the credit “Collection A. Radchenko, photo M.A.Haefliger”. The collection owner has confirmed that this credit also applies to the April 1978 series.",
+        "ru": "Фотографии: M.A.Haefliger. Коллекция А. Радченко. Разрешение Мартина Хефлигера от 26.10.2026 относится к предоставленным им снимкам с подписью «Collection A. Radchenko, photo M.A.Haefliger». Владелец коллекции подтвердил, что эта подпись относится и к серии апреля 1978 года."
+      },
+      "sources": ["filenames", "gsp1970", "gsp1950"],
+      "research": {
+        "sr": "Za dopunu: izvorni natpisi ili poleđine; potvrda datuma; precizna mesta; tip i poreklo svakog vagona. Poredak je kustoski, a ne rekonstrukcija puta fotografa.",
+        "en": "To add: original annotations or reverse sides; date confirmation; exact locations; type and origin of each vehicle. The sequence is curatorial, not a reconstruction of the photographer’s itinerary.",
+        "ru": "Уточнить: оригинальные подписи или обороты; датировку; точные места; тип и происхождение каждого вагона. Порядок кураторский, он не реконструирует маршрут фотографа."
+      },
+      "anniversary": null,
+      "previousNarrative": {
+        "intro": {
+          "sr": "Tramvaj je ovde i tema i način da pogledamo grad. Iza prozora i duž šina otvaraju se fasade, raskrsnice, pešaci i druga vozila. Nazivi datoteka smeštaju seriju u april 1978. godine — više od dve decenije pre početka dolaska bazelskih tramvaja. Izložba čita ono što fotografije pokazuju, a odvaja ono što tek treba dokazati.",
+          "en": "The tram is both the subject and a way of looking at the city. Beyond its windows and along the rails are façades, junctions, pedestrians and other vehicles. Supplied filenames place this series in April 1978, more than two decades before Basel tram transfers began. This exhibition reads what the photographs show while keeping unproven information distinct.",
+          "ru": "Трамвай здесь — и тема, и способ увидеть город. За окнами и вдоль рельсов открываются фасады, перекрёстки, пешеходы и другие машины. Имена файлов относят серию к апрелю 1978 года — более чем за два десятилетия до начала передачи базельских вагонов. Выставка читает то, что показывают фотографии, отделяя это от ещё не доказанного."
+        },
+        "chapters": [
+          {
+            "id": "station",
+            "title": {
+              "sr": "Pred stanicom: grad koji preseda",
+              "en": "Outside the station: a city changing modes",
+              "ru": "Перед вокзалом: город пересадок"
+            },
+            "text": {
+              "sr": "Četiri naslova sadrže reč „Hauptbahnhof“ — glavna železnička stanica. Prepoznatljiva fasada stanice u pozadini podržava ovu odrednicu. Tramvaji u prvom planu povezuju železničko putovanje sa gradskim kretanjem. Kadrovi ne pokazuju samo vozila: položaj pešaka, automobila i šina govori i o deljenju uličnog prostora.",
+              "en": "Four filenames include “Hauptbahnhof”, meaning main railway station. The recognisable station façade in the background supports this location. Trams in the foreground connect railway travel with movement around the city. The frames show more than vehicles: the placement of pedestrians, cars and rails also reveals how street space is shared.",
+              "ru": "Четыре названия содержат слово Hauptbahnhof — главный железнодорожный вокзал. Узнаваемый фасад вокзала на заднем плане поддерживает эту локализацию. Трамваи на переднем плане связывают железнодорожное путешествие с движением по городу. Расположение пешеходов, автомобилей и рельсов рассказывает о том, как делилось уличное пространство."
+            },
+            "images": [
+              "bg1978-53-a",
+              "bg1978-81-b",
+              "bg1978-118-b",
+              "bg1978-171-a"
+            ]
+          },
+          {
+            "id": "junctions",
+            "title": {
+              "sr": "Raskrsnice i gradski ritam",
+              "en": "Junctions and the city’s rhythm",
+              "ru": "Перекрёстки и ритм города"
+            },
+            "text": {
+              "sr": "Jedan snimak broja 47 u nazivu nosi „Slavija“. Ostali ostaju šire označeni kao Beograd: slična raskrsnica ili zgrada nisu dovoljne da im dodelimo adresu. Krivine koloseka i kontaktna mreža otkrivaju gradsku infrastrukturu; drugi tramvaji i automobili pokazuju da kadar pripada svakodnevnom saobraćaju, a ne izdvojenom tehničkom portretu.",
+              "en": "One photograph of number 47 is labelled “Slavija”. Others retain the broader location Belgrade: a similar junction or building is not sufficient to assign an address. Curving tracks and overhead wires reveal the city’s infrastructure; other trams and cars place the subject within everyday traffic rather than an isolated technical portrait.",
+              "ru": "Один снимок вагона 47 назван Slavija. Для остальных сохраняется более широкая локализация — Белград: похожего перекрёстка или здания недостаточно для точного адреса. Повороты путей и контактная сеть раскрывают инфраструктуру города; соседние вагоны и автомобили возвращают трамвай в повседневное движение."
+            },
+            "images": [
+              "bg1978-47-b",
+              "bg1978-47-a",
+              "bg1978-62-a",
+              "bg1978-81-a"
+            ]
+          },
+          {
+            "id": "street",
+            "title": {
+              "sr": "Ulica u visini prozora",
+              "en": "The street at window height",
+              "ru": "Улица на уровне окна"
+            },
+            "text": {
+              "sr": "Na snimcima 121 i 128 pažnju privlače ljudi uz tramvaj i na ulici. Ne znamo njihova imena ni odredišta. Možemo, međutim, da posmatramo odnos tela, vrata i kolovoza, razmak između pešaka i vozila, nizove prozora i krošnju drveta. Takvi detalji pretvaraju fotografiju tramvaja u izvor za istoriju svakodnevice.",
+              "en": "In the photographs of 121 and 128, people beside the tram and in the street draw the eye. Their names and destinations are unknown. We can still observe the relationship between bodies, doors and roadway, the distance between pedestrians and vehicles, rows of windows and the trees. Such details make a tram photograph a source for the history of everyday life.",
+              "ru": "На снимках 121 и 128 взгляд задерживается на людях у трамвая и на улице. Их имена и маршруты неизвестны. Но можно увидеть отношения между человеком, дверью и проезжей частью, расстояние до транспорта, ряды окон и деревья. Эти детали превращают фотографию вагона в источник по истории повседневности."
+            },
+            "images": ["bg1978-128-a", "bg1978-121-a", "bg1978-128-b"]
+          },
+          {
+            "id": "reading",
+            "title": {
+              "sr": "Razlike koje treba sačuvati",
+              "en": "Keeping the differences visible",
+              "ru": "Сохранить различия"
+            },
+            "text": {
+              "sr": "U seriji se smenjuju različiti oblici čela, prozora i sastava. To je poziv na dalje istraživanje voznog parka, ne dovoljan dokaz tipa ili porekla pojedinačnog vagona. Za sada čuvamo vidljive brojeve i izvorne nazive. Tipove, proizvođače i ranije gradove upisaćemo tek uz pouzdan izvor za svako vozilo.",
+              "en": "The series moves between different front ends, window patterns and formations. These differences invite research into the fleet; they do not alone establish the type or origin of an individual car. For now we preserve visible numbers and original filenames. Types, manufacturers and previous cities will be added only with reliable evidence for each vehicle.",
+              "ru": "В серии меняются формы лобовой части, окон и составов. Это приглашение исследовать парк, но не достаточное доказательство типа или происхождения отдельного вагона. Пока сохраняем видимые номера и исходные названия. Типы, изготовителей и прежние города добавим только с надёжным источником для каждого вагона."
+            },
+            "images": ["bg1978-74-a", "bg1978-104-a", "bg1978-127-a"]
+          }
+        ]
+      }
+    }
+  ]
+}
