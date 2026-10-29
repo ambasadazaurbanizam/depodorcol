@@ -2,6 +2,7 @@
 
 import { FormEvent, useEffect, useState } from 'react';
 import { getMessages, type PublicLocale } from '@/lib/i18n';
+import { ExhibitionCards } from './exhibition-cards';
 
 const INSTAGRAM_URL = 'https://www.instagram.com/ambasadazaurbanizam/';
 const MEDIA_VERSION = '2026-09-01-1';
@@ -10,8 +11,8 @@ function Arrow({ diagonal = false }: { diagonal?: boolean }) {
   return <span aria-hidden="true">{diagonal ? '↗' : '→'}</span>;
 }
 
-export function MuseumLanding() {
-  const [locale, setLocale] = useState<PublicLocale>('en');
+export function MuseumLanding({ initialLocale = 'en' }: { initialLocale?: PublicLocale }) {
+  const [locale, setLocale] = useState<PublicLocale>(initialLocale);
   const [formReady, setFormReady] = useState(false);
   const [formStatus, setFormStatus] = useState('');
   const [isSubmitting, setIsSubmitting] = useState(false);
@@ -78,7 +79,7 @@ export function MuseumLanding() {
 
         <nav className="header-nav" aria-label="Primary navigation">
           <a href="#collection">{t.nav.collection}</a>
-          <a href={`/exhibitions?lang=${locale}`}>{t.nav.exhibitions}</a>
+          <a href="#exhibitions">{t.nav.exhibitions}</a>
           <a href="#depot">{t.nav.home}</a>
           <a href="#contribute">{t.nav.contribute}</a>
         </nav>
@@ -143,12 +144,9 @@ export function MuseumLanding() {
           </ol>
         </section>
 
-        <section className="landing-exhibitions" aria-labelledby="exhibitions-title">
+        <section className="landing-exhibitions" id="exhibitions" aria-labelledby="exhibitions-title">
           <h2 id="exhibitions-title">{t.nav.exhibitions}</h2>
-          <nav aria-label={t.nav.exhibitions}>
-            <a href={`/exhibitions/second-life/${locale}`}>{t.exhibitions.baselTitle}</a>
-            <a href={`/exhibitions/belgrade-in-motion/${locale}`}>{t.exhibitions.belgradeTitle}</a>
-          </nav>
+          <ExhibitionCards locale={locale} headingLevel={3} />
         </section>
 
         <section className="stories-section" aria-labelledby="stories-title">
