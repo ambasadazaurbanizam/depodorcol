@@ -1,10 +1,10 @@
-import Link from 'next/link';
 /* oxlint-disable next/no-img-element -- Collection images use checked-in responsive derivatives and intrinsic dimensions. */
 import { ExhibitionGallery } from './exhibition-gallery';
 import {
   exhibitions,
   exhibitionUrl,
   locales,
+  museumHomeUrl,
   photograph,
   sources,
   ui,
@@ -24,7 +24,7 @@ export function ExhibitionHeader({
         {ui.skip[locale]}
       </a>
       <header className="ex-header">
-        <Link className="wordmark" href="/">
+        <a className="wordmark" href={museumHomeUrl(locale)} aria-label={ui.home[locale]}>
           <img className="wordmark-logo" src="/media/logo.png" alt="Muzej javnog prevoza Beograda" />
           <span>
             Depo Dorćol
@@ -32,8 +32,8 @@ export function ExhibitionHeader({
               Muzej javnog prevoza Beograda
             </span>
           </span>
-        </Link>
-        <a href={`/exhibitions?lang=${locale}`}>{ui.exhibitions[locale]}</a>
+        </a>
+        <a href={museumHomeUrl(locale, 'exhibitions')}>{ui.exhibitions[locale]}</a>
         <nav className="ex-languages" aria-label="Language">
           {locales.map((code) => (
             <a
@@ -164,9 +164,9 @@ export function Exhibition({
         </section>
       </main>
       <footer className="ex-footer">
-        <Link href="/">Depo Dorćol</Link>
+        <a href={museumHomeUrl(locale)}>Depo Dorćol</a>
         <p>{ui.closed[locale]}</p>
-        <a href={`/exhibitions?lang=${locale}`}>{ui.exhibitions[locale]}</a>
+        <a href={museumHomeUrl(locale, 'exhibitions')}>{ui.exhibitions[locale]}</a>
       </footer>
     </div>
   );

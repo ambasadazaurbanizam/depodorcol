@@ -16,3 +16,5 @@ export const photograph = (id: string) => {
 };
 export const exhibitionUrl = (slug: string, locale: ExhibitionLocale) =>
   `/exhibitions/${slug}/${locale}`;
+export const museumHomeUrl = (locale: ExhibitionLocale, section = 'top') =>
+  `/?lang=${locale === 'sr' ? 'sr' : 'en'}#${section}`;
