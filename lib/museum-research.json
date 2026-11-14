@@ -1,0 +1,435 @@
+{
+  "sources": [
+    {
+      "id": "S-1952",
+      "title": "60 godina beogradskog javnog saobraćaja",
+      "year": 1952,
+      "pdfPages": 97,
+      "language": "sr",
+      "script": "Cyrillic",
+      "author": null,
+      "publisher": null,
+      "rightsStatus": "uncleared",
+      "access": "bibliography-only",
+      "ocrStatus": "machine-ocr-not-fully-proofread"
+    },
+    {
+      "id": "S-1977",
+      "title": "85 godina javnog gradskog saobraćaja u Beogradu",
+      "year": 1977,
+      "pdfPages": 86,
+      "language": "sr",
+      "script": "Cyrillic",
+      "author": null,
+      "publisher": null,
+      "rightsStatus": "uncleared",
+      "access": "bibliography-only",
+      "ocrStatus": "machine-ocr-not-fully-proofread"
+    },
+    {
+      "id": "S-2002",
+      "title": "110 godina gradskog prevoza u Beogradu",
+      "year": 2002,
+      "pdfPages": 54,
+      "language": "sr",
+      "script": "Cyrillic",
+      "author": null,
+      "publisher": null,
+      "rightsStatus": "uncleared",
+      "access": "bibliography-only",
+      "ocrStatus": "machine-ocr-not-fully-proofread"
+    }
+  ],
+  "objects": [
+    {
+      "id": "DOR-001",
+      "type": "documented-fact",
+      "title": {
+        "sr": "Prve tramvajske radionice",
+        "en": "The first tram workshops",
+        "ru": "Начало трамвайных мастерских"
+      },
+      "summary": {
+        "sr": "Prve radionice za popravku električnih tramvaja bile su u Donjem depou.",
+        "en": "The first electric tram repair workshops were in the Lower Depot.",
+        "ru": "Первые мастерские ремонта электрических трамваев размещались в Нижнем депо; в тексте указан третий проём."
+      },
+      "period": {
+        "sr": "Pre modernizacije 1928. godine",
+        "en": "Before the 1928 modernisation",
+        "ru": "До модернизации 1928 года"
+      },
+      "limitation": {
+        "sr": "Donji depo; tačna zgrada nije utvrđena.",
+        "en": "Lower Depot; the exact building has not been identified.",
+        "ru": "Нижнее депо, точная привязка здания не установлена"
+      },
+      "datePrecision": "Период приблизительный",
+      "sourceId": "S-1952",
+      "pdfPage": 30,
+      "printPage": 28,
+      "evidenceStatus": "source-confirmed",
+      "editorialStatus": "draft",
+      "languageStatus": {
+        "sr": "review",
+        "en": "review",
+        "ru": "review"
+      },
+      "reviewedAt": "2026-11-14",
+      "reviewBasis": "research-register",
+      "imageRights": "no-image",
+      "assets": []
+    },
+    {
+      "id": "DOR-003",
+      "type": "documented-fact",
+      "title": {
+        "sr": "Noćna smena",
+        "en": "The night shift",
+        "ru": "Трудовая организация"
+      },
+      "summary": {
+        "sr": "Pregledi i čišćenje tramvaja prvobitno su se obavljali noću, a periodični pregledi i popravke danju.",
+        "en": "Initially, trams were inspected and cleaned at night, while periodic inspections and repairs took place during the day.",
+        "ru": "Изначально очистку и осмотр трамваев выполняли ночью, а плановые ремонты — днём; это влияло на распределение смен."
+      },
+      "period": {
+        "sr": "Rani period eksploatacije",
+        "en": "Early operating period",
+        "ru": "Ранний период эксплуатации"
+      },
+      "limitation": {
+        "sr": "Opis organizacije rada, bez potvrđene lokacije.",
+        "en": "A description of working practices, without a confirmed site.",
+        "ru": "Система обслуживания; без точной площадки"
+      },
+      "datePrecision": "Период приблизительный",
+      "sourceId": "S-1952",
+      "pdfPage": 30,
+      "printPage": 28,
+      "evidenceStatus": "source-confirmed",
+      "editorialStatus": "draft",
+      "languageStatus": {
+        "sr": "review",
+        "en": "review",
+        "ru": "review"
+      },
+      "reviewedAt": "2026-11-14",
+      "reviewBasis": "research-register",
+      "imageRights": "no-image",
+      "assets": []
+    },
+    {
+      "id": "DOR-004",
+      "type": "documented-fact",
+      "title": {
+        "sr": "Stara kovačnica",
+        "en": "The old smithy",
+        "ru": "Старая кузница"
+      },
+      "summary": {
+        "sr": "Prema opisu iz 1952, kovačnica je imala jedno zajedničko ognjište i četiri nakovnja; radilo se ručno.",
+        "en": "The 1952 account describes a smithy with one shared hearth and four anvils, operated by hand.",
+        "ru": "Старая кузница, по описанию, имела один общий горн и четыре наковальни; работа велась вручную."
+      },
+      "period": {
+        "sr": "Pre 1928. godine",
+        "en": "Before 1928",
+        "ru": "До 1928 года"
+      },
+      "limitation": {
+        "sr": "Ne poistovećivati sa danas sačuvanom kovačnicom.",
+        "en": "It must not be equated with the surviving smithy.",
+        "ru": "Кузница описана внутри мастерских; не тождественна автоматически существующей"
+      },
+      "datePrecision": "Период приблизительный",
+      "sourceId": "S-1952",
+      "pdfPage": 31,
+      "printPage": 29,
+      "evidenceStatus": "source-confirmed",
+      "editorialStatus": "draft",
+      "languageStatus": {
+        "sr": "review",
+        "en": "review",
+        "ru": "review"
+      },
+      "reviewedAt": "2026-11-14",
+      "reviewBasis": "research-register",
+      "imageRights": "no-image",
+      "assets": []
+    },
+    {
+      "id": "DOR-007",
+      "type": "documented-fact",
+      "title": {
+        "sr": "Nova kovačnica iz 1930.",
+        "en": "The new smithy of 1930",
+        "ru": "Новая кузница"
+      },
+      "summary": {
+        "sr": "Prema publikaciji iz 1952, nova kovačnica izgrađena je 1930, sa odvodom gasova, motornim čekićima i odvojenim radnim mestima.",
+        "en": "The 1952 publication dates a new smithy to 1930, with gas extraction, power hammers and separate workstations.",
+        "ru": "В 1930 году была построена новая кузница с отводом газов, моторными молотами и отдельными рабочими местами."
+      },
+      "period": {
+        "sr": "1930",
+        "en": "1930",
+        "ru": "1930"
+      },
+      "limitation": {
+        "sr": "Savremena zgrada nije identifikovana; veza sa kovačnicom iz 1954. nije dokazana.",
+        "en": "The present-day building has not been identified; a connection to the smithy dated to 1954 is unproven.",
+        "ru": "Новая кузница 1930 года; современное здание НЕ идентифицировано"
+      },
+      "datePrecision": "Год точный в книге",
+      "sourceId": "S-1952",
+      "pdfPage": 32,
+      "printPage": 30,
+      "evidenceStatus": "source-confirmed",
+      "editorialStatus": "draft",
+      "languageStatus": {
+        "sr": "review",
+        "en": "review",
+        "ru": "review"
+      },
+      "reviewedAt": "2026-11-14",
+      "reviewBasis": "research-register",
+      "imageRights": "no-image",
+      "assets": []
+    },
+    {
+      "id": "DOR-009",
+      "type": "documented-fact",
+      "title": {
+        "sr": "Nova livnica",
+        "en": "The new foundry",
+        "ru": "Литейная мастерская"
+      },
+      "summary": {
+        "sr": "Knjiga iz 1952. navodi da je nova livnica završena i puštena u rad 1931. godine.",
+        "en": "The 1952 book states that the new foundry was completed and put into operation in 1931.",
+        "ru": "Книга прямо датирует окончание строительства новой литейной мастерской и ввод её в работу 1931 годом."
+      },
+      "period": {
+        "sr": "1931",
+        "en": "1931",
+        "ru": "1931"
+      },
+      "limitation": {
+        "sr": "Tačna zgrada u industrijskom kompleksu nije utvrđena.",
+        "en": "The exact building within the industrial complex is unidentified.",
+        "ru": "Промышленный комплекс; точное здание не установлено"
+      },
+      "datePrecision": "Год точный в книге",
+      "sourceId": "S-1952",
+      "pdfPage": 33,
+      "printPage": 31,
+      "evidenceStatus": "source-confirmed",
+      "editorialStatus": "draft",
+      "languageStatus": {
+        "sr": "review",
+        "en": "review",
+        "ru": "review"
+      },
+      "reviewedAt": "2026-11-14",
+      "reviewBasis": "research-register",
+      "imageRights": "no-image",
+      "assets": []
+    },
+    {
+      "id": "DOR-010",
+      "type": "photograph-record",
+      "title": {
+        "sr": "Radnici tramvajskog depoa",
+        "en": "Tram depot workers",
+        "ru": "Фотография работников"
+      },
+      "summary": {
+        "sr": "U knjizi iz 1952. objavljena je grupna fotografija radnika tramvajskog depoa, sa 1935. godinom u potpisu.",
+        "en": "The 1952 book includes a group photograph of tram depot workers, dated 1935 in its caption.",
+        "ru": "В книге опубликован исторический групповой снимок работников трамвайного депо с подписью «1935 год»."
+      },
+      "period": {
+        "sr": "1935 — prema potpisu",
+        "en": "1935 — according to the caption",
+        "ru": "1935"
+      },
+      "limitation": {
+        "sr": "Imena, autor fotografije i tačno mesto snimanja nisu potvrđeni. Fotografija nije prikazana: dozvola je potrebna.",
+        "en": "Names, the photographer and the exact location are unconfirmed. The photograph is not displayed: permission is required.",
+        "ru": "Трамвайное депо; точное место съёмки не установлено"
+      },
+      "datePrecision": "1935 указан в подписи",
+      "sourceId": "S-1952",
+      "pdfPage": 33,
+      "printPage": 31,
+      "evidenceStatus": "source-confirmed",
+      "editorialStatus": "draft",
+      "languageStatus": {
+        "sr": "review",
+        "en": "review",
+        "ru": "review"
+      },
+      "reviewedAt": "2026-11-14",
+      "reviewBasis": "research-register",
+      "imageRights": "permission-required",
+      "assets": []
+    },
+    {
+      "id": "DOR-016",
+      "type": "photograph-record",
+      "title": {
+        "sr": "Glavna kapija objekta GSP-a",
+        "en": "The main gate of a GSP facility",
+        "ru": "Фото главных ворот ГСП"
+      },
+      "summary": {
+        "sr": "Potpis uz gornju fotografiju na PDF strani 67 knjige iz 1977. identifikuje glavnu kapiju objekta GSP-a na Dorćolu.",
+        "en": "The caption of the upper photograph on PDF page 67 of the 1977 book identifies the main gate of a GSP facility in Dorćol.",
+        "ru": "Издание 1977 года прямо подписывает верхнюю фотографию как «главные ворота объекта ГСП на Дорчоле»."
+      },
+      "period": {
+        "sr": "Objavljeno 1977.",
+        "en": "Published in 1977",
+        "ru": "Опубликовано в 1977 году"
+      },
+      "limitation": {
+        "sr": "1977. je godina izdanja, ne datum snimka. Tačan adresni položaj nije dokazan; fotografija nije odobrena za prikaz.",
+        "en": "1977 is the publication year, not the photograph date. The exact address is unproven; the image is not cleared for display.",
+        "ru": "Дорчол установлен подписью; точный адрес ворот и современный объект не доказаны"
+      },
+      "datePrecision": "1977 — год публикации, НЕ дата фото",
+      "sourceId": "S-1977",
+      "pdfPage": 67,
+      "printPage": 66,
+      "evidenceStatus": "source-confirmed",
+      "editorialStatus": "draft",
+      "languageStatus": {
+        "sr": "review",
+        "en": "review",
+        "ru": "review"
+      },
+      "reviewedAt": "2026-11-14",
+      "reviewBasis": "research-register",
+      "imageRights": "permission-required",
+      "assets": []
+    },
+    {
+      "id": "DOR-017",
+      "type": "documented-fact",
+      "title": {
+        "sr": "Požar trolejbuskog depoa",
+        "en": "Fire at the trolleybus depot",
+        "ru": "Пожар троллейбусного депо"
+      },
+      "summary": {
+        "sr": "Prema hronici objavljenoj 2002, trolejbuski depo Dorćol potpuno je izgoreo u požaru u maju 1997.",
+        "en": "According to the chronicle published in 2002, the Dorćol trolleybus depot was completely destroyed by fire in May 1997.",
+        "ru": "В мае 1997 года, согласно хронике ГСП 2002 года, троллейбусный гараж «Дорћол» полностью сгорел."
+      },
+      "period": {
+        "sr": "Maj 1997.",
+        "en": "May 1997",
+        "ru": "Май 1997"
+      },
+      "limitation": {
+        "sr": "Trolejbuski objekat; ne poistovećivati sa ranim tramvajskim depom. Uzrok i tačna lokacija ovde nisu utvrđeni.",
+        "en": "A trolleybus facility; do not equate it with the early tram depot. The cause and exact location are not established here.",
+        "ru": "Троллейбусный гараж «Дорћол», не отождествлять с ранним трамвайным"
+      },
+      "datePrecision": "Месяц и год указаны в книге",
+      "sourceId": "S-2002",
+      "pdfPage": 39,
+      "printPage": null,
+      "evidenceStatus": "source-confirmed",
+      "editorialStatus": "draft",
+      "languageStatus": {
+        "sr": "review",
+        "en": "review",
+        "ru": "review"
+      },
+      "reviewedAt": "2026-11-14",
+      "reviewBasis": "research-register",
+      "imageRights": "no-image",
+      "assets": []
+    },
+    {
+      "id": "DOR-018",
+      "type": "documented-fact",
+      "title": {
+        "sr": "Novi trolejbuski depo",
+        "en": "The new trolleybus depot",
+        "ru": "Новое троллейбусное депо"
+      },
+      "summary": {
+        "sr": "Hronika iz 2002. beleži puštanje u rad novog trolejbuskog depoa Dorćol 1999, za smeštaj i održavanje 135 trolejbusa.",
+        "en": "The 2002 chronicle records the opening of the new Dorćol trolleybus depot in 1999, for the storage and maintenance of 135 trolleybuses.",
+        "ru": "В 1999 году введено новое троллейбусное депо «Дорћол», рассчитанное на размещение и обслуживание 135 троллейбусов."
+      },
+      "period": {
+        "sr": "1999",
+        "en": "1999",
+        "ru": "1999"
+      },
+      "limitation": {
+        "sr": "Odnos nove i stare lokacije, projekat i datum otvaranja zahtevaju dodatnu proveru.",
+        "en": "The relationship between the old and new sites, the project and the precise opening date require further verification.",
+        "ru": "Троллейбусный объект «Дорћол»; соотнести со старой площадкой"
+      },
+      "datePrecision": "1999, год по хронике",
+      "sourceId": "S-2002",
+      "pdfPage": 40,
+      "printPage": null,
+      "evidenceStatus": "source-confirmed",
+      "editorialStatus": "draft",
+      "languageStatus": {
+        "sr": "review",
+        "en": "review",
+        "ru": "review"
+      },
+      "reviewedAt": "2026-11-14",
+      "reviewBasis": "research-register",
+      "imageRights": "no-image",
+      "assets": []
+    },
+    {
+      "id": "DOR-019",
+      "type": "documented-fact",
+      "title": {
+        "sr": "Dve organizacione jedinice",
+        "en": "Two operating units",
+        "ru": "Разные подразделения на Дорчоле"
+      },
+      "summary": {
+        "sr": "U organizacionom pregledu iz 2002, Centrala obuhvata tramvajske objekte na Dorćolu i Novom Beogradu, dok je Dorćol trolejbuski pogon.",
+        "en": "In the 2002 organisational overview, Centrala covers tram facilities in Dorćol and New Belgrade, while Dorćol is a trolleybus unit.",
+        "ru": "В описании структуры ГСП 2002 года «CENTRALA» включает трамвайные объекты на Дорчоле и в Новом Белграде, а отдельная единица «DORĆOL» обозначена как троллейбусное депо."
+      },
+      "period": {
+        "sr": "Presek iz 2002.",
+        "en": "As described in 2002",
+        "ru": "На момент выпуска книги 2002"
+      },
+      "limitation": {
+        "sr": "Organizacione jedinice nisu dokaz fizičkih granica niti opis današnjeg stanja.",
+        "en": "Operating units do not establish physical boundaries or describe current conditions.",
+        "ru": "Организационные единицы ≠ доказанные физические границы объектов"
+      },
+      "datePrecision": "Статус на момент издания",
+      "sourceId": "S-2002",
+      "pdfPage": 45,
+      "printPage": null,
+      "evidenceStatus": "source-confirmed",
+      "editorialStatus": "draft",
+      "languageStatus": {
+        "sr": "review",
+        "en": "review",
+        "ru": "review"
+      },
+      "reviewedAt": "2026-11-14",
+      "reviewBasis": "research-register",
+      "imageRights": "no-image",
+      "assets": []
+    }
+  ]
+}

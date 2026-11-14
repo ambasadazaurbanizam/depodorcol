@@ -146,7 +146,15 @@ export function MuseumLanding({ initialLocale = 'en' }: { initialLocale?: Public
 
         <section className="landing-exhibitions" id="exhibitions" aria-labelledby="exhibitions-title">
           <h2 id="exhibitions-title">{t.nav.exhibitions}</h2>
-          <ExhibitionCards locale={locale} headingLevel={3} />
+          <nav aria-label={t.nav.exhibitions}>
+            <a href={`/exhibitions/second-life/${locale}`}>{t.exhibitions.baselTitle}</a>
+            <a href={`/exhibitions/belgrade-in-motion/${locale}`}>{t.exhibitions.belgradeTitle}</a>
+          </nav>
+          <nav aria-label={locale === 'sr' ? 'Istraživanja muzeja' : 'Museum research'} style={{ marginTop: 24 }}>
+            <a href={`/dorcol-depot?lang=${locale}`}>Depo Dorćol</a>
+            <a href={`/collection?lang=${locale}`}>{locale === 'sr' ? 'Kolekcija' : 'Collection'}</a>
+            <a href={`/research?lang=${locale}`}>{locale === 'sr' ? 'Istraživanja' : 'Research'}</a>
+          </nav>
         </section>
 
         <section className="stories-section" aria-labelledby="stories-title">

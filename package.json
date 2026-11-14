@@ -7,7 +7,9 @@
   },
   "scripts": {
     "dev": "vinext dev",
-    "build": "vinext build",
+    "build": "node validate-collection.mjs && vinext build",
+    "validate:collection": "node validate-collection.mjs",
+    "test:museum": "node test-museum.mjs",
     "start": "wrangler dev --config dist/server/wrangler.json",
     "lint": "oxlint",
     "format": "oxfmt"
