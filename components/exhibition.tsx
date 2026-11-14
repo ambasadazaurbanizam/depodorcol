@@ -14,9 +14,11 @@ import {
 export function ExhibitionHeader({
   locale,
   slug,
+  languagePath,
 }: {
   locale: ExhibitionLocale;
   slug?: string;
+  languagePath?: string;
 }) {
   return (
     <>
@@ -42,7 +44,7 @@ export function ExhibitionHeader({
               hrefLang={code}
               aria-current={locale === code ? 'page' : undefined}
               href={
-                slug ? exhibitionUrl(slug, code) : `/exhibitions?lang=${code}`
+                languagePath ? `${languagePath}?lang=${code}` : slug ? exhibitionUrl(slug, code) : `/exhibitions?lang=${code}`
               }
             >
               {code.toUpperCase()}
