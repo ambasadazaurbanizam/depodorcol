@@ -1,5 +1,10 @@
 import { MuseumLanding } from '@/components/museum-landing';
 
-export default function Home() {
-  return <MuseumLanding />;
+export default async function Home({
+  searchParams,
+}: {
+  searchParams: Promise<{ lang?: string }>;
+}) {
+  const { lang } = await searchParams;
+  return <MuseumLanding initialLocale={lang === 'sr' ? 'sr' : 'en'} />;
 }

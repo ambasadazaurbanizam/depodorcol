@@ -301,6 +301,21 @@ button, input, select, textarea { font: inherit; }
   *, *::before, *::after { transition-duration: .01ms !important; animation-duration: .01ms !important; animation-iteration-count: 1 !important; }
 }
 
-/* Links to the new exhibition sections. */
-.landing-exhibitions{padding:52px 3vw;border-top:1px solid var(--line)}
-.landing-exhibitions h2{font:38px/1.2 Georgia,serif}.landing-exhibitions nav{display:flex;gap:24px;flex-wrap:wrap}.landing-exhibitions a{font-size:20px;text-underline-offset:5px}
+/* Exhibition previews share the existing museum palette and type. */
+.landing-exhibitions { padding: 56px clamp(16px, 3vw, 48px) 64px; border-top: 1px solid var(--line); }
+.landing-exhibitions > h2 { margin: 0 0 32px; font: 38px/1.2 Georgia, serif; }
+.exhibition-cards { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: clamp(28px, 4vw, 56px); }
+.exhibition-card { min-width: 0; }
+.exhibition-card > a { display: block; text-decoration: none; }
+.exhibition-card img { width: 100%; height: auto; aspect-ratio: 3 / 2; object-fit: contain; background: var(--cream); }
+.exhibition-card-period { margin: 22px 0 10px; color: var(--muted); font-size: 15px; line-height: 1.4; }
+.exhibition-card-title { margin: 0 0 14px; max-width: 24ch; font: clamp(28px, 3vw, 38px)/1.15 Georgia, serif; }
+.exhibition-card-description { margin: 0 0 14px; max-width: 58ch; font-size: 18px; line-height: 1.55; }
+.exhibition-card-kind { color: var(--muted); font-size: 14px; }
+.exhibition-card a:hover .exhibition-card-title, .exhibition-card a:focus-visible .exhibition-card-title { text-decoration: underline; text-underline-offset: 5px; }
+@media (max-width: 760px) {
+  .landing-exhibitions { padding-top: 38px; padding-bottom: 44px; }
+  .landing-exhibitions > h2 { margin-bottom: 26px; font-size: 32px; }
+  .exhibition-cards { grid-template-columns: 1fr; gap: 38px; }
+  .exhibition-card-description { font-size: 17px; }
+}

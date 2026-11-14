@@ -1,11 +1,9 @@
 /* oxlint-disable next/no-img-element -- Collection images use checked-in responsive derivatives and intrinsic dimensions. */
 import type { Metadata } from 'next';
 import { ExhibitionHeader } from '@/components/exhibition';
+import { ExhibitionCards } from '@/components/exhibition-cards';
 import {
-  exhibitions,
-  exhibitionUrl,
   locales,
-  photograph,
   ui,
   type ExhibitionLocale,
 } from '@/lib/exhibitions';
@@ -34,27 +32,7 @@ export default async function Page({
           <h1>{ui.exhibitions[locale]}</h1>
           <p>{ui.indexIntro[locale]}</p>
         </div>
-        <div className="ex-index-grid">
-          {exhibitions.map((ex) => {
-            const photo = photograph(ex.hero);
-            return (
-              <article key={ex.slug}>
-                <a href={exhibitionUrl(ex.slug, locale)}>
-                  <img
-                    src={photo.variants[1].src}
-                    alt={photo.alt[locale]}
-                    width={photo.width}
-                    height={photo.height}
-                  />
-                  <p>{ex.period[locale]}</p>
-                  <h2>{ex.title[locale]}</h2>
-                </a>
-                <p>{ex.deck[locale]}</p>
-                <small>{ui.draft[locale]}</small>
-              </article>
-            );
-          })}
-        </div>
+        <ExhibitionCards locale={locale} className="ex-index-grid" />
         <p className="ex-index-status">{ui.closed[locale]}</p>
       </main>
     </div>
