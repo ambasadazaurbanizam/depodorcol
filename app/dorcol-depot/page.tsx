@@ -1,215 +1,56 @@
+/* oxlint-disable next/no-img-element -- Historic museum source images use controlled derivatives. */
 import type { Metadata } from 'next';
-import {
-  MuseumFrame,
-  ObjectSummary,
-  RelatedExhibitions,
-} from '@/components/museum-research';
-import {
-  museumLocale,
-  museumObjects,
-  museumUrl,
-  text,
-} from '@/lib/museum-research';
+import { ExhibitionHeader } from '@/components/exhibition';
+import { museumLocale, museumUrl, text } from '@/lib/museum-research';
+import { RelatedExhibitions } from '@/components/museum-research';
+import story from '@/lib/depot-story.json';
+import './depot-story.css';
+
 export const metadata: Metadata = {
-  title: 'Depo Dorćol — radni nacrt | Depo Dorćol',
-  robots: { index: false, follow: true },
+  title: 'Depo Dorćol — Grad iza kapije | Muzej javnog prevoza Beograda',
+  description: 'Istorija Donjeg tramvajskog depoa, kovačnice, radionica i trolejbuskog pogona na Dorćolu.',
+  robots: { index: false, follow: true }, // Until photo reproduction rights and editorial review are cleared.
 };
-export default async function Page({
-  searchParams,
-}: {
-  searchParams: Promise<{ lang?: string }>;
-}) {
+
+type ImageKey = keyof typeof story.manifest;
+
+function SourcePhoto({ photo, hero = false }: {photo: ImageKey; hero?: boolean}) {
+  const image = story.manifest[photo];
+  return <figure className={hero ? 'd-hero-media' : 'd-photo'}>
+    <img src={`/media/depot-story/${image.file}`} alt={image.alt} loading={hero ? 'eager' : 'lazy'} />
+    <figcaption>{image.caption} <span className="d-photo-source">Izvor: GSP {image.book}, PDF str. {image.pdfPage}; datum snimanja nije potvrđen.</span></figcaption>
+  </figure>;
+}
+
+export default async function Page({ searchParams }: { searchParams: Promise<{lang?: string}> }) {
   const locale = museumLocale((await searchParams).lang);
-  const groups = [
-    {
-      id: 'work',
-      title: text(
-        locale,
-        'Više od mesta za parkiranje tramvaja',
-        'More than a place to park trams',
-        'Больше, чем стоянка трамваев',
-      ),
-      intro: text(
-        locale,
-        'Popravke, pregledi i svakodnevno održavanje bili su nevidljivi deo gradskog saobraćaja. Knjiga iz 1952. pruža pogled u tu organizaciju rada.',
-        'Repairs, inspections and everyday maintenance were the less visible side of city transport. The 1952 book offers a view of how this work was organised.',
-        'Ремонт, осмотры и повседневное обслуживание были невидимой стороной городского транспорта. Книга 1952 года позволяет увидеть организацию этого труда.',
-      ),
-      ids: ['DOR-001', 'DOR-003'],
-    },
-    {
-      id: 'smithy',
-      title: text(
-        locale,
-        'Kovačnice i radionice',
-        'Smithies and workshops',
-        'Кузницы и мастерские',
-      ),
-      intro: text(
-        locale,
-        'Opisi stare kovačnice, nove kovačnice iz 1930. i livnice iz 1931. nisu dokaz da je reč o danas sačuvanim zgradama. Potrebni su planovi i građevinska dokumentacija.',
-        'Descriptions of the old smithy, the new smithy of 1930 and the foundry of 1931 do not identify surviving buildings. Plans and construction records are still needed.',
-        'Описания старой кузницы, новой кузницы 1930 года и литейной 1931 года не идентифицируют сохранившиеся здания. Нужны планы и строительные документы.',
-      ),
-      ids: ['DOR-004', 'DOR-007', 'DOR-009'],
-    },
-    {
-      id: 'people',
-      title: text(
-        locale,
-        'Ljudi koji su održavali grad u pokretu',
-        'The people who kept the city moving',
-        'Люди, поддерживавшие движение города',
-      ),
-      intro: text(
-        locale,
-        'Fotografija radnika važan je trag za buduća istraživanja. Imena i autorstvo tek treba utvrditi; ovde objavljujemo samo opis zapisa.',
-        'The workers’ photograph is a valuable lead for further research. Names and authorship remain unresolved; only a description of the record is shown here.',
-        'Фотография работников — важная отправная точка для исследования. Имена и авторство ещё предстоит установить; здесь показано только описание записи.',
-      ),
-      ids: ['DOR-010'],
-    },
-    {
-      id: 'gate',
-      title: text(
-        locale,
-        'Šta pokazuje knjiga iz 1977?',
-        'What does the 1977 book show?',
-        'Что показывает книга 1977 года?',
-      ),
-      intro: text(
-        locale,
-        'Potpis fotografije potvrđuje Dorćol, ali ne i tačan položaj kapije. Godina izdanja ne postaje automatski datum fotografisanja.',
-        'The caption identifies Dorćol, but not the exact gate location. The publication year is not automatically the photograph date.',
-        'Подпись подтверждает Дорчол, но не точное положение ворот. Год публикации не становится автоматически датой съёмки.',
-      ),
-      ids: ['DOR-016'],
-    },
-    {
-      id: 'trolleybus',
-      title: text(
-        locale,
-        'Trolejbuski depo: požar i novi objekat',
-        'The trolleybus depot: fire and a new facility',
-        'Троллейбусное депо: пожар и новый объект',
-      ),
-      intro: text(
-        locale,
-        'Hronika iz 2002. opisuje trolejbuski objekat. Taj podatak ne treba pretvarati u istoriju jednog nepromenjenog tramvajskog kompleksa.',
-        'The 2002 chronicle describes a trolleybus facility. It should not be read as the history of one unchanged tram complex.',
-        'Хроника 2002 года описывает троллейбусный объект. Эти сведения нельзя превращать в историю одного неизменного трамвайного комплекса.',
-      ),
-      ids: ['DOR-017', 'DOR-018', 'DOR-019'],
-    },
-  ];
-  return (
-    <MuseumFrame
-      locale={locale}
-      path="/dorcol-depot"
-      title={text(
-        locale,
-        'Depo Dorćol: ljudi, radionice i otvorena pitanja',
-        'Dorćol Depot: people, workshops and open questions',
-        'Депо Дорчол: люди, мастерские и открытые вопросы',
-      )}
-    >
-      <p className="research-lead">
-        {text(
-          locale,
-          'Radni nacrt istorije depoa zasnovan na tri jubilarne publikacije. Razdvajamo dokumentovane navode od mesta i datuma koje još istražujemo.',
-          'A working draft of depot history based on three anniversary publications. We distinguish documented accounts from places and dates still under investigation.',
-          'Рабочий черновик истории депо по трём юбилейным изданиям. Документированные сведения отделены от мест и дат, которые ещё предстоит установить.',
-        )}
-      </p>
-      <p className="research-limitation">
-        {text(
-          locale,
-          'Fizički muzej još ne prima posetioce. Ova stranica nije poziv za slobodan ulazak u depo. Sadašnje stanje pojedinačnih objekata ovde nije provereno.',
-          'The physical museum is not yet open to visitors. This page is not an invitation to enter the depot freely. The present condition of individual facilities has not been verified here.',
-          'Физический музей пока не принимает посетителей. Эта страница не приглашает свободно входить в депо. Нынешнее состояние отдельных объектов здесь не проверено.',
-        )}
-      </p>
-      <nav aria-label={text(locale, 'Sadržaj', 'Contents', 'Содержание')}>
-        <ul>
-          {groups.map((g) => (
-            <li key={g.id}>
-              <a href={`#${g.id}`}>{g.title}</a>
-            </li>
-          ))}
-          <li>
-            <a href="#questions">
-              {text(
-                locale,
-                'Šta još ne znamo',
-                'What we do not yet know',
-                'Что ещё неизвестно',
-              )}
-            </a>
-          </li>
-        </ul>
-      </nav>
-      {groups.map((g) => (
-        <section className="research-section" id={g.id} key={g.id}>
-          <h2>{g.title}</h2>
-          <p>{g.intro}</p>
-          <div className="research-grid">
-            {g.ids.map((id) => (
-              <ObjectSummary
-                key={id}
-                object={museumObjects.find((o) => o.id === id)!}
-                locale={locale}
-              />
-            ))}
-          </div>
-        </section>
-      ))}
-      <section className="research-section" id="questions">
-        <h2>
-          {text(
-            locale,
-            'Šta još ne znamo',
-            'What we do not yet know',
-            'Что ещё неизвестно',
-          )}
-        </h2>
-        <p>
-          {text(
-            locale,
-            'Gornji i Donji depo, kovačnica iz 1930. i trolejbuski objekti iz 1997/1999. nisu automatski ista zgrada ili ista parcela. Nije dokazano da su današnje zgrade podignute 1892. Tačne lokacije, kontinuitet objekata i autorstva fotografija zahtevaju dodatne dokumente.',
-            'The Upper and Lower Depots, the smithy of 1930 and the trolleybus facilities of 1997/1999 are not automatically the same building or plot. The present buildings have not been proven to date to 1892. Exact locations, building continuity and photographic authorship require further documents.',
-            'Верхнее и Нижнее депо, кузница 1930 года и троллейбусные объекты 1997/1999 годов не считаются одним зданием или участком. Строительство нынешних зданий в 1892 году не доказано. Точные места, преемственность построек и авторство фотографий требуют дополнительных документов.',
-          )}
-        </p>
-        <p>
-          <a href={museumUrl('/research', locale)}>
-            {text(
-              locale,
-              'Metodologija i bibliografija',
-              'Methodology and bibliography',
-              'Методология и библиография',
-            )}
-          </a>
-        </p>
-      </section>
-      <section className="research-section">
-        <h2>
-          {text(
-            locale,
-            'Budući dom muzeja',
-            'A future home for the museum',
-            'Будущий дом музея',
-          )}
-        </h2>
-        <p>
-          {text(
-            locale,
-            'Depo Dorćol je predložen kao budući stalni dom digitalnog muzejskog projekta. To je koncept, bez potvrde otvaranja, redovnog pristupa ili konačno dogovorenih partnerstava.',
-            'Dorćol Depot is proposed as a future permanent home for the digital museum project. This is a concept, without confirmation of opening, regular access or finalised partnerships.',
-            'Депо Дорчол предложено как будущий постоянный дом цифрового музейного проекта. Это концепция, без подтверждения открытия, регулярного доступа или окончательно оформленных партнёрств.',
-          )}
-        </p>
-      </section>
-      <RelatedExhibitions locale={locale} />
-    </MuseumFrame>
-  );
+  return <div className="exhibition depot-story" lang={locale}>
+    <ExhibitionHeader locale={locale} languagePath="/dorcol-depot" />
+    
+    <main id="exhibition-main">
+      <section className="d-hero" id="top"><div className="d-hero-copy"><span className="d-eyebrow">Depo Dorćol / Mesto i sećanje</span><h1>{text(locale,"Grad","A city","Город")}<br/><em>{text(locale,"iza kapije.","behind the gate.","за воротами.")}</em></h1><p className="d-subtitle">{text(locale,'Istorija mesta na kome je Beograd čuvao, popravljao i pripremao vozila za novi dan.','The story of a place where Belgrade stored, repaired and prepared vehicles for another day.','История места, где Белград хранил, ремонтировал и готовил транспорт к новому дню.')}</p><div className="d-hero-bottom"><span>1892–2026</span><span>↓</span></div></div><SourcePhoto photo="depot-yard" hero/></section>
+      <div className="d-meta"><div><b>Donji depo</b><span>Istorijski tramvajski pogon</span></div><div><b>Radionice i kovačnica</b><span>Prostor tehničkog znanja i rada</span></div><div><b>Digitalna zbirka</b><span>Fizički muzej nije otvoren za posete</span></div></div>
+      {locale === 'sr' ? <>
+        <div className="d-container"><section className="d-intro"><div className="d-intro-mark">O priči / Uvod</div><div className="d-intro-text">{story.intro.map((p,i)=><p key={i}>{p}</p>)}</div></section>
+          <div className="d-chapters">{story.chapters.map((chapter,i)=><article className="d-chapter" id={chapter.slug} key={chapter.slug}>
+            <div className="d-ordinal">{String(i+1).padStart(2,'0')}<div style={{font:'12px Arial',marginTop:16,color:'var(--muted)'}}>{chapter.year}</div></div>
+            <div className="d-chapter-content"><p className="d-chapter-kicker">{chapter.kicker}</p><h2>{chapter.title}</h2><div className="d-paragraphs">{chapter.paras.map((p,j)=><p key={j}>{p}</p>)}</div>
+              {chapter.photos.length>0 && <div className={`d-figures ${chapter.photos.length>1?'two':''}`}>
+                {chapter.photos.map(photo=><SourcePhoto key={photo} photo={photo as ImageKey}/>)}</div>}
+              {chapter.slug==='forge' && <blockquote className="d-pull">Četiri nakovnja i jedna zajednička vatra — tako počinje sačuvani opis prve kovačnice.</blockquote>}
+            </div></article>)}</div></div>
+        <section className="d-issue" id="protection"><div className="d-container d-issue-inner"><div><div className="d-issue-label">Očuvanje industrijskog nasleđa</div><h2>Šta će grad sačuvati?</h2><span className="d-issue-number">75-239/2026</span></div>
+          <div className="d-issue-body"><p>Ambasada za urbanizam je 4. septembra 2026. podnela inicijativu za stručnu identifikaciju i valorizaciju istorijskog kompleksa depoa GSP na Dorćolu.</p><p>Zavod za zaštitu spomenika kulture grada Beograda je 18. septembra potvrdio prijem inicijative pod brojem 75-239/2026 od 7. septembra 2026. godine. Naveo je da kompleks tada nije imao status kulturnog dobra niti dobra pod prethodnom zaštitom i da će stručni saradnici sprovesti istraživanja.</p><p>To nije odluka o proglašenju zaštite, već početak stručnog razmatranja vrednosti mesta.</p></div></div></section>
+      </> : <div className="d-container"><section className="d-intro"><div className="d-intro-mark">{text(locale,'','Introduction','Введение')}</div><div className="d-intro-text"><p>{text(locale,'','The Serbian-language story is the current editorial master. The English translation will follow after review of historical terminology and image permissions.','Полная сербская версия подготовлена для редакционной проверки. Русский перевод добавим после сверки терминологии и прав на фотографии.')}</p><a href={museumUrl('/dorcol-depot','sr')}>{text(locale,'','Read the Serbian edition','Читать сербскую версию')}</a></div></section></div>}
+      <div className="d-container"><section className="d-sources"><details><summary>{text(locale,'Izvori i napomene','Sources and notes','Источники и примечания')} ↓</summary><ol>
+        <li>60 godina beogradskog javnog saobraćaja (1952), PDF str. 26, 30–33, 42.</li>
+        <li>85 godina javnog gradskog saobraćaja u Beogradu (1977), PDF str. 14, 55, 57, 67.</li>
+        <li>110 godina gradskog prevoza u Beogradu (2002), PDF str. 39–40, 45.</li>
+        <li><a href="https://www.gsp.rs/dokumenti/muzejska_zbirka/kovacnica.pdf">GSP Beograd, Kovačnica (2015)</a>.</li>
+        <li>Danas, 27–28.02.1999, str. 7.</li>
+        <li>Zavod za zaštitu spomenika kulture grada Beograda, odgovor 18.09.2026, br. 75-239/2026.</li>
+      </ol></details></section></div>
+      <div className="d-container"><RelatedExhibitions locale={locale}/></div>
+    </main><footer className="d-footer"><span>DEPO DORĆOL · MUZEJ JAVNOG PREVOZA BEOGRADA</span><span>Ambasada za urbanizam · digitalni muzejski projekat</span></footer>
+  </div>;
 }
