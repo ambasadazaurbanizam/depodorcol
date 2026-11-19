@@ -146,38 +146,86 @@ export function MuseumLanding({ initialLocale = 'en' }: { initialLocale?: Public
 
         <section className="landing-exhibitions" id="exhibitions" aria-labelledby="exhibitions-title">
           <h2 id="exhibitions-title">{t.nav.exhibitions}</h2>
-          <nav aria-label={t.nav.exhibitions}>
-            <a href={`/exhibitions/second-life/${locale}`}>{t.exhibitions.baselTitle}</a>
-            <a href={`/exhibitions/belgrade-in-motion/${locale}`}>{t.exhibitions.belgradeTitle}</a>
-          </nav>
-          <nav aria-label={locale === 'sr' ? 'Istraživanja muzeja' : 'Museum research'} style={{ marginTop: 24 }}>
-            <a href={`/dorcol-depot?lang=${locale}`}>Depo Dorćol</a>
-            <a href={`/collection?lang=${locale}`}>{locale === 'sr' ? 'Kolekcija' : 'Collection'}</a>
-            <a href={`/research?lang=${locale}`}>{locale === 'sr' ? 'Istraživanja' : 'Research'}</a>
+          <p className="landing-exhibitions-intro">
+            {locale === 'sr'
+              ? 'Dve fotografske izložbe otkrivaju Beograd i njegove tramvaje kroz objektiv Martina Häfligera.'
+              : 'Two photographic exhibitions show Belgrade and its trams through the lens of Martin Häfliger.'}
+          </p>
+          <ExhibitionCards locale={locale} headingLevel={3} className="landing-exhibition-cards" />
+          <nav className="landing-archive-links" aria-label={locale === 'sr' ? 'Još iz muzeja' : 'More from the museum'}>
+            <a href={`/collection?lang=${locale}`}>{locale === 'sr' ? 'Zbirka' : 'Collection'} <Arrow /></a>
+            <a href={`/research?lang=${locale}`}>{locale === 'sr' ? 'Istraživanja' : 'Research'} <Arrow /></a>
           </nav>
         </section>
 
         <section className="stories-section" aria-labelledby="stories-title">
           <div className="section-heading section-heading-light">
-            <p className="section-index">{t.stories.index}</p>
+            <p className="section-index">{locale === 'sr' ? '02 / Iz arhiva muzeja' : '02 / From the museum archive'}</p>
             <div>
-              <h2 id="stories-title">{t.stories.title}</h2>
-              <p className="section-intro">{t.stories.intro}</p>
+              <h2 id="stories-title">{locale === 'sr' ? 'Priče iza fotografija' : 'Stories beyond the photographs'}</h2>
+              <p className="section-intro">
+                {locale === 'sr'
+                  ? 'Istražite ljude i mesta iza gradskog prevoza — i istorijske mape koje pokazuju kako se Beograd menjao.'
+                  : 'Discover the people and places behind public transport, and the historical maps that reveal a changing Belgrade.'}
+              </p>
             </div>
           </div>
 
-          <div className="story-grid">
-            {t.stories.cards.map(([title, body, meta], index) => (
-              <article className="story-card" key={title}>
-                <div className="story-placeholder" role="img" aria-label={`${title}. ${t.stories.rights}`}>
-                  <span>{String(index + 1).padStart(2, '0')}</span>
-                  <small>{t.stories.rights}</small>
+          <div className="feature-story-grid">
+            <article className="feature-story-card">
+              <a href={`/dorcol-depot?lang=${locale}`}>
+                <figure className="feature-story-media">
+                  <img
+                    src="/media/depot-story/depot-yard.webp"
+                    alt={locale === 'sr' ? 'Tramvaji ispred Donjeg depoa na Dorćolu, arhivski snimak iz zbirke GSP-a.' : 'Historic trams outside the Lower Depot in Dorćol, from the GSP collection.'}
+                    width={1427}
+                    height={777}
+                    loading="lazy"
+                  />
+                </figure>
+                <div className="feature-story-content">
+                  <p className="feature-story-kicker">{locale === 'sr' ? 'Istorija mesta' : 'History of a place'}</p>
+                  <h3>Grad iza kapije</h3>
+                  <p>{locale === 'sr'
+                    ? 'Ko je popravljao beogradske tramvaje dok je grad spavao? Istorija dorćolskog depoa, radionica, kovačnice i ljudi.'
+                    : 'Who repaired Belgrade’s trams while the city slept? The story of the Dorćol Depot, its workshops, forge and workers.'}</p>
+                  <span className="feature-story-action">{locale === 'sr' ? 'Pročitajte priču' : 'Read the story'} <Arrow /></span>
                 </div>
-                <div className="story-meta"><span>{meta}</span><span>{t.stories.progress}</span></div>
-                <h3>{title}</h3>
-                <p>{body}</p>
-              </article>
-            ))}
+              </a>
+            </article>
+
+            <article className="feature-story-card feature-story-card-atlas" aria-label={locale === 'sr' ? 'Istorijski atlas u pripremi' : 'Historical atlas in progress'}>
+              <div className="feature-story-media feature-map-pair">
+                <figure>
+                  <img
+                    src="/media/atlas/belgrade-network-1892-from-gsp-1977.webp"
+                    alt={locale === 'sr' ? 'Šema javnog prevoza Beograda za 1892. godinu iz knjige GSP-a iz 1977.' : '1892 public transport network diagram reproduced from the 1977 GSP book.'}
+                    width={1581}
+                    height={1610}
+                    loading="lazy"
+                  />
+                  <figcaption>1892</figcaption>
+                </figure>
+                <figure>
+                  <img
+                    src="/media/atlas/belgrade-network-1976-from-gsp-1977.webp"
+                    alt={locale === 'sr' ? 'Šema javnog prevoza Beograda za 1976. godinu iz knjige GSP-a iz 1977.' : '1976 public transport network diagram reproduced from the 1977 GSP book.'}
+                    width={1560}
+                    height={1588}
+                    loading="lazy"
+                  />
+                  <figcaption>1976</figcaption>
+                </figure>
+              </div>
+              <div className="feature-story-content">
+                <p className="feature-story-kicker">{locale === 'sr' ? 'Istorijski atlas · U pripremi' : 'Historical atlas · In progress'}</p>
+                <h3>{locale === 'sr' ? 'Beograd na šinama, 1892–1976' : 'Belgrade on the tracks, 1892–1976'}</h3>
+                <p>{locale === 'sr'
+                  ? 'Sedam istorijskih šema otkriva kako se mreža širila sa gradom. Pripremamo njihovo pažljivo prenošenje na savremenu mapu.'
+                  : 'Seven historical diagrams reveal how the network expanded with the city. We are preparing a carefully researched modern map.'}</p>
+                <small className="feature-story-source">{locale === 'sr' ? 'Izvor: GSP Beograd, 85 godina javnog gradskog saobraćaja (1977).' : 'Source: GSP Beograd, 85 years of public transport (1977).'}</small>
+              </div>
+            </article>
           </div>
         </section>
 

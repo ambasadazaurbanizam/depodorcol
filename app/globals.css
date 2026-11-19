@@ -319,3 +319,169 @@ button, input, select, textarea { font: inherit; }
   .exhibition-cards { grid-template-columns: 1fr; gap: 38px; }
   .exhibition-card-description { font-size: 17px; }
 }
+
+
+/* Museum homepage: real exhibition and research previews. Other sections remain unchanged. */
+.landing-exhibitions-intro {
+  max-width: 790px;
+  margin: -12px 0 36px;
+  color: var(--muted);
+  font-size: clamp(17px, 1.6vw, 21px);
+  line-height: 1.5;
+}
+.landing-exhibition-cards {
+  gap: clamp(20px, 3vw, 46px);
+}
+.landing-exhibition-cards .exhibition-card img {
+  aspect-ratio: 16 / 10;
+  object-fit: cover;
+  background: var(--cream);
+  transition: filter .25s ease;
+}
+.landing-exhibition-cards .exhibition-card a:hover img,
+.landing-exhibition-cards .exhibition-card a:focus-visible img {
+  filter: brightness(.94);
+}
+.landing-exhibition-cards .exhibition-card-title {
+  max-width: 32ch;
+  font-size: clamp(34px, 3.4vw, 52px);
+}
+.landing-archive-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px 32px;
+  border-top: 1px solid var(--line);
+  margin-top: 48px;
+  padding-top: 22px;
+}
+.landing-archive-links a {
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 700;
+  border-bottom: 1px solid transparent;
+}
+.landing-archive-links a:hover,
+.landing-archive-links a:focus-visible {
+  border-bottom-color: var(--signal);
+}
+.feature-story-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: clamp(18px, 2.7vw, 40px);
+  margin-top: 70px;
+}
+.feature-story-card {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  border: 1px solid var(--dark-line);
+  background: #252e2a;
+  overflow: hidden;
+}
+.feature-story-card > a {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  color: inherit;
+  text-decoration: none;
+}
+.feature-story-card > a:hover .feature-story-action,
+.feature-story-card > a:focus-visible .feature-story-action {
+  color: #ffa28a;
+}
+.feature-story-card > a:hover img,
+.feature-story-card > a:focus-visible img {
+  filter: brightness(.93);
+}
+.feature-story-media {
+  position: relative;
+  margin: 0;
+  width: 100%;
+  aspect-ratio: 16 / 10;
+  background: var(--cream);
+  overflow: hidden;
+}
+.feature-story-media > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: filter .25s ease;
+}
+.feature-map-pair {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1px;
+  background: var(--dark-line);
+}
+.feature-map-pair figure {
+  margin: 0;
+  position: relative;
+  min-width: 0;
+  min-height: 0;
+  overflow: hidden;
+  background: #faf7ef;
+}
+.feature-map-pair img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.feature-map-pair figcaption {
+  position: absolute;
+  inset: auto auto 0 0;
+  padding: 5px 12px;
+  color: var(--ink);
+  background: rgba(248,246,240,.94);
+  font-size: 12px;
+  font-weight: 700;
+}
+.feature-story-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex: 1;
+  padding: 26px clamp(18px, 2.2vw, 32px) 32px;
+}
+.feature-story-kicker {
+  margin: 0 0 16px;
+  color: #f0a18d;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+}
+.feature-story-content h3 {
+  margin: 0 0 18px;
+  font: 400 clamp(34px, 3.5vw, 54px)/1.02 Georgia, 'Times New Roman', serif;
+  letter-spacing: -.035em;
+}
+.feature-story-content > p:not(.feature-story-kicker) {
+  margin: 0 0 28px;
+  max-width: 59ch;
+  color: #c5cbc4;
+  font-size: clamp(16px, 1.25vw, 19px);
+  line-height: 1.55;
+}
+.feature-story-action {
+  margin-top: auto;
+  color: var(--cream);
+  font-size: 14px;
+  font-weight: 700;
+}
+.feature-story-source {
+  margin-top: auto;
+  color: #adb5ab;
+  font-size: 12px;
+  line-height: 1.45;
+}
+@media (max-width: 850px) {
+  .feature-story-grid { grid-template-columns: 1fr; margin-top: 42px; }
+  .feature-story-media { aspect-ratio: 16 / 9; }
+}
+@media (max-width: 600px) {
+  .landing-exhibitions-intro { margin-top: 0; }
+  .landing-exhibition-cards .exhibition-card-title { font-size: 34px; }
+  .landing-archive-links { margin-top: 34px; }
+  .feature-story-media { aspect-ratio: 4 / 3; }
+  .feature-story-content h3 { font-size: 40px; }
+}
