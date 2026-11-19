@@ -816,3 +816,76 @@
 
 /* Reset native fieldset presentation while keeping filter grouping semantics. */
 fieldset.ex-gallery-filters { border: 0; padding: 0; margin: 0; min-width: 0; }
+
+
+/* A film closes the Basel photographic exhibition; existing gallery layout unchanged. */
+.exhibition-video {
+  background: var(--night);
+  color: var(--cream);
+  padding: clamp(56px, 7vw, 108px) 3vw;
+}
+.exhibition-video-inner {
+  max-width: 1260px;
+  margin: 0 auto;
+}
+.exhibition-video-heading {
+  display: grid;
+  grid-template-columns: minmax(0, 1.25fr) minmax(250px, .75fr);
+  align-items: end;
+  gap: clamp(28px, 6vw, 90px);
+  margin-bottom: 36px;
+}
+.exhibition-video-eyebrow {
+  margin: 0 0 18px;
+  color: #efa48d;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: .14em;
+  text-transform: uppercase;
+}
+.exhibition-video-heading h2 {
+  margin: 0;
+  font: 400 clamp(37px, 5vw, 70px)/1.02 Georgia, 'Times New Roman', serif;
+  letter-spacing: -.045em;
+  max-width: 16ch;
+}
+.exhibition-video-heading > p {
+  margin: 0 0 4px;
+  color: #c7cec8;
+  font-size: clamp(16px, 1.5vw, 20px);
+  line-height: 1.55;
+  max-width: 48ch;
+}
+.exhibition-video-player {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  background: #121714;
+  overflow: hidden;
+}
+.exhibition-video-player iframe {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+.exhibition-video-external {
+  display: inline-block;
+  margin-top: 18px;
+  color: var(--cream);
+  text-decoration: underline;
+  text-decoration-color: #7e8d82;
+  text-underline-offset: 5px;
+  font-size: 13px;
+}
+.exhibition-video-external:hover,
+.exhibition-video-external:focus-visible {
+  text-decoration-color: #efa48d;
+}
+@media (max-width: 760px) {
+  .exhibition-video { padding: 48px 4vw 56px; }
+  .exhibition-video-heading { display: block; margin-bottom: 24px; }
+  .exhibition-video-heading h2 { font-size: 42px; }
+  .exhibition-video-heading > p { margin-top: 20px; font-size: 17px; }
+}
