@@ -68,6 +68,30 @@ export function Exhibition({
   const images = exhibition.chapters.flatMap((chapter) =>
     chapter.images.map(photograph),
   );
+  const videoText = {
+    sr: {
+      eyebrow: 'Video uz izložbu',
+      heading: 'Priča se nastavlja na filmu',
+      intro: 'Pogledajte video koji prati našu fotografsku izložbu o bazelskim tramvajima u Beogradu.',
+      player: 'Video uz izložbu Drugi život na istim šinama',
+      link: 'Otvori na YouTube-u',
+    },
+    en: {
+      eyebrow: 'Exhibition video',
+      heading: 'The story continues on film',
+      intro: 'Watch a video accompanying our photographic exhibition about Basel trams in Belgrade.',
+      player: 'Video accompanying Second Life on the Same Tracks',
+      link: 'Watch on YouTube',
+    },
+    ru: {
+      eyebrow: 'Видео к выставке',
+      heading: 'Продолжение истории — на экране',
+      intro: 'Посмотрите видео, дополняющее фотовыставку о базельских трамваях в Белграде.',
+      player: 'Видео к выставке Вторая жизнь на тех же рельсах',
+      link: 'Смотреть на YouTube',
+    },
+  }[locale];
+
   const structuredData = {
     '@context': 'https://schema.org',
     '@type': 'CollectionPage',
@@ -122,6 +146,32 @@ export function Exhibition({
             images: chapter.images,
           }))}
         />
+        {slug === 'second-life' && (
+          <section className="exhibition-video" aria-labelledby="exhibition-video-title">
+            <div className="exhibition-video-inner">
+              <div className="exhibition-video-heading">
+                <div>
+                  <p className="exhibition-video-eyebrow">{videoText.eyebrow}</p>
+                  <h2 id="exhibition-video-title">{videoText.heading}</h2>
+                </div>
+                <p>{videoText.intro}</p>
+              </div>
+              <div className="exhibition-video-player">
+                <iframe
+                  src="https://www.youtube-nocookie.com/embed/LCXde0PZPm4"
+                  title={videoText.player}
+                  loading="lazy"
+                  referrerPolicy="strict-origin-when-cross-origin"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowFullScreen
+                />
+              </div>
+              <a className="exhibition-video-external" href="https://youtu.be/LCXde0PZPm4" target="_blank" rel="noopener noreferrer">
+                {videoText.link} <span aria-hidden="true">↗</span>
+              </a>
+            </div>
+          </section>
+        )}
         <details className="ex-collection-notes">
           <summary>{ui.about[locale]}</summary>
           <div className="ex-notes-content">
